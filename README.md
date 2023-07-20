@@ -3,10 +3,13 @@
 > Repositório dedicado ao programa de captação de talentos da Compass UOL.
 
 ## Apresentação
-- Camila de Oliveira Budke, Não-Binária, ele/ela/elu
-- Campo Grande, MS
-- 2º Semestre em Sistemas de Informação pela UFMS
-- Tecnóloga em Análise e Desenvolvimento de Sistemas pela UNIP 2023
+
+- Não-binária e defensora pela causa LGBTQIAPN+;
+- Meus pronomes podem ser ele/ela/elu;
+- Atualmente residente de Campo Grande, MS;
+- Ama viajar e conhecer novas culturas e pessoas;
+- 2º Semestre em Sistemas de Informação pela UFMS;
+- Tecnóloga em Análise e Desenvolvimento de Sistemas pela UNIP 2023;
 - Possui interesse em trabalhar com pesquisa na área de Cidades Inteligentes
 
 ## Estudos em andamento
