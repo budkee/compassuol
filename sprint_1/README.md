@@ -12,6 +12,8 @@
 
 ### Entrega do Sprint 1
 - README.md do diretório principal
-- Conteúdos de git na pasta `git`
-- Conteúdos de linux em `linux`
-- Desafio 1: construção e organização do conteúdo estudado em uma página web.  
+- Resumo de `git`
+- Resumo de `linux`
+- Desafio 1: construção e organização do conteúdo estudado em uma página web.
+
+### Resumo do Sprint 1

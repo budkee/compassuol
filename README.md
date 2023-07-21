@@ -4,7 +4,7 @@
 
 ## Apresentação
 
-- Não-binária e defensora pela causa LGBTQIAPN+;
+- Seja-bem vinde(a/o)!
 - Meus pronomes podem ser ele/ela/elu;
 - Atualmente residente de Campo Grande, MS;
 - Ama viajar e conhecer novas culturas e pessoas;
@@ -15,30 +15,16 @@
 ## Estudos em andamento
 
 - Git e Controle de Código-Fonte
-    > Fundamentos de Git;
-    > Gestão e manipulação do código-fonte;
-    > Branches;
-    > Compartilhamento, atualização, análise, inspeção e administração de repositórios; 
-- Markdown
-    > Sintaxe básica;
-    > Sintaxe avançada;
+    > Fundamentos de Git; Gestão e manipulação do código-fonte; Branches; Compartilhamento, atualização, análise, inspeção e administração de repositórios; 
+- Markdown Sintaxe básica; Sintaxe avançada;
 - Linux
-    > Setup;
-    > Distribuições Linux;
-    > Kernel;
-    > Vantagens de uso;
+    > Setup; Distribuições Linux; Kernel; Vantagens de uso;
 - Python
-    > Sobre;
-    > Setup;
-    > Mapeamento de aplicações;
-    > (Roadmap para Desenvolvedor Python)[];
+    > Sobre; Setup; Mapeamento de aplicações;(Roadmap para Desenvolvedor Python)[];
 - Django
-    > Sobre;
-    > Setup;
-    > Mapeamento de aplicações;
+    > Sobre; Setup; Mapeamento de aplicações;
 - SQL
-    > Sobre;
-    > Setup;
+    > Sobre; Setup;
 
 ### Estudos arquivados
 
@@ -47,9 +33,15 @@
 - Vue
 - Bootstrap
 
+### Estudos em segundo plano
+
+- HTML
+- CSS
+- Infraestrutura de Rede
+
 ### Agenda de Sprints
 
-| Sprint | Início | Término | SM | Líder |
+| Sprint | Início | Término | SM | Líder              |
 |--------|--------|---------|----| (João Pedro Santos de Brito)[https://github.com/brito219]
 | 1 | 17/07 | 31/07 | (Bernardo Almeida Turela)[https://www.linkedin.com/in/bernardo-almeida-turela-2363b131] |
 | 2 | 31/07 | 14/08 | (Júlia Luisa Schmidt)[] |
@@ -60,7 +52,7 @@
 | 7 | 09/10 | 23/10 | (Italo de Andrade Souza)[] |
 | 8 | 23/10 | 06/11 | (Marcus Vinicius dos Santos Monteiro)[] |
 | 9 | 06/11 | 20/11 | (Mateus Presotto Balen)[] |
-| 10 | 20/11 | 04/12 | (Antonio Alex de Souza)[] | 
+| 10 | 20/11 | 04/12 | (Antonio Alex de Souza)[] |
 
 > Ao final do programa os alunos deverão enviar um vídeo apresentando o projeto final.
 
