@@ -12,6 +12,9 @@
 - Tecnóloga em Análise e Desenvolvimento de Sistemas pela UNIP 2023;
 - Possui interesse em trabalhar com pesquisa na área de Cidades Inteligentes
 
+![outlook](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white
+)
+
 ## Estudos em andamento
 
 - Git e Controle de Código-Fonte
@@ -42,7 +45,7 @@
 ### Agenda de Sprints
 
 | Sprint | Início | Término | SM | Líder              |
-|--------|--------|---------|----| (João Pedro Santos de Brito)[https://github.com/brito219]
+|--------|--------|---------|----| [João Pedro Santos de Brito](https://github.com/brito219) |
 | 1 | 17/07 | 31/07 | (Bernardo Almeida Turela)[https://www.linkedin.com/in/bernardo-almeida-turela-2363b131] |
 | 2 | 31/07 | 14/08 | (Júlia Luisa Schmidt)[] |
 | 3 | 14/08 | 28/08 | (Lays Moreira Lima)[] |
