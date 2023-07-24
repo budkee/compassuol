@@ -4,16 +4,18 @@
 
 ## Apresentação
 
+![imagem]()
+
 - Seja-bem vinde(a/o)!
 - Meus pronomes podem ser ele/ela/elu;
 - Atualmente residente de Campo Grande, MS;
 - Ama viajar e conhecer novas culturas e pessoas;
 - 2º Semestre em Sistemas de Informação pela UFMS;
-- Tecnóloga em Análise e Desenvolvimento de Sistemas pela UNIP 2023;
-- Possui interesse em trabalhar com pesquisa na área de Cidades Inteligentes
+- Tecnóloga em Análise e Desenvolvimento de Sistemas pela UNIP;
+- Possui interesse em trabalhar com pesquisa em Cidades Inteligentes;
 
-![outlook](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white
-)
+[![outlook](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white
+)](camila.budke.pb@compasso.com.br)
 
 ## Estudos em andamento
 
