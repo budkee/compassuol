@@ -20,7 +20,7 @@
 ## Estudos em andamento
 
 - Git e Controle de Código-Fonte
-    > Fundamentos de Git; Gestão e manipulação do código-fonte; Branches; Compartilhamento, atualização, análise, inspeção e administração de repositórios; 
+  > Fundamentos de Git; Gestão e manipulação do código-fonte; Branches; Compartilhamento, atualização, análise, inspeção e administração de repositórios; 
 - Markdown Sintaxe básica; Sintaxe avançada;
 - Linux
     > Setup; Distribuições Linux; Kernel; Vantagens de uso;
@@ -46,9 +46,9 @@
 
 ### Agenda de Sprints
 
-| Sprint | Início | Término | SM | Líder              |
-|--------|--------|---------|----| [João Pedro Santos de Brito](https://github.com/brito219) |
-| 1 | 17/07 | 31/07 | (Bernardo Almeida Turela)[https://www.linkedin.com/in/bernardo-almeida-turela-2363b131] |
+| Sprint | Início | Término | Scrum Master | Líder              |
+|--------|--------|---------|----| ----- |
+| 1 | 17/07 | 31/07 | [Bernardo Almeida Turela](https://www.linkedin.com/in/bernardo-almeida-turela-2363b131) | [João Pedro Santos de Brito](https://github.com/brito219) |
 | 2 | 31/07 | 14/08 | (Júlia Luisa Schmidt)[] |
 | 3 | 14/08 | 28/08 | (Lays Moreira Lima)[] |
 | 4 | 28/08 | 11/09 | (Icaro Anthony Morais dos Santos)[] |
