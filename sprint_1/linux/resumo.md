@@ -12,8 +12,11 @@
 - [ ] Compactação e descompactação de arquivos
 - [ ] Projeto
 
-### Fundamentos
+### Fundamentos 
 
 - Shell
 - Estrutura de diretórios
+- 
+
+### Gestão 
 

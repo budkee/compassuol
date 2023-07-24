@@ -1,9 +1,10 @@
 ## Sumário | Git
-- Setup
-- Fundamentos
-- Gestão e Manipulação do código-fonte
-- Branches
-- Repositórios: compartilhamento, atualização, análise, inspeção e administração.
+
+- [ x ] Setup
+- [ x ] Fundamentos
+- [ x ] Gestão e Manipulação do código-fonte
+- [ x ] Branches
+- [ x ] Repositórios: compartilhamento, atualização, análise, inspeção e administração.
 
 ### Setup
 

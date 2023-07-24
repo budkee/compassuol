@@ -18,5 +18,5 @@
 - [ ] 
 
 ## Links e outras referências
-- (Markdown Guide)[https://www.markdownguide.org/getting-started/]
+- [Markdown Guide](https://www.markdownguide.org/getting-started/)
 - 
