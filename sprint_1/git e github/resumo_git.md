@@ -1,20 +1,19 @@
+<img align="right" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
+
 ## Sumário | Git
 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-
-- [ x ] Setup
-- [ x ] Fundamentos
-- [ x ] Gestão e Manipulação do código-fonte
-- [ x ] Branches
-- [ x ] Repositórios: compartilhamento, atualização, análise, inspeção e administração.
-
-<img left= "" width= ""% src="{}"/>
+- [x] Setup
+- [x] Fundamentos
+- [x] Gestão e Manipulação do código-fonte
+- [x] Branches
+- [x] Repositórios: compartilhamento, atualização, análise, inspeção e administração.
 
 ### Setup
+
 Como fazer a instalação?
     ``
 
-## Fundamentos
+### Fundamentos
 
 **O que é Git?**
 
