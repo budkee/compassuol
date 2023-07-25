@@ -4,12 +4,14 @@
 
 ## Apresentação
 
-![imagem]()
-
-- Seja-bem vinde(a/o)!
+- Seja-bem vinde(a/o) ao meu portfólio!
 - Meus pronomes podem ser ele/ela/elu;
-- Atualmente residente de Campo Grande, MS;
-- Ama viajar e conhecer novas culturas e pessoas;
+
+
+:house:
+
+- Campo Grande, MS;
+- Amo viajar para conhecer novas culturas e histórias de pessoas;
 - 2º Semestre em Sistemas de Informação pela UFMS;
 - Tecnóloga em Análise e Desenvolvimento de Sistemas pela UNIP;
 - Possui interesse em trabalhar com pesquisa em Cidades Inteligentes;

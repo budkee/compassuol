@@ -3,6 +3,7 @@
 - [x] Sobre
 - [x] Listas
 - [x] Imagens
+- [ ] Emojis
 - [x] Inserindo código-fonte
 - [x] Tarefas
 
