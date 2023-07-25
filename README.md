@@ -1,7 +1,34 @@
-# Programa de Bolsas | Compass UOL | Trilha AWS Cloud
+# Compass UOL | Trilha AWS Cloud
 
 > Repositório dedicado ao programa de captação de talentos da Compass UOL, trilha de AWS Data Cloud.
 
+> Início: 07/2023
+> 
+> Término: 01/2024
+
+### Agenda de Sprints | Squad 5
+
+| Sprint | Início | Término | Scrum Master | Líder | Entregues |
+|--------|--------|---------|----| ----- |---------|
+| 1 | 17/07 | 31/07 | [Bernardo Almeida Turela](https://www.linkedin.com/in/bernardo-almeida-turela-2363b131) | [João Pedro Santos de Brito](https://github.com/brito219) | Resumos |
+| 2 | 31/07 | 14/08 | [Júlia Luisa Schmidt]() | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago)|         |
+| 3 | 14/08 | 28/08 | [Lays Moreira Lima]() | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) |         |
+| 4 | 28/08 | 11/09 | [Icaro Anthony Morais dos Santos]() | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) |         |
+| 5 | 11/09 | 25/09 | [Flavio Laerton Seixas Castro]() | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) |         |
+| 6 | 25/09 | 09/10 | [Anne Karoline Fortunato do Carmo]() | [Isadora Sandri da Silva](https://github.com/isandri) |         | 
+| 7 | 09/10 | 23/10 | [Italo de Andrade Souza]() | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) |         |
+| 8 | 23/10 | 06/11 | [Marcus Vinicius dos Santos Monteiro]() | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago) |         |
+| 9 | 06/11 | 20/11 | [Mateus Presotto Balen]() | [Camila de Oliveira Budke](https://github.com/budkee) |         |
+| 10 | 20/11 | 04/12 | [Antonio Alex de Souza]() | [Isadora Sandri da Silva](https://github.com/isandri) |         |
+
+> Ao final do programa os alunos deverão enviar um [vídeo]() apresentando o projeto final.
+
+### Estudos | Sprint 1
+
+[![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](./sprint_1/markdown/resumo.md)
+[![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)](./sprint_1/git%20e%20github/resumo_git.md)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](./sprint_1/git%20e%20github/resumo_github.md)
+[![Linux](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)](./sprint_1/linux/resumo.md)
 
 ## Sobre mim
 
@@ -24,24 +51,24 @@
   - Administração dos componentes da empresa;
   - Produção de conteúdo para divulgação via Marketing Inbound;
   - Desenvolvimento do código-fonte institucional para auxílio na captação de pesquisadores;
+ 
+## Hard Skills
 
-**Hard Skills**  
-
-#### Front-End
+### Front-End
   [![html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://www.w3schools.com/html/default.asp)
   [![css3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3schools.com/css/default.asp)
   [![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
 
-#### Back-End
+### Back-End
   [![django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](https://docs.djangoproject.com/en/4.2/)
 
-#### Banco de Dados
+### Banco de Dados
   [![mongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/docs/)
   [![postgree](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/docs/15/index.html)
   [![mysql](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)](https://docs.phpmyadmin.net/en/latest/)
 
 
-#### DevOps
+### DevOps
   [![node](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/docs)
   [![firebase](https://img.shields.io/badge/Firebase-F29D0C?style=for-the-badge&logo=firebase&logoColor=white)](https://firebase.google.com/docs/guides?hl=pt-br)
   [![gcp](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://googlecloudcheatsheet.withgoogle.com/)
@@ -49,14 +76,14 @@
   [![docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://docs.docker.com/)
   [![nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)](https://nginx.org/en/docs/)
 
-#### Linguagens de programação
-  [![python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)](https://roadmap.sh/python))
+### Linguagens de programação
+  [![python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)](https://roadmap.sh/python)
   [![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
   [![c](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)](https://www.geeksforgeeks.org/c-programming-language/?ref=outind)
   [![java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://dev.java/learn/)
   [![php](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/manual/pt_BR/)
 
-**Soft Skills**
+## Soft Skills
 
 - Comunicativa
 - Analítica
@@ -65,30 +92,6 @@
 - Criativa
 - Senso de coletividade
 - Introvertida e Extrovertida 
-
-### Agenda de Sprints | Squad 5
-
-| Sprint | Início | Término | Scrum Master | Líder | Entregues |
-|--------|--------|---------|----| ----- |---------|
-| 1 | 17/07 | 31/07 | [Bernardo Almeida Turela](https://www.linkedin.com/in/bernardo-almeida-turela-2363b131) | [João Pedro Santos de Brito](https://github.com/brito219) | Resumos |
-| 2 | 31/07 | 14/08 | [Júlia Luisa Schmidt]() | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago)|         |
-| 3 | 14/08 | 28/08 | [Lays Moreira Lima]() | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) |         |
-| 4 | 28/08 | 11/09 | [Icaro Anthony Morais dos Santos]() | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) |         |
-| 5 | 11/09 | 25/09 | [Flavio Laerton Seixas Castro]() | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) |         |
-| 6 | 25/09 | 09/10 | [Anne Karoline Fortunato do Carmo]() | [Isadora Sandri da Silva](https://github.com/isandri) |         | 
-| 7 | 09/10 | 23/10 | [Italo de Andrade Souza]() | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) |         |
-| 8 | 23/10 | 06/11 | [Marcus Vinicius dos Santos Monteiro]() | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago) |         |
-| 9 | 06/11 | 20/11 | [Mateus Presotto Balen]() | [Camila de Oliveira Budke](https://github.com/budkee) |         |
-| 10 | 20/11 | 04/12 | [Antonio Alex de Souza]() | [Isadora Sandri da Silva](https://github.com/isandri) |         |
-
-> Ao final do programa os alunos deverão enviar um [vídeo]() apresentando o projeto final.
-
-## Estudos | Sprint 1
-
-[![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](./sprint_1/markdown/resumo.md)
-[![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)](./sprint_1/git%20e%20github/resumo_git.md)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](./sprint_1/git%20e%20github/resumo_github.md)
-[![Linux](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)](./sprint_1/linux/resumo.md)
 
 ### Contato e Redes sociais
 
