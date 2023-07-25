@@ -1,22 +1,26 @@
 ## Sumário | Git
 
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+
 - [ x ] Setup
 - [ x ] Fundamentos
 - [ x ] Gestão e Manipulação do código-fonte
 - [ x ] Branches
 - [ x ] Repositórios: compartilhamento, atualização, análise, inspeção e administração.
 
+<img left= "" width= ""% src="{}"/>
+
 ### Setup
-
-Por quê usar Git?
-
 Como fazer a instalação?
+    ``
 
 ## Fundamentos
 
-O que é Git?
+**O que é Git?**
 
-Comandos para rotina:
+**Por quê usar Git?**
+
+## Comandos | Individual
 
 - git init: inicializar o git no repositório
 - git clone [URL] [repositorio]: clona os arquivos do servidor para o repositorio local
@@ -26,7 +30,7 @@ Comandos para rotina:
 - git push: enviar as modificações para o servidor
 - git pull: puxar as modificações do servidor
 
-Comandos para rotina em projeto:
+## Comandos | Equipe
 
 - git checkout -b "[nome_da_branch]": cria uma nova branch (-b) e alterna para a mesma (checkout)
 
