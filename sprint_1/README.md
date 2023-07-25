@@ -1,12 +1,20 @@
 # Data & Analytics - PB - AWS 1/10
 
+> Olá, monitor! 
+> 
+> Neste arquivo você vai encontrar os objetivos da primeira entrega e as referências dos conteúdos estudados nas últimas duas semanas.
+> 
+> Qualquer dúvida fico à disposição. 
+> 
+> Abraços!
+
 ### Objetivos
 
 - Introduzir os participantes ao funcionamento do Programa de Bolsas
 
 - Introduzir as tecnologias básicas para o trabalho com Data & Analytics.
 
-### Conteúdos do Sprint 1
+### Conteúdos do Sprint 1  
 
 - [Versionamento de código via Git](/sprint_1/git%20e%20github/resumo_git.md)
 - [GitHub](/sprint_1/git%20e%20github/resumo_github.md)
@@ -18,8 +26,6 @@
 - README.md do diretório principal
 - Resumo de `git`
 - Resumo de `linux`
-
-- Desafio 1: construção e organização do conteúdo estudado em uma página web.
 
 ### Resumo do Sprint 1
 
