@@ -1,3 +1,5 @@
+<img align= "right" width="250" src="https://vetores.org/d/compass-uol.svg"/>
+
 # Data & Analytics - PB - AWS 1/10
 
 > Olá, monitor! 
@@ -27,7 +29,7 @@
 - [Resumo de git](./git%20e%20github/resumo_git.md)
 - [Resumo de linux](./linux/resumo.md)
 
-### Resumo do Sprint 1
+### Resumo da Sprint 1
 
 > Neste sprint foi abordado o conteúdo de git, github, linux e markdown. Em todos os conteúdos foi necessária adotar práticas em paralelo na rotina do estudo envolvendo a organização do repositório e a criação de resumos e listas para facilitar o acesso posteriormente. 
 >
