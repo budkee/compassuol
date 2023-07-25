@@ -65,17 +65,17 @@
 ### Agenda de Sprints | Squad 5
 
 | Sprint | Início | Término | Scrum Master | Líder | Entregues |
-|--------|--------|---------|----| ----- | --- |
+|--------|--------|---------|----| ----- |---------|
 | 1 | 17/07 | 31/07 | [Bernardo Almeida Turela](https://www.linkedin.com/in/bernardo-almeida-turela-2363b131) | [João Pedro Santos de Brito](https://github.com/brito219) | Resumos |
-| 2 | 31/07 | 14/08 | [Júlia Luisa Schmidt]() | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago)|  |
-| 3 | 14/08 | 28/08 | [Lays Moreira Lima]() | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) |  |
-| 4 | 28/08 | 11/09 | [Icaro Anthony Morais dos Santos]() | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) |  |
-| 5 | 11/09 | 25/09 | [Flavio Laerton Seixas Castro]() | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) |  |
-| 6 | 25/09 | 09/10 | [Anne Karoline Fortunato do Carmo]() | [Isadora Sandri da Silva](https://github.com/isandri) |  | 
-| 7 | 09/10 | 23/10 | [Italo de Andrade Souza]() | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) |  |
-| 8 | 23/10 | 06/11 | [Marcus Vinicius dos Santos Monteiro]() | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago) |  |
-| 9 | 06/11 | 20/11 | [Mateus Presotto Balen]() | [Camila de Oliveira Budke](https://github.com/budkee) |  |
-| 10 | 20/11 | 04/12 | [Antonio Alex de Souza]() | [Isadora Sandri da Silva](https://github.com/isandri) |  |
+| 2 | 31/07 | 14/08 | [Júlia Luisa Schmidt]() | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago)|         |
+| 3 | 14/08 | 28/08 | [Lays Moreira Lima]() | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) |         |
+| 4 | 28/08 | 11/09 | [Icaro Anthony Morais dos Santos]() | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) |         |
+| 5 | 11/09 | 25/09 | [Flavio Laerton Seixas Castro]() | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) |         |
+| 6 | 25/09 | 09/10 | [Anne Karoline Fortunato do Carmo]() | [Isadora Sandri da Silva](https://github.com/isandri) |         | 
+| 7 | 09/10 | 23/10 | [Italo de Andrade Souza]() | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) |         |
+| 8 | 23/10 | 06/11 | [Marcus Vinicius dos Santos Monteiro]() | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago) |         |
+| 9 | 06/11 | 20/11 | [Mateus Presotto Balen]() | [Camila de Oliveira Budke](https://github.com/budkee) |         |
+| 10 | 20/11 | 04/12 | [Antonio Alex de Souza]() | [Isadora Sandri da Silva](https://github.com/isandri) |         |
 
 > Ao final do programa os alunos deverão enviar um [vídeo]() apresentando o projeto final.
 
