@@ -1,3 +1,5 @@
+<img align= "left" width="300" height="220" src="https://vetores.org/d/compass-uol.svg"/>
+
 # Compass UOL | Trilha AWS Cloud
 
 > Repositório dedicado ao programa de captação de talentos da Compass UOL, trilha de AWS Data Cloud.
@@ -23,7 +25,7 @@
 
 > Ao final do programa os alunos deverão enviar um [vídeo]() apresentando o projeto final.
 
-### Estudos | Sprint 1
+### Conteúdos | Sprint 1
 
 [![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](./sprint_1/markdown/resumo.md)
 [![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)](./sprint_1/git%20e%20github/resumo_git.md)
@@ -53,6 +55,8 @@
   - Desenvolvimento do código-fonte institucional para auxílio na captação de pesquisadores;
  
 ## Hard Skills
+
+> Durante esse período utilizei e conheci as seguintes tecnologias, por área de desenvolvimento:
 
 ### Front-End
   [![html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://www.w3schools.com/html/default.asp)
