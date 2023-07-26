@@ -10,7 +10,7 @@
 > 
 > Abraços!
 
-### Objetivos
+### Objetivos da Sprint
 
 - Introduzir os participantes ao funcionamento do Programa de Bolsas
 

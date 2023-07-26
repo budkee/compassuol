@@ -38,7 +38,7 @@ Para listas não ordenadas temos:
 
 ## Tarefas (Tasks)
 
-- [x] Área de membros
-- [ ] Integração com outros pagamentos
-- [ ] 
-- [ ] 
+- [x] Resumo de GitHub
+- [ ] Resumo de Git
+- [ ] Resumo de Linux
+- [ ] Resumo de Markdown

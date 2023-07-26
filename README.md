@@ -12,8 +12,8 @@
 
 | Sprint | Início | Término | Scrum Master | Líder | Entregues |
 |--------|--------|---------|----| ----- |---------|
-| 1 | 17/07 | 31/07 | [Bernardo Almeida Turela](https://www.linkedin.com/in/bernardo-almeida-turela-2363b131) | [João Pedro Santos de Brito](https://github.com/brito219) | Resumos |
-| 2 | 31/07 | 14/08 | [Júlia Luisa Schmidt]() | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago)|         |
+| 1 | 17/07 | 31/07 | [Bernardo Almeida Turela](https://www.linkedin.com/in/bernardo-almeida-turela-2363b131) | [João Pedro Santos de Brito](https://github.com/brito219) | [Sprint 1](/sprint_1/README.md) |
+| 2 | 31/07 | 14/08 | [Júlia Luisa Schmidt]() | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago)| [Sprint 2](/sprint_2/README.md) |
 | 3 | 14/08 | 28/08 | [Lays Moreira Lima]() | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) |         |
 | 4 | 28/08 | 11/09 | [Icaro Anthony Morais dos Santos]() | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) |         |
 | 5 | 11/09 | 25/09 | [Flavio Laerton Seixas Castro]() | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) |         |
