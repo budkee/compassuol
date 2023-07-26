@@ -23,14 +23,18 @@ Para listas ordenadas temos:
 Para listas não ordenadas temos:
 
 ## Imagens
-Imagens Locais:
-![img_local](../markdown/img/sirius_a.jpg)
-Imagens Externas:
-![imagem](images-assets.nasa.gov/image/PIA17018/PIA17018~orig.jpg)
+> Imagens Local: referenciar a imagem pela pasta do repositório.
+> 
+> ![img_local](../markdown/img/sirius_a.jpg)
+
+> Imagens Externas:referenciar a imagem pelo URL.
+> 
+> ![imagem](https://unsplash.com/pt-br/fotografias/u3BDjnJvdVM)
+> 
 
 ## Inserindo código-fonte
 
-`print('Cogito, ergo sum. - René Descartes')`
+    print('Cogito, ergo sum. - René Descartes')
 
 ## Tarefas (Tasks)
 
