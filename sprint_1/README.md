@@ -1,4 +1,4 @@
-<img align= "left" width="300" src="https://vetores.org/d/compass-uol.svg"/>
+<img align= "left" width="300" height="270" src="https://vetores.org/d/compass-uol.svg"/>
 
 # Data & Analytics - PB - AWS 1/10
 
