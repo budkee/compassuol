@@ -4,10 +4,10 @@
 
 - [x] Setup
 - [x] Fundamentos
+- [x] Lista de comandos
 - [x] Gestão e Manipulação do código-fonte
-- [x] Branches
-- [x] Repositórios: compartilhamento, atualização, análise, inspeção e administração.
-
+- [x] Links e outras referências
+      
 ## Setup
 
 > Para verificar se você já possui o `git` instalado na sua maquina, vá no terminal e digite:
@@ -42,8 +42,6 @@
 >   
 > - Untracked: arquivo não rastreado pela versão atual;
 >
-> 
-
 
 ## Lista de Comandos | Desenvolvimento Individual
 
@@ -69,21 +67,62 @@
 > 
 > Enviar as modificações (commits) para o servidor
 > 
->    git push
+>     git push
 > 
 > Receber todas as modificações do servidor
 > 
->    git pull
+>     git pull
 >
+> Guardar as alterações na "lixeira"
+>
+>     git stash 
 
-## Comandos | Desenvolvimento em Equipe
-
-Criar uma nova branch (-b) e alternar para a mesma (checkout)
-
-    git checkout -b nome_da_branch
+## Lista de Comandos | Desenvolvimento em Equipe
+> 
+> Criar uma nova branch (-b) e alternar para a mesma (checkout)
+>
+>     git checkout -b nome_da_branch
+>
+> Unir duas branches
+>
+>     git merge branch_1 branch_2
+>
+> Atualizar o repositório 
+>
+>     git fetch branch
+> 
+> Verificar as alterações
+>
+>     git log
 
 ### Gestão e Manipulação do código-fonte
-
-### Branches
-
-### Repositórios
+>
+> Mover ou renomear arquivos/diretórios
+>
+>     git mv arquivo/diretorio
+>
+> Remover arquivos da Árvore de Trabalho
+>
+>     git rm arquivo
+>
+> Mover de uma branch para outra
+>
+>     git switch branch
+>
+> Criar uma nova versão de código
+>
+>     git tag nome_da_tag
+>
+> Deletar uma versão do código
+>
+>     git tag -d
+>
+> Listar as versões existentes
+>
+>     git tag -l
+>
+> ## Links e outras referências
+>
+> - [Documentação Git](https://git-scm.com/docs/git)
+> 
+>
