@@ -9,37 +9,70 @@
 
 ## Sobre
 
-> Este resumo contém os principais pontos para utilização do markdown em suas documentações. Aqui o conteúdo apresentado é abordado de forma prática para servir de auxílio no dia a dia como desenvolvedor.
-> ### Markdown
+> Este resumo contém os principais pontos para utilização do markdown em suas documentações.
+>
+> **O que é o markdown?**
+> 
 > É uma linguagem de marcação utilizado para escrita de documentações mínimamente estilizadas e formatadas. Algumas de suas funcionalidades podem ser vistas logo abaixo.
-
+>
 
 ## Listas
-Para listas ordenadas temos:
-
-Para listas não ordenadas temos:
+> **Listas ordenadas**
+>
+> > Fila para compra de ingressos
+> 
+> 1. João
+> 2. Paula
+> 3. Alanys
+> 4. Brenno
+> 5. Maria
+> 6. Juliana
+> 
+> **Listas não ordenadas**
+> 
+> > Lista de compras
+>
+> - Pão
+> - Alface
+> - Tomate
+> - Polpa de amora
+> - Queijo em barra
+> 
 
 ## Imagens
-> Imagens Local: referenciar a imagem pela pasta do repositório.
+>
+> **Imagens Locais** 
+>
+> > Faz referência pela imagem do repositório do projeto
 > 
 > ![img_local](../markdown/img/sirius_a.jpg)
-
-> Imagens Externas:referenciar a imagem pelo URL.
 > 
-> ![imagem](https://unsplash.com/pt-br/fotografias/u3BDjnJvdVM)
+> **Imagens Externas**
+>
+> > Faz referência pela imagem da URL
 > 
-
+> ![img_cloud](https://images.unsplash.com/photo-1598383851503-1b815038b048?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80)
+> 
+## Emojis
+>
+> > A escrita é feita por dois pontos ":" seguido do nome do emoji
+> 
+> 🏠
 ## Inserindo código-fonte
-
-    print('Cogito, ergo sum. - René Descartes')
+>
+> > Inserir com 4 espaços do teclado ou tab, pulando uma linha entre o início e fim do trecho de código
+> 
+>     print('Cogito, ergo sum. - René Descartes')
+> 
 
 ## Tarefas (Tasks)
-
-- [x] Resumo de GitHub
-- [ ] Resumo de Git
-- [ ] Resumo de Linux
-- [ ] Resumo de Markdown
+>
+> - [x] Resumo de GitHub
+> - [x] Resumo de Git
+> - [x] Resumo de Linux
+> - [x] Resumo de Markdown
+> 
 
 ## Links e referências
-
-- [Markdown Guide](https://www.markdownguide.org/getting-started/)
+> 
+> - [Markdown Guide](https://www.markdownguide.org/getting-started/)
