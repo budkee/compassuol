@@ -1,7 +1,11 @@
 ## Aplicativos | Gerenciamento
 
-> Instalar o Chrome
->
+> Instalar 
+> 
 >     sudo apt install chromium-browser
+>
+> Desinstalar
+>
+>     sudo apt remove chromium-browser
 >
 > 

@@ -1,3 +1,5 @@
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ## Sumário | Linux
 
 - [x] Setup
@@ -28,25 +30,24 @@
 > - [Passo a passo via Notion](https://www.notion.so/siriusb/Linux-026e819fdf434cc8894eff9cb3010b79?pvs=4)
 > - [Vídeo para instalação](https://youtu.be/6mtfncj9vhU)
 >
-> Após a instalação, 
 
 ### Fundamentos de Linux
 
-- [Distribuições Linux](distribuicoes_linux.md)
-- [Kernel](kernel.md)
-- [Vantagens](vantagens.md)
-- [Terminal e Shell: qual é a diferença?](terminal_shell.md)
-- [Estrutura dos diretórios](estrutura_canonica.md)
-- [Lista de Comandos](comandos.md)
+> - [Distribuições Linux](./concluido/distribuicoes_linux.md)
+> - [Kernel](./concluido/kernel.md)
+> - [Vantagens](./concluido/vantagens.md)
+> - [Terminal e Shell: qual é a diferença?](./concluido/terminal_shell.md)
+> - [Estrutura dos diretórios](./concluido/estrutura_canonica.md)
+> - [Lista de Comandos](./concluido/comandos.md)
 
 ### Gestão do Servidor
-- [Gerenciamento de diretórios](diretorios.md)
-- [Gerenciamento de arquivos](arquivos.md)
-- [Gerenciamento de pacotes](pacotes.md)
-- [Gerenciamento de aplicativos](aplicativos.md)
-- [Gerenciamento de usuários e grupos](usuarios_grupos.md)
-- [Gerenciamento de permissões](permissoes.md)
-- [Gerenciamento de redes](redes.md)
+> - [Gerenciamento de diretórios](./concluido/diretorios.md)
+> - [Gerenciamento de arquivos](./concluido/arquivos.md)
+> - [Gerenciamento de pacotes](./concluido/pacotes.md)
+> - [Gerenciamento de aplicativos](./concluido/aplicativos.md)
+> - [Gerenciamento de usuários e grupos](./concluido/usuarios_grupos.md)
+> - [Gerenciamento de permissões](./concluido/permissoes.md)
+> - [Gerenciamento de redes](./concluido/redes.md)
 
 ### Projeto | Instalando o LAMP
 
