@@ -1,8 +1,11 @@
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+
 # Sumário | Markdown
 
 - [x] Sobre
 - [x] Listas
 - [x] Imagens
+- [x] Emojis
 - [x] Inserindo código-fonte
 - [x] Tarefas
 
@@ -54,9 +57,10 @@
 > 
 ## Emojis
 >
-> > A escrita é feita por dois pontos ":" seguido do nome do emoji
+> > A escrita é feita por dois pontos ":" seguido do nome do emoji: 🏠
 > 
-> 🏠
+> - [Emojis em MD]()
+
 ## Inserindo código-fonte
 >
 > > Inserir com 4 espaços do teclado ou tab, pulando uma linha entre o início e fim do trecho de código

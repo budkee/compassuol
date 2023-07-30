@@ -14,7 +14,7 @@
 >
 > - 
 >
-### Entrega da Sprint
+### Entregas da Sprint
 >
 > - 
 >

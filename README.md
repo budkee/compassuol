@@ -1,4 +1,4 @@
-<img align= "left" width="300" height="350" src="https://vetores.org/d/compass-uol.svg"/>
+![compass](https://vetores.org/d/compass-uol.svg)
 
 # Compass UOL | Trilha AWS Cloud
 
@@ -29,9 +29,13 @@
 ### Conteúdos | Sprint 1
 
 [![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](./sprint_1/markdown/resumo.md)
-[![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)](./sprint_1/git%20e%20github/resumo_git.md)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](./sprint_1/git%20e%20github/resumo_github.md)
+[![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)](./sprint_1/controle-de-codigo/resumo_git.md)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](./sprint_1/controle-de-codigo/resumo_github.md)
 [![Linux](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)](./sprint_1/linux/resumo.md)
+
+### Conteúdos | Sprint 2
+
+[![]()](./sprint_2/linux/resumo.md)
 
 ## Sobre mim
 
@@ -39,12 +43,13 @@
 
 - 🏡 Atualmente moro em Campo Grande, MS;
 - 🏳️‍🌈 Meus pronomes podem ser ele/ela/elu;
-- 🐒 Amo viajar, conhecer novas culturas e histórias de pessoas e trocar ideias no campo da filosofia;
+- 🐒 Amo viajar, conhecer novas culturas e histórias de pessoas e trocar ideias no campo da filosofia, sociologia, história, antropologia e tecnologia;
 
 **🎯 Currículo acadêmico**
+
 - ✅ Tecnóloga em Análise e Desenvolvimento de Sistemas pela UNIP (2023);
 - 📚 No momento cursando o 2º Semestre em Sistemas de Informação pela UFMS no período noturno (2023 - 2026);
-- 🧭 Tenho grande interesse em desenvolver a carreira científica na área da computação (2026 - Mestrado e Doutorado em Cidades Inteligentes);
+- 🧭 Tenho grande interesse em desenvolver a carreira científica na área da computação a partir de 2026 realizando Mestrado e Doutorado em Cidades Inteligentes;
 
 **💻 Currículo TI**
 
@@ -58,6 +63,7 @@
 ## Hard Skills
 
 > Durante esse período utilizei e conheci as seguintes tecnologias, por área de desenvolvimento:
+
 > ### Front-End
   [![html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://www.w3schools.com/html/default.asp)
   [![css3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3schools.com/css/default.asp)
@@ -98,7 +104,7 @@
 > - Senso de coletividade
 > - Introvertida e Extrovertida 
 
-> ### Contato e Redes sociais
+## Contato e Redes sociais
 
   [![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:camila.budke@gmail.com)
   [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/camilabudke/)
