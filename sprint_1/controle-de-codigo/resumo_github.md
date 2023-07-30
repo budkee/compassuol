@@ -10,6 +10,7 @@
 - [x] Insights | Análise do Projeto
 - [x] Gists | Trechos de Códigos
 - [x] Projects | Planejamento e Gestão de Projetos
+- [x] Certificado
 
 
 # Licenças
@@ -68,3 +69,7 @@
 >
 > 🇧🇷 [Melhores práticas para Projects](https://docs.github.com/pt/issues/planning-and-tracking-with-projects/learning-about-projects/best-practices-for-projects)
 > 
+
+## Certificado
+>
+> ![certificado](./img/[2023]git_github.jpg)

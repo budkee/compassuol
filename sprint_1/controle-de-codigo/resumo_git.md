@@ -1,4 +1,4 @@
-<img align="right" width="250" src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white"/>
+![git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 
 ## Sumário | Git
 
@@ -7,6 +7,7 @@
 - [x] Lista de comandos
 - [x] Gestão e Manipulação do código-fonte
 - [x] Links e outras referências
+- [x] Certificado
       
 ## Setup
 
@@ -121,8 +122,12 @@
 >
 >     git tag -l
 >
-> ## Links e outras referências
+
+## Links e outras referências
 >
 > - [Documentação Git](https://git-scm.com/docs/git)
 > 
+
+## Certificado
 >
+> ![certificado](./img/[2023]git_github.jpg)
