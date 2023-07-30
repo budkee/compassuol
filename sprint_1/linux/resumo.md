@@ -5,7 +5,7 @@
 
 - [x] Resumo
 - [x] Setup
-- [x] Sobre 
+- [x] Sobre
 - [x] Links ou Referências
 - [x] Certificado
 
