@@ -61,52 +61,133 @@
 >      ![config_bd_pronta](img/config_bd_pronta.png)
 >
 >
+
 ## Lista de Comandos
-> 
-> ### SELECT
 >
->   **Para quê serve?**
-> 
+### SELECT
+>
+> **Para quê serve?**
+>
 >     O comando SELECT é utilizado para selecionar as colunas de tabelas
 >
->   **Sintaxe**
-> 
+> **Sintaxe**
+>
 >     select coluna_1, coluna_2, coluna_3
 >     from schema_1.tabela_1
 >
->   **Exercícios**
+> **Exercícios**
 >
->   - [SELECT](./exercicios/1_comandos/sem-resposta/01-Comandos+básicos-SELECT.txt)
->   - [SELECT | Gabarito](./exercicios/1_comandos/com-resposta/01-Comandos+básicos-SELECT+(resolução).txt)
->   - [SELECT | Respondido](./exercicios/1_comandos/select_resp.sql)
+> - [SELECT](./exercicios/1_comandos/sem-resposta/01-Comandos+básicos-SELECT.txt)
+> - [SELECT | Gabarito](./exercicios/1_comandos/com-resposta/01-Comandos+básicos-SELECT+(resolução).txt)
+> - [SELECT | Respondido](./exercicios/1_comandos/select_resp.sql)
 >
-> 
-> ### DISTINCT
 >
->   **Para quê serve?**
-> 
->     O comando DISTINCT é utilizado para remover linhas duplicadas e entregar linhas distintas ou diferentes.
-> 
->     É utilizado para entender quais tipos de dados compõe aquela coluna.
+
+### DISTINCT
 >
->   **Sintaxe**
-> 
+> **Para quê serve?**
+>
+> O comando DISTINCT é utilizado para remover linhas duplicadas e entregar linhas distintas ou diferentes.
+>
+> **Mundo dos Negócios**
+>
+> Pode ser utilizado para entender quais tipos de dados compõe aquela coluna, qual é a sua forma canônica dentro do BD. Isso é importante pois é a partir desta análise que você irá formular as queries dessa coluna de interesse.
+>
+> **Sintaxe**
+>
 >     select distinct coluna_1, coluna_2, coluna_3
 >     from schema_1.tabela_1
 >
->   **Exercícios**
+> **Exercícios**
 >
->   - [DISTINCT](./exercicios/1_comandos/sem-resposta/02-Comandos+básicos-DISTINCT.txt)
->   - [DISTINCT | Gabarito]()
->   - [DISTINCT | Respondido]()
+> - [DISTINCT](./exercicios/1_comandos/sem-resposta/02-Comandos+básicos-DISTINCT.txt)
+> - [DISTINCT | Gabarito](./exercicios/1_comandos/com-resposta/02-Comandos+básicos-DISTINCT+(resolução).txt)
+> - [DISTINCT | Respondido](./exercicios/1_comandos/select-distinct_resp.sql)
 >
 >
-> ### WHERE
+
+### WHERE
 >
-> ### ORDER BY
+> **Para quê serve?**
 >
-> ### LIMIT
+>   O comando WHERE é utilizado para filtrar as buscas de acordo com a condição de interesse.
 >
+> **Mundo dos Negócios**
+>
+> Pode ser utilizado para retirar dados de clientes em potenciais de compra (leads), fornecendo as condições de análise da equipe de marketing.
+>     
+> >Para saber como é composto o tipo de dado no BD, execute e verifique o tipo com `select distinct`.
+>
+> **Sintaxe**
+>
+>     select coluna_1, coluna_2, coluna_3
+>     from schema_1.tabela_1
+>     where condicao_x = true 
+>
+> **Exercícios**
+>
+> - [WHERE](./exercicios/1_comandos/sem-resposta/02-Comandos+básicos-DISTINCT.txt)
+> - [WHERE | Gabarito](./exercicios/1_comandos/com-resposta/03-Comandos+básicos-WHERE+(resolução).txt)
+> - [WHERE | Respondido](./exercicios/1_comandos/where_resp.sql)
+>
+>
+
+### ORDER BY
+>
+> **Para quê serve?**
+>
+> O comando ORDER BY é utilizado para ordenar as buscas de acordo com a regra definida pelo usuário.
+>
+> **Mundo dos Negócios**
+>
+> Pode ser utilizado para retirar dados de clientes em potenciais de compra (leads) e realisar a análise do perfil.
+> 
+> **Sintaxe**
+>
+>     select coluna_1, coluna_2, coluna_3
+>     from schema_1.tabela_1
+>     where condicao_x = true 
+>     order by coluna_1
+>
+> **Exercícios**
+>
+> - [ORDER BY](./exercicios/1_comandos/sem-resposta/04-Comandos+básicos-ORDER+BY.txt)
+> - [ORDER BY | Gabarito](./exercicios/1_comandos/com-resposta/04-Comandos+básicos-ORDER+BY+(resolução).txt)
+> - [ORDER BY | Respondido](./exercicios/1_comandos/order-by_resp.sql)
+>
+>
+
+### LIMIT
+>
+> **Para quê serve?**
+>
+> O comando LIMIT é utilizado para 
+>
+> **Mundo dos Negócios**
+>
+> Comumente utilizado para reduzir o processamento do servidor, diminuindo gastos com a infraestrutura.
+>
+> **Sintaxe**
+>
+>     select coluna_1, coluna_2, coluna_3
+>     from schema_1.tabela_1
+>     limit N
+>
+> **Exercícios**
+>
+> - [LIMIT](./exercicios/1_comandos/sem-resposta/04-Comandos+básicos-ORDER+BY.txt)
+> - [LIMIT | Gabarito](./exercicios/1_comandos/com-resposta/04-Comandos+básicos-ORDER+BY+(resolução).txt)
+> - [LIMIT | Respondido](./exercicios/1_comandos/order-by_resp.sql)
+>
+>
+
+### Desafio | Busca regrada
+> **Exercícios**
+> > - [Desafio](./exercicios/1_comandos/sem-resposta/06-Comandos+básicos-Desafio.txt)
+> > - [Desafio | Gabarito](./exercicios/1_comandos/com-resposta/06-Comandos+básicos-Desafio%20(resolução).txt)
+> > - [Desafio | Respondido](./exercicios/1_comandos/desafio_resp.sql)
+>
+
 ## Operadores
 >
 > ### Aritméticos
