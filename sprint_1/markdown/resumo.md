@@ -59,7 +59,7 @@
 >
 > > A escrita é feita por dois pontos ":" seguido do nome do emoji: 🏠
 > 
-> - [Emojis em MD]()
+> - [Emojis em MD](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia)
 
 ## Inserindo código-fonte
 >
