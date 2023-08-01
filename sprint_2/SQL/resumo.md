@@ -2,10 +2,11 @@
 
 ## Sumário | SQL
 
-- [ ] Setup
-- [ ] Fundamentos
+- [x] Setup
+- [x] Fundamentos
 - [ ] Lista de comandos
-- [ ] Conceitos básicos sobre Dados
+- [ ] Projeto 1 | Dashboard de acompanhamento
+- [ ] Projeto 2 | 
 - [ ] Links e outras referências
 - [ ] Certificado
 
@@ -191,25 +192,90 @@
 ## Operadores
 >
 > ### Aritméticos
+> > | Adição | Subtração | Multiplicação | Divisão | Exponencial | Módulo ou Coringa | Concatenação de Strings |
+> > | ---| --- | --- | --- | --- | --- | --- |
+> > | + | - | * | \ | ^ | % | [2 barras verticais](https://docs.oracle.com/cloud/help/pt/analytics-cloud/ACSMD/GUID-4EE8C58D-391B-46A9-B0B3-9FA91B8159D1.htm#BILUG664) |
+> 
+> **Exercícios**
 >
+> - [Operadores Aritméticos](./exercicios/2_operadores/sem-resposta/01-Operadores-Aritméticos.txt)
+> - [Operadores Aritméticos | Gabarito](./exercicios/2_operadores/com-resposta/01-Operadores-Aritméticos+(resolução).txt)
+> - [Operadores Aritméticos | Respondido](./exercicios/2_operadores/op_aritmeticos.sql)
+> 
 > ### Comparação
 >
+> > | Igual | Maior que | Menor que |  Maior ou igual que | Menor ou igual que | Diferente de |
+> > | --- | --- | --- | --- | --- | --- | 
+> > | = | > | < | >= | <= | <> |
+>
+> **Exercícios**
+>
+> - [Comparação](./exercicios/2_operadores/sem-resposta/02-Operadores-Comparação.txt)
+> - [Comparação | Gabarito](./exercicios/2_operadores/com-resposta/02-Operadores-Comparação+(resolução).txt)
+> - [Comparação | Respondido](./exercicios/2_operadores/op_comparacao.sql)
+> 
 > ### Lógicos
 >
-## Funções agregadas
+> > | E | Ou | Negação | Entre | Em  | Semelhante a | Semelhante a (maiúsculas e minúsculas) | É nulo |
+> > | --- | --- | --- | --- | --- | --- | --- | --- |
+> > | AND | OR | NOT | BETWEEN | IN | LIKE | ILIKE | IS NULL |
+> 
+> **Exercícios**
 >
+> - [Lógicos](./exercicios/2_operadores/sem-resposta/03-Operadores-Lógicos.txt)
+> - [Lógicos | Gabarito](./exercicios/2_operadores/com-resposta/03-Operadores-Lógicos+(resolução).txt)
+> - [Lógicos | Respondido](./exercicios/2_operadores/op_logicos.sql)
+>
+> ### Desafio | Operadores
+> 
+> **Exercícios**
+> > - [Desafio](./exercicios/2_operadores/sem-resposta/04-Operadores-Desafio.txt)
+> > - [Desafio | Gabarito](./exercicios/2_operadores/com-resposta/04-Operadores-Desafio%20(resolução).txt)
+> > - [Desafio | Respondido](./exercicios/2_operadores/op_desafio.sql)
+>
+## Funções agregadas
+> 
+> São funções semelhantes às utilizadas nas planilhas de excel para contagem, mínimo, máximo e média de uma coluna.
+> 
+> >| Contagem | Soma  | Mínimo | Máximo | Média |
+> >| --- | --- | --- | --- | --- | 
+> > | COUNT() | SUM() | MIN() | MAX() | AVG() |
+> **Exercícios**
+> 
+> - [Funções agregadas](./exercicios/3_funcoes-agregadas/sem-resposta/01-Funções+agregadas-Funções+agregadas.txt)
+> - [Funções agregadas | Gabarito](./exercicios/3_funcoes-agregadas/com-resposta/01-Funções+agregadas-Funções+agregadas+(resolução).txt)
+> - [Funções agregadas | Respondido](./exercicios/3_funcoes-agregadas/func_agregadas.sql)
+> 
 > ### GROUP BY
 >
+> - [Group By](./exercicios/3_funcoes-agregadas/sem-resposta/02-Funções+agregadas-GROUP+BY.txt)
+> - [Group By | Gabarito](./exercicios/3_funcoes-agregadas/com-resposta/02-Funções+agregadas-GROUP+BY+(resolução).txt)
+> - [Group By | Respondido](./exercicios/3_funcoes-agregadas/group_by.sql)
+>
 > ### HAVING
+>
+> - [Having](./exercicios/3_funcoes-agregadas/sem-resposta/03-Funções+agregadas-HAVING.txt)
+> - [Having | Gabarito](./exercicios/3_funcoes-agregadas/com-resposta/03-Funções+agregadas-HAVING+(resolução).txt)
+> - [Having | Respondido](./exercicios/3_funcoes-agregadas/having.sql)
+>
+> ### Desafio | Funções Agregadas
+> 
+> > - [Desafio](./exercicios/3_funcoes-agregadas/sem-resposta/04-Funções+agregadas-Desafio.txt)
+> > - [Desafio | Gabarito](./exercicios/3_funcoes-agregadas/com-resposta/04-Funções+agregadas-Desafio%20(resolução).txt)
+> > - [Desafio | Respondido](./exercicios/3_funcoes-agregadas)
 >
 ## Joins
 >
 > ### Comandos
->
+> 
 > ### Tipos
 >
 > ### Exemplos
->
+> 
+> - [Joins]()
+> - [Joins | Gabarito]()
+> - [Joins | Respondido]()
+> 
 ## Unions
 >
 > ### Comandos
@@ -277,3 +343,8 @@
 
 ## Certificado
 >
+
+## Links ou referências
+>
+> - [Documentação SQL | Oracle](https://docs.oracle.com/cloud/help/pt/analytics-cloud/ACSMD/GUID-4EE8C58D-391B-46A9-B0B3-9FA91B8159D1.htm#BILUG664)
+> - [SQLite](https://www.sqlite.org/lang.html)
