@@ -1,13 +1,13 @@
-![sql]()
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 
-## Sumário | SQL
+## Sumário | PostgreSQL
 
 - [x] Setup
 - [x] Fundamentos
-- [ ] Lista de comandos
-- [ ] Projeto 1 | Dashboard de acompanhamento
-- [ ] Projeto 2 | 
-- [ ] Links e outras referências
+- [ ] Comandos
+- [ ] Projeto 1 | Dashboard de acompanhamento de vendas
+- [ ] Projeto 2 | Análise de perfil dos clientes
+- [x] Links e outras referências
 - [ ] Certificado
 
 ## Setup
@@ -63,7 +63,7 @@
 >
 >
 
-## Lista de Comandos
+## Comandos
 >
 ### SELECT
 >
@@ -162,7 +162,7 @@
 >
 > **Para quê serve?**
 >
-> O comando LIMIT é utilizado para 
+> O comando LIMIT é utilizado para limitar o número de linhas no output. Isso diminui o gasto com processamento do servidor.
 >
 > **Mundo dos Negócios**
 >
@@ -176,14 +176,13 @@
 >
 > **Exercícios**
 >
-> - [LIMIT](./exercicios/1_comandos/sem-resposta/04-Comandos+básicos-ORDER+BY.txt)
-> - [LIMIT | Gabarito](./exercicios/1_comandos/com-resposta/04-Comandos+básicos-ORDER+BY+(resolução).txt)
-> - [LIMIT | Respondido](./exercicios/1_comandos/order-by_resp.sql)
+> - [LIMIT](./exercicios/1_comandos/sem-resposta/05-Comandos+básicos-LIMIT.txt)
+> - [LIMIT | Gabarito](./exercicios/1_comandos/com-resposta/05-Comandos+básicos-LIMIT+(resolução).txt)
+> - [LIMIT | Respondido](./exercicios/1_comandos/limit_resp.sql)
 >
 >
-
-### Desafio | Busca regrada
-> **Exercícios**
+>### Desafio | Busca regrada
+>
 > > - [Desafio](./exercicios/1_comandos/sem-resposta/06-Comandos+básicos-Desafio.txt)
 > > - [Desafio | Gabarito](./exercicios/1_comandos/com-resposta/06-Comandos+básicos-Desafio%20(resolução).txt)
 > > - [Desafio | Respondido](./exercicios/1_comandos/desafio_resp.sql)
@@ -240,7 +239,6 @@
 > >| Contagem | Soma  | Mínimo | Máximo | Média |
 > >| --- | --- | --- | --- | --- | 
 > > | COUNT() | SUM() | MIN() | MAX() | AVG() |
-> **Exercícios**
 > 
 > - [Funções agregadas](./exercicios/3_funcoes-agregadas/sem-resposta/01-Funções+agregadas-Funções+agregadas.txt)
 > - [Funções agregadas | Gabarito](./exercicios/3_funcoes-agregadas/com-resposta/01-Funções+agregadas-Funções+agregadas+(resolução).txt)
@@ -262,35 +260,80 @@
 > 
 > > - [Desafio](./exercicios/3_funcoes-agregadas/sem-resposta/04-Funções+agregadas-Desafio.txt)
 > > - [Desafio | Gabarito](./exercicios/3_funcoes-agregadas/com-resposta/04-Funções+agregadas-Desafio%20(resolução).txt)
-> > - [Desafio | Respondido](./exercicios/3_funcoes-agregadas)
+> > - [Desafio | Respondido](./exercicios/3_funcoes-agregadas/desafio.sql)
 >
 ## Joins
 >
+> São junções realizadas entre duas tabelas do BD a partir de uma coluna em comum. É o comando utilizado para relacionar duas tabelas. 
+> 
+> As convenções para nomenclatura são:
+> 
+> - Tabela da esquerda (A) é a tabela que foi declarada primeiro.
+> - Tabela da direita (B) é a tabela que foi declarada em seguida.
+>
+> - [Joins | Sintaxe](./exercicios/4_joins/joins_sintaxe.sql)
+>
+> > **Dica:** identifique primeiro qual é a coluna que existe nas duas tabelas e construa a query `from`.
+>
+> > **Método**
+> > 1. Seleção das colunas do enunciado(region | visitas)
+> > 2. Declaração das tabelas e seus relacionamentos (fun | cus | reg)
+> > 3. Ordenação da saída (region | visitas)
+>## Tipos
+> 
+> ### Left Join | **Mais utilizado na prática**
+> 
+>  Seleção de todos os dados de uma coluna da tabela esquerda + todos os dados existentes na mesma coluna (match) da tabela direita.
+> 
+> > ![left-join](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/SQL_Join_-_01_A_Left_Join_B.svg/2844px-SQL_Join_-_01_A_Left_Join_B.svg.png)
+> 
+> - [Left Join | Exercícios](./exercicios/4_joins/left_join.sql)
+> 
+> ### Inner Join 
+>
+> Seleção de todos os dados que deram match.
+> 
+> > ![inner-join](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/SQL_Join_-_07_A_Inner_Join_B.svg/2844px-SQL_Join_-_07_A_Inner_Join_B.svg.png)
+>
+> - [Inner Join | Exercícios](./exercicios/4_joins/inner_join.sql)
+> 
+> ### Right Join
+>
+>  Seleção de todos os dados de uma coluna da tabela direita + todos os dados com match da tabela esquerda.
+> 
+> > ![right-join](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/SQL_Join_-_03_A_Right_Join_B.svg/2844px-SQL_Join_-_03_A_Right_Join_B.svg.png)
+>
+> - [Right Join | Exercícios](./exercicios/4_joins/right_join.sql)
+> 
+> ### Full Join
+>
+> Seleção de todos os dados e junção em uma nova tabela.
+> 
+> > ![full-join](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/SQL_Join_-_05b_A_Full_Join_B.svg/2844px-SQL_Join_-_05b_A_Full_Join_B.svg.png)
+>
+> - [Full Join | Exercícios](./exercicios/4_joins/full_join.sql)
+> 
+>  ### Desafio | Joins
+> 
+> > - [Desafio](./exercicios/4_joins/sem-resposta/03-Joins-Desafio.txt)
+> > - [Desafio | Gabarito](./exercicios/4_joins/com-resposta/03-Joins-Desafio%20(resolução).txt)
+> > - [Desafio | Respondido]()
+> 
+## Unions | Quinta
+>
 > ### Comandos
-> 
-> ### Tipos
->
-> ### Exemplos
-> 
-> - [Joins]()
-> - [Joins | Gabarito]()
-> - [Joins | Respondido]()
-> 
-## Unions
->
-> ### Comandos
 >
 > ### Tipos
 >
 > ### Exemplos
 >
-## Subqueries
+## Subqueries | Sexta
 >
 > ### Tipos
 >
 > ### Exemplos
 >
-## Tratamento de dados
+## Tratamento de dados | Sábado
 >
 > ### Comandos
 >
@@ -304,7 +347,7 @@
 >
 > ### Funções
 >
-## Manipulação de tabelas
+## Manipulação de tabelas | Domingo
 >
 > ### Tabelas | Geral
 >
@@ -328,13 +371,13 @@
 >
 > - #### Deleção
 >
-## Projeto 1 | Dashboard de acompanhamento de vendas
+## Projeto 1 | Dashboard de acompanhamento de vendas | Segunda
 >
 > ### Queries
 >
 > ### Gráficos
 >
-## Projeto 2 | Análise de perfil dos clientes
+## Projeto 2 | Análise de perfil dos clientes | Terça
 >
 > ### Queries
 >
@@ -346,5 +389,5 @@
 
 ## Links ou referências
 >
-> - [Documentação SQL | Oracle](https://docs.oracle.com/cloud/help/pt/analytics-cloud/ACSMD/GUID-4EE8C58D-391B-46A9-B0B3-9FA91B8159D1.htm#BILUG664)
+> - [Operadores SQL | Oracle](https://docs.oracle.com/cloud/help/pt/analytics-cloud/ACSMD/GUID-4EE8C58D-391B-46A9-B0B3-9FA91B8159D1.htm#BILUG664)
 > - [SQLite](https://www.sqlite.org/lang.html)
