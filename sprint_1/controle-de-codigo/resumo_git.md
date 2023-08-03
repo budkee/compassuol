@@ -46,6 +46,8 @@
 
 ## Lista de Comandos | Desenvolvimento Individual
 
+> >Todos os comandos devem ser executados dentro da pasta de interesse
+>
 > Inicializar o git no repositório
 >
 >     git init
@@ -74,9 +76,17 @@
 > 
 >     git pull
 >
+> Baixar todas os arquivos do servidor
+>
+>     git fetch
+> 
 > Guardar as alterações na "lixeira"
 >
 >     git stash 
+> 
+> Retirar o versionamento de código de um diretório-mãe
+>
+>     git rm -rf .git 
 
 ## Lista de Comandos | Desenvolvimento em Equipe
 > 
@@ -88,7 +98,7 @@
 >
 >     git merge branch_1 branch_2
 >
-> Atualizar o repositório 
+> Baixar os arquivos do repositório da branch de interesse
 >
 >     git fetch branch
 > 

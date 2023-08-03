@@ -2,7 +2,7 @@
 
 # Data & Analytics - PB - AWS 2/10
 
-> Olá, monitor! 
+> Olá, monitor(a)! 
 > 
 > Neste arquivo você vai encontrar os objetivos da entrega e as referências dos conteúdos estudados nas últimas duas semanas.
 > 
@@ -12,12 +12,24 @@
 
 ### Objetivos da Sprint
 >
-> - 
+> - Realizar introdução do que e como será realizado o programa.
+> - Conceitos introdutórios sobre armazenamento de dados e Linguagem SQL.
 >
 ### Entregas da Sprint
 >
-> - 
+> - [Resumo | SQL](./SQL/resumo.md)
 >
+### Conteúdos da Sprint
+> 
+> - Big Data
+> - Ciência de Dados
+> - Diferença entre papéis envolvidos em Big Data
+> - Tipos de Dados (estruturado, semi e não-estruturado)
+> - Banco de dados (RDBMS vs NoSQL)
+> - Tipos de armazenamentos de dados
+> - Data Lake (arquitetura lambda)
+>
+
 ### Resumo da Sprint
 >
 > 
