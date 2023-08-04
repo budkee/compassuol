@@ -1,0 +1,41 @@
+-- Apresente a query para listar as 5 editoras com mais livros na biblioteca.
+-- O resultado deve conter apenas as colunas: quantidade, nome, estado e cidade.
+-- Ordenar as linhas pela coluna que representa a quantidade de livros em ordem decrescente.
+
+select
+    count(l.editora) as quantidade,
+    e.nome,
+    end.estado,
+    end.cidade
+
+from (livro as l
+    left join editora as e
+        on l.editora = e.codeditora)
+    left join endereco as end
+        on e.endereco = end.codendereco
+
+group by l.editora
+order by quantidade desc
+
+
+--- Área de Teste
+-- Selecionar a quantidade de livros por editora
+select
+    count(l.editora) as quantidade
+
+from livro as l
+    inner join editora as e
+        on l.editora = e.codeditora
+
+group by l.editora
+having quantidade > 1;
+
+-- Selecionar os respectivos endereços
+select
+    ed.nome,
+    end.estado,
+    end.cidade
+
+from editora as ed
+    inner join endereco as end
+        on ed.endereco = end.codendereco

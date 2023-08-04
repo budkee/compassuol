@@ -225,7 +225,7 @@
 >
 > As [funções agregadas](https://www.postgresql.org/docs/15/functions-aggregate.html) são funções semelhantes às utilizadas nas planilhas de excel para contagem, mínimo, máximo e média de uma coluna.
 >
-> - [Funções agregadas | Respondido](./exercicios/3_funcoes-agregadas/func_agregadas.sql)
+> - [Funções agregadas | Respondido](./exercicios-postgresql/3_funcoes-agregadas/func_agregadas.sql)
 >
 
 ### GROUP BY | Funções Agregadas
@@ -254,7 +254,7 @@
 > - Tabela da esquerda (A) é a tabela que foi declarada primeiro.
 > - Tabela da direita (B) é a tabela que foi declarada em seguida.
 >
-> - [Joins | Sintaxe](./exercicios/4_joins/joins_sintaxe.sql)
+> - [Joins | Sintaxe](./exercicios-postgresql/4_joins/joins_sintaxe.sql)
 >
 > > **Dica:** identifique primeiro qual é a coluna que existe nas duas tabelas e construa a query `from`.
 >
@@ -280,7 +280,7 @@
 >
 > > ![inner-join](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/SQL_Join_-_07_A_Inner_Join_B.svg/2844px-SQL_Join_-_07_A_Inner_Join_B.svg.png)
 >
-> - [Inner Join | Exercícios](./exercicios/4_joins/inner_join.sql)
+> - [Inner Join | Exercícios](./exercicios-postgresql/4_joins/inner_join.sql)
 >
 > ### Right Join
 >
@@ -330,10 +330,10 @@
 >
 > ### Tipos
 >
-> - [Subquery no WHERE](./exercicios/6_subqueries/where.sql)
-> - [Subquery com WITH](./exercicios/6_subqueries/with.sql)
-> - [Subquery no FROM](./exercicios/6_subqueries/from.sql)
-> - [Subquery no SELECT](./exercicios/6_subqueries/select.sql)
+> - [Subquery no WHERE](./exercicios-postgresql/6_subqueries/where.sql)
+> - [Subquery com WITH](./exercicios-postgresql/6_subqueries/with.sql)
+> - [Subquery no FROM](./exercicios-postgresql/6_subqueries/from.sql)
+> - [Subquery no SELECT](./exercicios-postgresql/6_subqueries/select.sql)
 >
 > ### Exemplos
 >
@@ -347,7 +347,7 @@
 >
 > ### Comandos
 >
-> - Operador `: :`
+> - Operador `::`
 > - CAST
 >
 > ### Conversão de unidades
@@ -373,11 +373,10 @@
 >
 > ### Tratamento de Datas
 >
-> -[INTERVAL](https://www.w3schools.com/sql/func_mysql_date_add.asp)
-> -[DATE_TRUNC](https://www.w3resource.com/PostgreSQL/date_trunc-function.php)
-> -[EXTRACT](https://www.w3schools.com/sql/func_mysql_extract.asp)
-> -[DATEDIFF](https://www.w3schools.com/sql/func_mysql_datediff.asp)
->
+> - [INTERVAL](https://www.w3schools.com/sql/func_mysql_date_add.asp)
+> - [DATE_TRUNC](https://www.w3resource.com/PostgreSQL/date_trunc-function.php)
+> - [EXTRACT](https://www.w3schools.com/sql/func_mysql_extract.asp)
+> - [DATEDIFF](https://www.w3schools.com/sql/func_mysql_datediff.asp)
 > - [Tratamento de Datas | Respondido](./exercicios/7_tratamento-de-dados/tratamento_datas.sql)
 >
 > ### Funções
@@ -465,7 +464,7 @@
 >
 > ### Exercícios | Udemy
 > 
-> - [Exercício 1 | Livros publicados após 2014]()
+> - [Exercício 1 | Livros publicados após 2014](./exercicios-sqlite/biblioteca/ex01.sqlite)
 > - [Exercício 2]()
 > - [Exercício 3]()
 > - [Exercício 4]()
