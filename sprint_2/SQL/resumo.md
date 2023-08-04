@@ -5,8 +5,10 @@
 - [x] Setup
 - [x] Fundamentos
 - [x] Comandos
-- [x] Projeto 1 | Dashboard de acompanhamento de vendas
-- [x] Projeto 2 | Análise de perfil dos clientes
+- [ ] Projeto 1 | Dashboard de acompanhamento de vendas
+- [ ] Projeto 2 | Análise de perfil dos clientes
+- [ ] Caso de Estudo | Biblioteca
+- [ ] Caso de Estudo | Loja
 - [x] Links e outras referências
 - [x] Certificado
 
@@ -262,7 +264,7 @@
 > > 2. Declaração das tabelas e seus relacionamentos (fun | cus | reg)
 > > 3. Ordenação da saída (region | visitas)
 > >
->## Tipos
+> ## Tipos
 >
 > ### Left Join | **Mais utilizado na prática**
 >
@@ -339,8 +341,6 @@
 >
 > ### Desafio | Joins
 >
-> - [Desafio](./exercicios/6_subqueries/sem-resposta/03-Subqueries-Desafio.txt)
-> - [Desafio | Gabarito](./exercicios/6_subqueries/com-resposta/03-Subqueries-Desafio+(resolução).txt)
 > - [Desafio | Respondido](./exercicios/6_subqueries/desafio.sql)
 >
 ## Tratamento de dados
@@ -456,6 +456,10 @@
 >
 > - [Dashboard]()
 >
+
+## Caso de Estudo | Biblioteca
+
+## Caso de Estudo | Loja
 
 ## Links ou referências
 >

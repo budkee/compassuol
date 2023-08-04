@@ -18,6 +18,7 @@
 ### Entregas da Sprint
 >
 > - [Resumo | SQL](./SQL/resumo.md)
+> - [Resumo | Big Data]()
 >
 ### Conteúdos da Sprint
 > 
@@ -32,4 +33,4 @@
 
 ### Resumo da Sprint
 >
-> 
+> > 
