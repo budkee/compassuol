@@ -458,9 +458,38 @@
 >
 
 ## Caso de Estudo | Biblioteca
-
+>
+> ### Schema
+>
+> ![DER | Biblioteca](/sprint_2/SQL/exercicios-sqlite/biblioteca/DER%20-%20Biblioteca.png)
+>
+> ### Exercícios | Udemy
+> 
+> - [Exercício 1 | Livros publicados após 2014]()
+> - [Exercício 2]()
+> - [Exercício 3]()
+> - [Exercício 4]()
+> - [Exercício 5]()
+> - [Exercício 6]()
+> - [Exercício 7]()
+> 
 ## Caso de Estudo | Loja
-
+>
+>
+> ### Schema
+>
+> ![DER | Biblioteca](/sprint_2/SQL/exercicios-sqlite/loja/DER_Loja.png)
+>
+> ### Exercícios | Udemy
+> 
+> - [Exercício 1]()
+> - [Exercício 2]()
+> - [Exercício 3]()
+> - [Exercício 4]()
+> - [Exercício 5]()
+> - [Exercício 6]()
+> - [Exercício 7]()
+> 
 ## Links ou referências
 >
 > - [Documentação | PostgreSQL 15](https://www.postgresql.org/docs/15/index.html)
