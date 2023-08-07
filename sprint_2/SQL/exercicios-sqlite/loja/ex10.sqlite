@@ -1,0 +1,34 @@
+-- A comissão de um vendedor é definida a partir de um percentual sobre o total de vendas (quantidade * valor unitário) por ele realizado. O percentual de comissão de cada vendedor está armazenado na coluna perccomissao, tabela tbvendedor.
+--
+-- Com base em tais informações, calcule a comissão de todos os vendedores, considerando todas as vendas armazenadas na base de dados com status concluído.
+--
+-- As colunas presentes no resultado devem ser vendedor, valor_total_vendas e comissao. O valor de comissão deve ser apresentado em ordem decrescente arredondado na segunda casa decimal.
+
+
+-- Final
+
+-- Teste
+
+-- Usando Inner/Left dá no mesmo
+select
+    vendedor.nmvdd,
+    (vendas.vrunt * vendas.qtd) as 'valor_total_vendas'
+    --() as 'comissao'
+
+from tbvendas as vendas
+    inner join tbvendedor as vendedor
+        on vendas.cdvdd = vendedor.cdvdd
+
+where vendas.status = 'Concluído';
+--order by comissao;
+
+
+-- Usando Left
+select
+    vendedor.nmvdd
+
+from tbvendedor as vendedor
+    left join tbvendas as vendas
+        on vendedor.cdvdd = vendas.cdvdd
+
+where vendas.status = 'Concluído'

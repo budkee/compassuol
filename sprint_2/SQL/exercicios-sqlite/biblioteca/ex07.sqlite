@@ -1,0 +1,26 @@
+-- Apresente a query para listar o nome dos autores com nenhuma publicação.
+-- Apresentá-los em ordem crescente.
+
+-- Versão final
+select
+    a.nome
+from autor as a
+    left join livro as l
+        on a.codautor = l.autor
+
+where a.codautor is not l.autor;  -- 8 autores
+
+
+-- Teste
+
+-- Seleção de todos os autores que contém alguma publicação
+select distinct
+    a.nome
+
+from autor as a
+    inner join livro as l
+        on a.codautor = l.autor
+
+where l.autor = a.codautor -- 64 de 72 autores: 8 autores não contém publicação de livros nesta BD
+
+-- Seleção de todos os autores que não contém publicação
