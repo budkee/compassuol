@@ -1,0 +1,13 @@
+-- Apresente a query para listar os códigos das vendas identificadas como deletadas.
+--
+-- Apresente o resultado em ordem crescente.
+
+-- Final
+select
+    v.cdven
+from tbvendas as v
+where deletado = 1
+order by v.cdven
+
+
+-- Testes

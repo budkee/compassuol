@@ -1,0 +1,45 @@
+-- Apresente a query para listar os 10 produtos menos vendidos pelos canais de E-Commerce ou Matriz (Considerar apenas vendas concluídas).
+--
+-- As colunas presentes no resultado devem ser cdpro, nmcanalvendas, nmpro e quantidade_vendas.
+
+-- Final
+
+select
+    cdpro,
+    nmcanalvendas,
+    nmpro,
+    sum(qtd) as quantidade_vendas
+from tbvendas
+where status = 'Concluído'
+group by nmcanalvendas, cdpro, nmpro
+order by quantidade_vendas
+limit 10;
+
+-- Testes
+-- Udemy
+select
+    v.cdpro,
+    v.nmcanalvendas,
+    v.nmpro,
+    (sum(qtd)) as quantidade_vendas
+
+from tbvendas as v
+
+limit 10;
+
+
+
+
+-- Todos os produtos de Ecommerce e da Matriz vendidos
+select
+    v.cdpro,
+    v.nmcanalvendas,
+    v.nmpro,
+    (count(v.cdpro) * v.qtd) as quantidade_vendas
+from tbvendas as v
+where status = 'Concluído';
+
+--
+select *
+from tbvendas
+where status = 'Concluído'

@@ -15,7 +15,7 @@ from (livro as l
         on e.endereco = end.codendereco
 
 group by l.editora
-order by quantidade desc
+order by quantidade desc;
 
 
 --- Área de Teste

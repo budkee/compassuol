@@ -1,0 +1,30 @@
+-- Apresente a query para listar o código e nome cliente com maior gasto na loja. As colunas presentes no resultado devem ser cdcli, nmcli e gasto, esta última representando o somatório das vendas (concluídas) atribuídas ao cliente.
+
+-- Final
+with gasto_clientes as (
+
+    select
+        cdcli,
+        sum(qtd * vrunt) as valor_total_compra
+    from tbvendas
+    where status = 'Concluído'
+    group by cdcli
+)
+
+select distinct
+    tbvendas.cdcli,
+    tbvendas.nmcli,
+    round(gasto_clientes.valor_total_compra, 2) as gasto
+
+from tbvendas
+    inner join gasto_clientes
+        on tbvendas.cdcli = gasto_clientes.cdcli
+
+order by gasto desc
+limit 1
+
+-- Testes
+
+--order by gasto
+--limit 1
+

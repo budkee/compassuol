@@ -6,20 +6,31 @@
 
 
 -- Final
+with vendas as (
+    select
+        cdvdd,
+        sum(qtd * vrunt) as valor_total_vendas
+    from tbvendas
+    where status = 'Concluído'
+    group by cdvdd
+)
+
+select
+    vendedor.nmvdd,
+    round(valor_total_vendas, 2) as valor_total_vendas,
+    round((valor_total_vendas* vendedor.perccomissao)/100, 2) as comissao
+
+from tbvendedor as vendedor
+    left join vendas
+        on vendedor.cdvdd = vendas.cdvdd
+group by vendedor.nmvdd, valor_total_vendas
+order by comissao desc;
 
 -- Teste
 
 -- Usando Inner/Left dá no mesmo
-select
-    vendedor.nmvdd,
-    (vendas.vrunt * vendas.qtd) as 'valor_total_vendas'
-    --() as 'comissao'
 
-from tbvendas as vendas
-    inner join tbvendedor as vendedor
-        on vendas.cdvdd = vendedor.cdvdd
 
-where vendas.status = 'Concluído';
 --order by comissao;
 
 

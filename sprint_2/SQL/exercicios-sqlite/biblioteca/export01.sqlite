@@ -1,0 +1,45 @@
+-- Exportar o resultado da query que obtém os 10 livros mais caros para um arquivo CSV. Utilizar o caractere ; (ponto e vírgula) como separador. Lembre-se que o conteúdo do seu arquivo deverá respeitar a sequência de colunas e seus respectivos nomes de cabeçalho que listamos abaixo:
+--
+--
+--
+-- CodLivro
+--
+-- Titulo
+--
+-- CodAutor
+--
+-- NomeAutor
+--
+-- Valor
+--
+-- CodEditora
+--
+-- NomeEditora
+--
+-- Observação: O arquivo exportado, conforme as especificações acima, deve ser disponibilizado no GitHub. Abaixo (na caixa de envio), gentileza nos enviar o link do arquivo .csv que colocou no seu github.
+--
+-- exemplo de envio (resposta):
+--
+-- Segue abaixo link do arquivo no formato .csv (referente a query dos 10 livros mais caros) conforme solicitado:
+--
+-- https://github.com/aasouzaconsult/programabolsas/blob/main/arquivo1.csv
+
+
+
+-- Final
+select
+    cod as CodLivro,
+    titulo as Titulo,
+    autor as CodAutor,
+    a.nome as NomeAutor,
+    valor as Valor,
+    e.codeditora as CodEditora,
+    e.nome as NomeEditora
+
+from livro
+    left join autor as a
+        on livro.autor = a.codautor
+    left join editora as e
+        on livro.editora = e.codeditora
+order by valor desc
+limit 10
