@@ -89,25 +89,25 @@
 
 | Sprint | Início | Término | Scrum Master | Líder | Entregues |
 |--------|--------|---------|----| ----- |---------|
-| 1 | 17/07 | 31/07 | [Bernardo Almeida Turela](https://www.linkedin.com/in/bernardo-almeida-turela-2363b131) | [João Pedro Santos de Brito](https://github.com/brito219) | [Sprint 1](/sprint_1/README.md) |
-| 2 | 31/07 | 14/08 | [Júlia Luisa Schmidt](https://www.linkedin.com/in/juliaschmidt0710/) | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago)| [Sprint 2](/sprint_2/README.md) |
-| 3 | 14/08 | 28/08 | [Lays Moreira Lima]() | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) | [Sprint 3](/sprint_3/README.md) |
-| 4 | 28/08 | 11/09 | [Icaro Anthony Morais dos Santos]() | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) | [Sprint 4](/sprint_4/README.md)|
-| 5 | 11/09 | 25/09 | [Flavio Laerton Seixas Castro]() | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) | [Sprint 5](/sprint_5/README.md)|
-| 6 | 25/09 | 09/10 | [Anne Karoline Fortunato do Carmo]() | [Isadora Sandri da Silva](https://github.com/isandri) | [Sprint 6](/sprint_6/README.md)| 
-| 7 | 09/10 | 23/10 | [Italo de Andrade Souza]() | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) | [Sprint 7](/sprint_7/README.md) |
-| 8 | 23/10 | 06/11 | [Marcus Vinicius dos Santos Monteiro]() | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago) | [Sprint 8](/sprint_8/README.md) |
-| 9 | 06/11 | 20/11 | [Mateus Presotto Balen]() | [Camila de Oliveira Budke](https://github.com/budkee) |[Sprint 9](/sprint_9/README.md)|
+| 1 | 17/07 | 31/07 | [Bernardo Almeida Turela](https://www.linkedin.com/in/bernardo-almeida-turela-2363b131) | [João Pedro Santos de Brito](https://github.com/brito219) | [Sprint 1](/sprint_01/README.md) |
+| 2 | 31/07 | 14/08 | [Júlia Luisa Schmidt](https://www.linkedin.com/in/juliaschmidt0710/) | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago)| [Sprint 2](/sprint_02/README.md) |
+| 3 | 14/08 | 28/08 | [Lays Moreira Lima]() | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) | [Sprint 3](/sprint_03/README.md) |
+| 4 | 28/08 | 11/09 | [Icaro Anthony Morais dos Santos]() | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) | [Sprint 4](/sprint_04/README.md)|
+| 5 | 11/09 | 25/09 | [Flavio Laerton Seixas Castro]() | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) | [Sprint 5](/sprint_05/README.md)|
+| 6 | 25/09 | 09/10 | [Anne Karoline Fortunato do Carmo]() | [Isadora Sandri da Silva](https://github.com/isandri) | [Sprint 6](/sprint_06/README.md)| 
+| 7 | 09/10 | 23/10 | [Italo de Andrade Souza]() | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) | [Sprint 7](/sprint_07/README.md) |
+| 8 | 23/10 | 06/11 | [Marcus Vinicius dos Santos Monteiro]() | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago) | [Sprint 8](/sprint_08/README.md) |
+| 9 | 06/11 | 20/11 | [Mateus Presotto Balen]() | [Camila de Oliveira Budke](https://github.com/budkee) |[Sprint 9](/sprint_09/README.md)|
 | 10 | 20/11 | 04/12 | [Antonio Alex de Souza]() | [Isadora Sandri da Silva](https://github.com/isandri) |[Sprint 10](/sprint_10/README.md) |
 
 > Ao final do programa os alunos deverão enviar um [vídeo]() apresentando o projeto final.
 
 ### Tecnologias | Sprint 1
 
-[![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](./sprint_1/markdown/resumo.md)
-[![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)](./sprint_1/controle-de-codigo/resumo_git.md)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](./sprint_1/controle-de-codigo/resumo_github.md)
-[![Linux](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)](./sprint_1/linux/resumo.md)
+[![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](sprint_01/markdown/resumo.md)
+[![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)](sprint_01/controle-de-codigo/resumo_git.md)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](sprint_01/controle-de-codigo/resumo_github.md)
+[![Linux](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)](sprint_01/linux/resumo.md)
 
 ### Tecnologias | Sprint 2
 

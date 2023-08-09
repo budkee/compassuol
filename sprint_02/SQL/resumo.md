@@ -313,7 +313,7 @@
 >
 > ### Schema
 >
-> ![DER | Biblioteca](/sprint_2/SQL/exercicios-sqlite/biblioteca/DER%20-%20Biblioteca.png)
+> ![DER | Biblioteca](/sprint_02/SQL/exercicios-sqlite/biblioteca/DER%20-%20Biblioteca.png)
 >
 > ### Exercícios | Udemy
 >
@@ -329,7 +329,7 @@
 >
 > ### Schema
 >
-> ![DER | Biblioteca](/sprint_2/SQL/exercicios-sqlite/loja/DER_Loja.png)
+> ![DER | Biblioteca](/sprint_02/SQL/exercicios-sqlite/loja/DER_Loja.png)
 >
 > ### Exercícios | Udemy
 >
