@@ -1,6 +1,6 @@
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 
-## Sumário | PostgreSQL
+## Sumário
 
 - [x] [Setup](#setup)
 - [x] [Documentação | PostGreSQL e SQLite](#documentação)
@@ -18,7 +18,6 @@
 - [x] [Links e outras referências](#links-ou-referências)
 - [x] [Certificado](#certificado)
 
-
 ## Setup
 >
 > Para começar a estudar SQL você vai precisar baixar e instalar os seguintes componentes:
@@ -29,8 +28,9 @@
 >
 > Baixe o pgAdmin pelo pacote, pois este irá conter tanto o _pgAdmin_ quanto o _PostgreSQL_.
 >
-> > #### Porta do servidor: 5433
+> > #### Porta padrão do servidor: 5433
 >
+> > [Voltar para o topo](#sumário)
 
 ## Overview | pgAdmin 4.15
 >
@@ -47,6 +47,8 @@
 > Para encontrar o Query Tool, selecione o ícone ao lado de Object Explorer, como na imagem abaixo, ou digite `option` + `shift` + `q`.
 >
 > ![query tool](./img/query_tool.png)
+>
+> > > [Voltar para o topo](#sumário)
 
 ## Configuração do BD | Análise de dados
 >
@@ -74,7 +76,9 @@
 >
 >      ![config_bd_pronta](img/config_bd_pronta.png)
 >
-## Documentação 
+> > [Voltar para o topo](#sumário)
+
+## Documentação
 >
 > - [SQL Sintaxe | W3S](https://www.w3schools.com/sql/)
 > - [PostGreSQL | Manual](https://www.postgresql.org/docs/current/)
@@ -83,10 +87,11 @@
 > - [SQLite | Instalação](https://www.sqlite.org/zeroconf.html)
 > - [SQLite | Biblioteca Python](https://docs.python.org/3/library/sqlite3.html)
 >
+> > [Voltar para o topo](#sumário)
 
-## Fundamentos | Comando
+## Fundamentos | Comandos
 >
-### SELECT | Comandos Básicos
+### SELECT
 >
 > O comando [SELECT](https://www.postgresql.org/docs/15/queries-select-lists.html) é utilizado para selecionar e retornar as colunas de uma determinada tabela dentro de um determinado contexto.
 >
@@ -95,7 +100,7 @@
 > - [SELECT]()
 >
 
-### DISTINCT | Comandos Básicos
+### DISTINCT
 >
 > O comando [DISTINCT](https://www.postgresql.org/docs/15/queries-select-lists.html#:~:text=be%20passed%20on.-,7.3.3.%C2%A0DISTINCT,-After%20the%20select) é utilizado para remover linhas duplicadas e entregar linhas não repetidas.
 >
@@ -109,7 +114,7 @@
 > - [DISTINCT]()
 >
 
-### WHERE | Comandos Básicos
+### WHERE
 >
 > O comando [WHERE](https://www.postgresql.org/docs/15/queries-table-expressions.html#QUERIES-WHERE) é utilizado para filtrar as buscas de acordo com a condição de interesse.
 >
@@ -123,7 +128,7 @@
 > - [WHERE]()
 >
 
-### ORDER BY | Comandos Básicos
+### ORDER BY
 >
 > O comando [ORDER BY](https://www.postgresql.org/docs/15/queries-order.html) é utilizado para ordenar as buscas de acordo com a regra definida pelo usuário.
 >
@@ -136,7 +141,7 @@
 > - [ORDER BY]()
 >
 
-### LIMIT | Comandos Básicos
+### LIMIT
 >
 > O comando [LIMIT](https://www.postgresql.org/docs/15/queries-limit.html) é utilizado para limitar o número de linhas no output da query. Isso diminui o gasto com processamento do servidor para tabelas com muitas linhas.
 >
@@ -148,10 +153,11 @@
 >
 > - [LIMIT]()
 >
+> > [Voltar para o topo](#sumário)
 
 ## Fundamentos | Operadores
 
-### Aritméticos
+### Operadores Aritméticos
 >
 > | Adição | Subtração | Multiplicação | Divisão | Exponencial | Módulo ou Coringa |  |
 > | ---| --- | --- | --- | --- | --- | --- |
@@ -183,7 +189,7 @@
 > - [Comparação]()
 >
 
-### Operadores Lógicos 
+### Operadores Lógicos
 >
 > | E | Ou | Negação | Entre | Em  | Semelhante a | Semelhante a (maiúsculas e minúsculas) | É nulo |
 > | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -193,6 +199,7 @@
 >
 > - [Lógicos]()
 >
+> > [Voltar para o topo](#sumário)
 
 ## Fundamentos | Comandos Avançados
 
@@ -201,7 +208,7 @@
 > As [funções agregadas](https://www.postgresql.org/docs/15/functions-aggregate.html) são funções semelhantes às utilizadas nas planilhas de excel para contagem, mínimo, máximo e média de uma coluna.
 >
 > **Exercícios de Exemplo**
-> 
+>
 > - [Funções agregadas]()
 >
 
@@ -214,13 +221,13 @@
 
 ### HAVING | Funções Agregadas
 >
-> O comando [HAVING](https://www.w3schools.com/sql/sql_having.asp) é utilizado para filtrar funções agregadas. 
-> 
+> O comando [HAVING](https://www.w3schools.com/sql/sql_having.asp) é utilizado para filtrar funções agregadas.
+>
 > - [HAVING]()
 >
 
-## Joins | Relacionamentos
-> 
+### Joins | Relacionamentos
+>
 > As [joins](https://www.w3schools.com/sql/sql_join.asp) são junções realizadas entre duas tabelas do BD a partir de uma coluna em comum (link é feito pelas PKs e FKs). É o comando utilizado para relacionar duas tabelas.
 >
 > As convenções para nomenclatura são:
@@ -229,14 +236,14 @@
 > - Tabela da direita (B) é a tabela que foi declarada em seguida.
 >
 
-## Tipos de Joins | Relacionamentos
+### Tipos de Joins | Relacionamentos
 >
-> ### Left Join 
+> ### Left Join
 >
 > Ele seleciona todos os dados de uma coluna da `tabela esquerda` e todos os dados da `tabela direita` em `match` existentes pela mesma coluna.
 >
 > <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/SQL_Join_-_01_A_Left_Join_B.svg/2844px-SQL_Join_-_01_A_Left_Join_B.svg.png' width= "200" height="150">
-> 
+>
 >
 > - [Left Join | Exemplos]()
 >
@@ -244,7 +251,7 @@
 >
 > Seleção de todos os dados que deram match.
 >
-> <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/SQL_Join_-_07_A_Inner_Join_B.svg/2844px-SQL_Join_-_07_A_Inner_Join_B.svg.png" width = "200" height = "150" > 
+> <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/SQL_Join_-_07_A_Inner_Join_B.svg/2844px-SQL_Join_-_07_A_Inner_Join_B.svg.png" width = "200" height = "150" >
 >
 > - [Inner Join | Exemplos]()
 >
@@ -265,30 +272,31 @@
 > - [Full Join | Exemplos]()
 >
 
-## Unions
+### Unions
 >
 > É um comando utilizado para "colar" uma tabela sobre a outra, desde que estas tenham `a mesma quantidade de colunas e linhas`.
 >
 > ### Tipos de Union
 >
 > Considere duas tabelas fictícias: a 1 e a 2:
+>
 > ### Union
-> 
-> > Utiliza-se quando os tipos de ambas as tabelas forem os mesmos, `int`, por exemplo. 
+>
+> > Utiliza-se quando os tipos de ambas as tabelas forem os mesmos, `int`, por exemplo.
 > >
 > > Caso haja uma tabela contendo, em alguma coluna, um tipo diferente, como `float`, vai dar erro.
 > >
 > > - [Union | Exemplo]()
-> > 
+> >
 >
 > ### Union All
-> 
+>
 > > Utiliza-se o mesmo conceito, entretanto, ele não remove as linhas duplicadas, te entregando `dados brutos`.
-> > 
+> >
 > > - [Union All | Exemplo]()
 >
 
-## Subqueries
+### Subqueries
 >
 > É utilizado para realizar consultas dentro de outras consultas, reutilizando os dados dessa busca dentro da query principal.
 >
@@ -299,6 +307,7 @@
 > - [FROM | Subquery]()
 > - [SELECT | Subquery]()
 >
+> > [Voltar para o topo](#sumário)
 
 ## Caso de Estudo | Biblioteca
 >
@@ -307,7 +316,7 @@
 > ![DER | Biblioteca](/sprint_2/SQL/exercicios-sqlite/biblioteca/DER%20-%20Biblioteca.png)
 >
 > ### Exercícios | Udemy
-> 
+>
 > - [Exercício 1](./exercicios-sqlite/biblioteca/ex01.sqlite)
 > - [Exercício 2](./exercicios-sqlite/biblioteca/ex02.sqlite)
 > - [Exercício 3](./exercicios-sqlite/biblioteca/ex03.sqlite)
@@ -315,7 +324,7 @@
 > - [Exercício 5](./exercicios-sqlite/biblioteca/ex05.sqlite)
 > - [Exercício 6](./exercicios-sqlite/biblioteca/ex06.sqlite)
 > - [Exercício 7](./exercicios-sqlite/biblioteca/ex07.sqlite)
-> 
+>
 ## Caso de Estudo | Loja
 >
 > ### Schema
@@ -323,7 +332,7 @@
 > ![DER | Biblioteca](/sprint_2/SQL/exercicios-sqlite/loja/DER_Loja.png)
 >
 > ### Exercícios | Udemy
-> 
+>
 > - [Exercício 8](./exercicios-sqlite/loja/ex08.sqlite)
 > - [Exercício 9](./exercicios-sqlite/loja/ex09.sqlite)
 > - [Exercício 10](./exercicios-sqlite/loja/ex10.sqlite)
@@ -334,13 +343,14 @@
 > - [Exercício 15](./exercicios-sqlite/loja/ex15.sqlite)
 > - [Exercício 16](./exercicios-sqlite/loja/ex16.sqlite)
 >
+> > [Voltar para o topo](#sumário)
 
 ## Tratamento de dados
 >
 > ### Comandos
 >
 > - [Operador `::`](https://learnsql.com/blog/double-colon-operator-postgresql/): transforma o dado no tipo de interesse, como por exemplo `'2023-04-10'::date`
-> 
+>
 > - [CAST](https://www.w3schools.com/sql/func_sqlserver_cast.asp): realiza a mesma transformação, mas por vias diferentes.
 >
 > ### Tratamento Geral
@@ -358,12 +368,12 @@
 > ### Tratamento de Datas
 >
 > - [DATE_ADD | INTERVAL](https://www.w3schools.com/sql/func_mysql_date_add.asp): retorna uma nova data com o intervalo corrigido.
-> - [DATE_TRUNC](https://www.w3resource.com/PostgreSQL/date_trunc-function.php): arredonda a data. 
+> - [DATE_TRUNC](https://www.w3resource.com/PostgreSQL/date_trunc-function.php): arredonda a data.
 > - [EXTRACT](https://www.w3schools.com/sql/func_mysql_extract.asp): extrai partes de uma data.
 > - [DATEDIFF](https://www.w3schools.com/sql/func_mysql_datediff.asp): retorna o número de dias entre duas datas.
 >
 > ### Funções
-> 
+>
 > - [Sintaxe para construir uma nova função](https://halleyoliv.gitlab.io/pgdocptbr/sql-createfunction.html)
 >
 > ### Exemplos
@@ -374,8 +384,17 @@
 > - [Tratamento de Datas](./exercicios-postgresql/7_tratamento-de-dados/tratamento_datas.sql)
 > - [Criando Funções](./exercicios-postgresql/7_tratamento-de-dados/funcoes.sql)
 >
+> > [Voltar para o topo](#sumário)
 
 ## Manipulação de tabelas
+>
+> > C: CREATE
+> >
+> > R: READ
+> >
+> > U: UPDATE ou INSERT
+> >
+> > D: DELETE
 >
 > ### Criação, Atualização e Deleção | Tabelas
 >
@@ -401,6 +420,7 @@
 > - [Linhas | CUD](./exercicios-postgresql/8_tabelas/insert-update-delete-linhas.sql)
 > - [Colunas | CUD](./exercicios-postgresql/8_tabelas/insert-update-delete-colunas.sql)
 >
+> > [Voltar para o topo](#sumário)
 
 ## Projeto 1 | Dashboard de acompanhamento de vendas
 >
@@ -414,6 +434,7 @@
 >
 > - [Dashboard](./exercicios-postgresql/9_projeto1-dashboard-de-vendas/dashboard-de-vendas.xlsx)
 >
+> > [Voltar para o topo](#sumário)
 
 ## Projeto 2 | Análise de perfil dos clientes
 >
@@ -428,14 +449,18 @@
 >
 > - [Dashboard](./exercicios-postgresql/10_projeto2-perfil-dos-leads/dashboard_analise-de-perfil-clientes.xlsx)
 >
+> > [Voltar para o topo](#sumário)
 
 ## Links ou referências
 >
 > - [Documentação | PostgreSQL 15](https://www.postgresql.org/docs/15/index.html)
 > - [Documentação | SQLite](https://www.sqlite.org/lang.html)
 >
+> > [Voltar para o topo](#sumário)
+>
 
 ## Certificado
 >
 > ![certificado](./img/cert-sql.jpg)
 >
+> > [Voltar para o topo](#sumário)

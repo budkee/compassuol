@@ -102,12 +102,13 @@
 
 > Ao final do programa os alunos deverão enviar um [vídeo]() apresentando o projeto final.
 
-### Conteúdos | Sprint 1
+### Tecnologias | Sprint 1
 
 [![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)](./sprint_1/markdown/resumo.md)
 [![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)](./sprint_1/controle-de-codigo/resumo_git.md)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](./sprint_1/controle-de-codigo/resumo_github.md)
 [![Linux](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)](./sprint_1/linux/resumo.md)
 
-### Conteúdos | Sprint 2
+### Tecnologias | Sprint 2
 
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
