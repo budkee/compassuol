@@ -2,15 +2,22 @@
 
 ## Sumário | PostgreSQL
 
-- [x] Setup
-- [x] Fundamentos
-- [x] Comandos
-- [ ] Projeto 1 | Dashboard de acompanhamento de vendas
-- [ ] Projeto 2 | Análise de perfil dos clientes
-- [ ] Caso de Estudo | Biblioteca
-- [ ] Caso de Estudo | Loja
-- [x] Links e outras referências
-- [x] Certificado
+- [x] [Setup](#setup)
+- [x] [Documentação | PostGreSQL e SQLite](#documentação)
+- [x] [Overview | PgAdmin 4.15](#overview--pgadmin-415)
+- [x] [Configuração do BD](#configuração-do-bd--análise-de-dados)
+- [x] [Fundamentos | Comandos](#fundamentos--comando)
+- [x] [Fundamentos | Operadores](#fundamentos--operadores)
+- [x] [Fundamentos | Comandos Avançados](#fundamentos--comandos-avançados)
+- [x] [Caso de Estudo | Biblioteca](#caso-de-estudo--biblioteca)
+- [x] [Caso de Estudo | Loja](#caso-de-estudo--loja)
+- [x] [Tratamento de Dados](#tratamento-de-dados)
+- [x] [Manipulação de tabelas](#manipulação-de-tabelas)
+- [x] [Projeto 1 | Dashboard de acompanhamento de vendas]()
+- [x] [Projeto 2 | Análise de perfil dos clientes]()
+- [x] [Links e outras referências](#links-ou-referências)
+- [x] [Certificado](#certificado)
+
 
 ## Setup
 >
@@ -41,7 +48,7 @@
 >
 > ![query tool](./img/query_tool.png)
 
-## Configuração do BD
+## Configuração do BD | Análise de dados
 >
 > Para realizar a análise de dados de um determinado contexto, é necessário ter em mãos:
 >
@@ -53,7 +60,7 @@
 >
 >    [Script](./query-completa.txt)
 >
-> #### Configuração | pgAdmin
+> ### Configuração | pgAdmin
 >
 > 1. Vá em schema e crie mais 2 objetos: _sales_ e  _temp_tables_:
 >
@@ -67,41 +74,39 @@
 >
 >      ![config_bd_pronta](img/config_bd_pronta.png)
 >
+## Documentação 
+>
+> - [SQL Sintaxe | W3S](https://www.w3schools.com/sql/)
+> - [PostGreSQL | Manual](https://www.postgresql.org/docs/current/)
+> - [PostGreSQL | Instalação MacOS](https://www.postgresql.org/docs/current/installation-platform-notes.html#INSTALLATION-NOTES-MACOS)
+> - [SQLite | Manual](https://www.sqlite.org/doclist.html)
+> - [SQLite | Instalação](https://www.sqlite.org/zeroconf.html)
+> - [SQLite | Biblioteca Python](https://docs.python.org/3/library/sqlite3.html)
+>
 
-## Comandos Básicos
+## Fundamentos | Comando
 >
 ### SELECT | Comandos Básicos
 >
-> O comando [SELECT](https://www.postgresql.org/docs/15/queries-select-lists.html) é utilizado para selecionar e retornar as colunas de uma determinada tabela.
+> O comando [SELECT](https://www.postgresql.org/docs/15/queries-select-lists.html) é utilizado para selecionar e retornar as colunas de uma determinada tabela dentro de um determinado contexto.
 >
-> **Sintaxe**
+> **Exercícios de Exemplo**
 >
->     select coluna_1, coluna_2, coluna_3
->     from schema_1.tabela_1
->
-> **Exercícios**
->
-> - [SELECT | Respondido](./exercicios/1_comandos/select_resp.sql)
+> - [SELECT]()
 >
 
 ### DISTINCT | Comandos Básicos
 >
-> O comando [DISTINCT](https://www.postgresql.org/docs/15/queries-select-lists.html#:~:text=be%20passed%20on.-,7.3.3.%C2%A0DISTINCT,-After%20the%20select) é utilizado para remover linhas duplicadas e entregar linhas distintas ou diferentes.
+> O comando [DISTINCT](https://www.postgresql.org/docs/15/queries-select-lists.html#:~:text=be%20passed%20on.-,7.3.3.%C2%A0DISTINCT,-After%20the%20select) é utilizado para remover linhas duplicadas e entregar linhas não repetidas.
 >
 > > **No mundo dos negócios...**
 > >
 > > Pode ser utilizado para entender quais tipos de dados compõe aquela coluna ou qual é a sua forma canônica dentro do BD.
-> >
-> > Isso é importante pois o resultado traz os dados essenciais e sem repetição para formulação das queries.
 >
-> **Sintaxe**
 >
->     select distinct coluna_1, coluna_2, coluna_3
->     from schema_1.tabela_1
+> **Exercícios de Exemplo**
 >
-> **Exercícios**
->
-> - [DISTINCT | Respondido](./exercicios/1_comandos/select-distinct_resp.sql)
+> - [DISTINCT]()
 >
 
 ### WHERE | Comandos Básicos
@@ -112,17 +117,10 @@
 > >
 > > Pode ser utilizado para retirar dados de clientes em potenciais de compra (leads), fornecendo as condições de análise da equipe de marketing.
 > >
-> > Para saber como é composto o tipo de dado no BD, execute e verifique o tipo com `select distinct`.
 >
-> **Sintaxe**
+> **Exercícios de Exemplo**
 >
->     select coluna_1, coluna_2, coluna_3
->     from schema_1.tabela_1
->     where condicao_x = true 
->
-> **Exercícios**
->
-> - [WHERE | Respondido](./exercicios/1_comandos/where_resp.sql)
+> - [WHERE]()
 >
 
 ### ORDER BY | Comandos Básicos
@@ -133,16 +131,9 @@
 > >
 > > Pode ser utilizado para retirar dados de clientes em potenciais de compra (leads) e realisar a análise do perfil.
 >
-> **Sintaxe**
+**Exercícios de Exemplo**
 >
->     select coluna_1, coluna_2, coluna_3
->     from schema_1.tabela_1
->     where condicao_x = true 
->     order by coluna_1
->
-> **Exercícios**
->
-> - [ORDER BY | Respondido](./exercicios/1_comandos/order-by_resp.sql)
+> - [ORDER BY]()
 >
 
 ### LIMIT | Comandos Básicos
@@ -153,23 +144,12 @@
 > >
 > > É comumente utilizado para reduzir o processamento do servidor, diminuindo gastos com a infraestrutura ou apenas verificar os X primeiros resultados.
 >
-> **Sintaxe**
+> **Exercícios de Exemplo**
 >
->     select coluna_1, coluna_2, coluna_3
->     from schema_1.tabela_1
->     limit N
->
-> **Exercícios**
->
-> - [LIMIT | Respondido](./exercicios/1_comandos/limit_resp.sql)
+> - [LIMIT]()
 >
 
-### Desafio | Comandos Básicos
->
-> - [Desafio | Respondido](./exercicios/1_comandos/desafio_resp.sql)
->
-
-## Operadores
+## Fundamentos | Operadores
 
 ### Aritméticos
 >
@@ -182,278 +162,142 @@
 > **Sintaxe**
 >
 >     select 
->        first_name,
+>       first_name,
 >       last_name,
 >       first_name || ' ' || last_name as nome_completo
 >     from sales.customers
 >
-> **Exercícios**
+> **Exercícios de Exemplo**
 >
-> - [Operadores Aritméticos e Concatenação | Respondido](./exercicios/2_operadores/op_aritmeticos.sql)
+> - [Operadores Aritméticos e Concatenação]()
 >
 
-### Comparação | Operadores
+### Operadores de Comparação
 >
 > | Igual | Maior que | Menor que |  Maior ou igual que | Menor ou igual que | Diferente de |
 > | --- | --- | --- | --- | --- | --- |
 > | = | > | < | >= | <= | <> |
 >
-> **Exercícios**
+> **Exercícios de Exemplo**
 >
-> - [Comparação | Respondido](./exercicios/2_operadores/op_comparacao.sql)
+> - [Comparação]()
 >
 
-### Lógicos | Operadores
+### Operadores Lógicos 
 >
 > | E | Ou | Negação | Entre | Em  | Semelhante a | Semelhante a (maiúsculas e minúsculas) | É nulo |
 > | --- | --- | --- | --- | --- | --- | --- | --- |
 > | AND | OR | NOT | BETWEEN | IN | LIKE | ILIKE | IS NULL |
 >
-> **Exercícios**
+> **Exercícios de Exemplo**
 >
-> - [Lógicos | Respondido](./exercicios/2_operadores/op_logicos.sql)
->
-
-### Desafio | Operadores
->
-> - [Desafio | Respondido](./exercicios/2_operadores/op_desafio.sql)
+> - [Lógicos]()
 >
 
-## Comandos Avançados
+## Fundamentos | Comandos Avançados
 
 ### Funções Agregadas
 >
 > As [funções agregadas](https://www.postgresql.org/docs/15/functions-aggregate.html) são funções semelhantes às utilizadas nas planilhas de excel para contagem, mínimo, máximo e média de uma coluna.
 >
-> - [Funções agregadas | Respondido](./exercicios-postgresql/3_funcoes-agregadas/func_agregadas.sql)
+> **Exercícios de Exemplo**
+> 
+> - [Funções agregadas]()
 >
 
 ### GROUP BY | Funções Agregadas
 >
-> O comando [GROUP BY]() é utilizado para fazer agrupamentos entre
+> O comando [GROUP BY](https://www.w3schools.com/sql/sql_groupby.asp) é utilizado para fazer agrupamentos entre colunas. Geralmente é utilizado com [funções agregadas](#funções-agregadas), além de ser visto também ao analisar dados de um determinado grupo (Clientes) por um atributo desse grupo (País de origem).
 >
-> - [Group By | Respondido](./exercicios/3_funcoes-agregadas/group_by.sql)
+> - [GROUP BY]()
 >
 
 ### HAVING | Funções Agregadas
 >
-> - [Having | Respondido](./exercicios/3_funcoes-agregadas/having.sql)
+> O comando [HAVING](https://www.w3schools.com/sql/sql_having.asp) é utilizado para filtrar funções agregadas. 
+> 
+> - [HAVING]()
 >
 
-### Desafio | Funções Agregadas
->
-> - [Desafio | Respondido](./exercicios/3_funcoes-agregadas/desafio.sql)
->
-
-## Joins
->
-> As [joins]() ão junções realizadas entre duas tabelas do BD a partir de uma coluna em comum. É o comando utilizado para relacionar duas tabelas.
+## Joins | Relacionamentos
+> 
+> As [joins](https://www.w3schools.com/sql/sql_join.asp) são junções realizadas entre duas tabelas do BD a partir de uma coluna em comum (link é feito pelas PKs e FKs). É o comando utilizado para relacionar duas tabelas.
 >
 > As convenções para nomenclatura são:
 >
 > - Tabela da esquerda (A) é a tabela que foi declarada primeiro.
 > - Tabela da direita (B) é a tabela que foi declarada em seguida.
 >
-> - [Joins | Sintaxe](./exercicios-postgresql/4_joins/joins_sintaxe.sql)
+
+## Tipos de Joins | Relacionamentos
 >
-> > **Dica:** identifique primeiro qual é a coluna que existe nas duas tabelas e construa a query `from`.
+> ### Left Join 
 >
-> > **Método**
-> >
-> > 1. Seleção das colunas do enunciado(region | visitas)
-> > 2. Declaração das tabelas e seus relacionamentos (fun | cus | reg)
-> > 3. Ordenação da saída (region | visitas)
-> >
-> ## Tipos
+> Ele seleciona todos os dados de uma coluna da `tabela esquerda` e todos os dados da `tabela direita` em `match` existentes pela mesma coluna.
 >
-> ### Left Join | **Mais utilizado na prática**
+> <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/SQL_Join_-_01_A_Left_Join_B.svg/2844px-SQL_Join_-_01_A_Left_Join_B.svg.png' width= "200" height="150">
+> 
 >
-> Seleção de todos os dados de uma coluna da tabela esquerda + todos os dados existentes na mesma coluna (match) da tabela direita.
->
-> > ![left-join](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/SQL_Join_-_01_A_Left_Join_B.svg/2844px-SQL_Join_-_01_A_Left_Join_B.svg.png)
->
-> - [Left Join | Exercícios](./exercicios/4_joins/left_join.sql)
+> - [Left Join | Exemplos]()
 >
 > ### Inner Join
 >
 > Seleção de todos os dados que deram match.
 >
-> > ![inner-join](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/SQL_Join_-_07_A_Inner_Join_B.svg/2844px-SQL_Join_-_07_A_Inner_Join_B.svg.png)
+> <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/SQL_Join_-_07_A_Inner_Join_B.svg/2844px-SQL_Join_-_07_A_Inner_Join_B.svg.png" width = "200" height = "150" > 
 >
-> - [Inner Join | Exercícios](./exercicios-postgresql/4_joins/inner_join.sql)
+> - [Inner Join | Exemplos]()
 >
 > ### Right Join
 >
 > Seleção de todos os dados de uma coluna da tabela direita + todos os dados com match da tabela esquerda.
 >
-> > ![right-join](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/SQL_Join_-_03_A_Right_Join_B.svg/2844px-SQL_Join_-_03_A_Right_Join_B.svg.png)
+> <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/SQL_Join_-_03_A_Right_Join_B.svg/2844px-SQL_Join_-_03_A_Right_Join_B.svg.png" width = "200" height = "150" >
 >
-> - [Right Join | Exercícios](./exercicios/4_joins/right_join.sql)
+> - [Right Join | Exemplos]()
 >
 > ### Full Join
 >
-> Seleção de todos os dados e junção em uma nova tabela.
+> Seleção de todos os dados de ambas as tabelas, seguido da junção em uma nova tabela.
 >
-> > ![full-join](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/SQL_Join_-_05b_A_Full_Join_B.svg/2844px-SQL_Join_-_05b_A_Full_Join_B.svg.png)
+> <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/SQL_Join_-_05b_A_Full_Join_B.svg/2844px-SQL_Join_-_05b_A_Full_Join_B.svg.png" width = "200" height = "150" >
 >
-> - [Full Join | Exercícios](./exercicios/4_joins/full_join.sql)
+> - [Full Join | Exemplos]()
 >
->## Desafio | Joins
->
-> > - [Desafio](./exercicios/4_joins/sem-resposta/03-Joins-Desafio.txt)
-> > - [Desafio | Gabarito](./exercicios/4_joins/com-resposta/03-Joins-Desafio%20(resolução).txt)
-> > - [Desafio | Respondido](./exercicios/4_joins/desafio.sql)
->
+
 ## Unions
 >
-> É um comando utilizado para "colar" uma tabela sobre a outra, desde que estas tenham a mesma quantidade de colunas e linhas.
+> É um comando utilizado para "colar" uma tabela sobre a outra, desde que estas tenham `a mesma quantidade de colunas e linhas`.
 >
-> ### Tipos
+> ### Tipos de Union
 >
-> Considere a tabela 1 e a tabela 2:
+> Considere duas tabelas fictícias: a 1 e a 2:
+> ### Union
+> 
+> > Utiliza-se quando os tipos de ambas as tabelas forem os mesmos, `int`, por exemplo. 
+> >
+> > Caso haja uma tabela contendo, em alguma coluna, um tipo diferente, como `float`, vai dar erro.
+> >
+> > - [Union | Exemplo]()
+> > 
 >
-> - Union All: copia e cola todos os dados da tabela 1 sobre a tabela 2;
+> ### Union All
+> 
+> > Utiliza-se o mesmo conceito, entretanto, ele não remove as linhas duplicadas, te entregando `dados brutos`.
+> > 
+> > - [Union All | Exemplo]()
 >
-> > Utilize quando os dados das tabelas forem diferentes;
->
-> - Union: copia e cola apenas os dados da tabela 2 que são diferentes da tabela 1;
->
-> > Utilizar quando existem dados semelhantes;
->
-> ### Exemplos
->
-> - [Unions | Respondido](./exercicios/5_unions/union.sql)
->
+
 ## Subqueries
 >
 > É utilizado para realizar consultas dentro de outras consultas, reutilizando os dados dessa busca dentro da query principal.
 >
 > ### Tipos
 >
-> - [Subquery no WHERE](./exercicios-postgresql/6_subqueries/where.sql)
-> - [Subquery com WITH](./exercicios-postgresql/6_subqueries/with.sql)
-> - [Subquery no FROM](./exercicios-postgresql/6_subqueries/from.sql)
-> - [Subquery no SELECT](./exercicios-postgresql/6_subqueries/select.sql)
->
-> ### Exemplos
->
-> - [Subqueries | Respondido](./exercicios/6_subqueries/resp.sql)
->
-> ### Desafio | Joins
->
-> - [Desafio | Respondido](./exercicios/6_subqueries/desafio.sql)
->
-## Tratamento de dados
->
-> ### Comandos
->
-> - Operador `::`
-> - CAST
->
-> ### Conversão de unidades
->
-> - [Conversão de texto em data | ::](./exercicios/7_tratamento-de-dados/texto_data_::.sql)
-> - [Conversão de texto em número](./exercicios/7_tratamento-de-dados/texto_numero.sql)
-> - [Conversão de número em texto](./exercicios/7_tratamento-de-dados/numero_texto.sql)
-> - [Conversão de texto em data | CAST](./exercicios/7_tratamento-de-dados/texto_data_cast.sql)
->
-> ### Tratamento Geral
->
-> - [CASE WHEN](https://www.w3schools.com/sql/sql_case.asp)
-> - [COALESCE](https://www.w3schools.com/sql/func_sqlserver_coalesce.asp)
-> - [Tratamento Geral | Respondido](./exercicios/7_tratamento-de-dados/tratamento_geral.sql)
->
-> ### Tratamento de Texto
->
-> - [UPPER](https://www.w3schools.com/sql/func_sqlserver_upper.asp)
-> - [LOWER](https://www.w3schools.com/sql/func_sqlserver_lower.asp)
-> - [TRIM](https://www.w3schools.com/sql/func_sqlserver_trim.asp)
-> - [REPLACE](https://www.w3schools.com/sql/func_sqlserver_replace.asp)
-> - [Tratamento Texto | Respondido](./exercicios/7_tratamento-de-dados/tratamento_texto.sql)
->
-> ### Tratamento de Datas
->
-> - [INTERVAL](https://www.w3schools.com/sql/func_mysql_date_add.asp)
-> - [DATE_TRUNC](https://www.w3resource.com/PostgreSQL/date_trunc-function.php)
-> - [EXTRACT](https://www.w3schools.com/sql/func_mysql_extract.asp)
-> - [DATEDIFF](https://www.w3schools.com/sql/func_mysql_datediff.asp)
-> - [Tratamento de Datas | Respondido](./exercicios/7_tratamento-de-dados/tratamento_datas.sql)
->
-> ### Funções
->
-> - [Funções | Respondido](./exercicios/7_tratamento-de-dados/funcoes.sql)
->
-## Manipulação de tabelas
->
-> ### Tabelas | Geral
->
-> #### Criação
->
-> - [CREATE TABLE](https://www.w3schools.com/sql/sql_create_table.asp)
-> - [CREATE TABLE | QUERY]()
->
-> #### Deleção
->
-> - [DROP TABLE](https://www.w3schools.com/sql/sql_drop_table.asp)
->
-> ### Linhas
->
-> #### Inserção
->
-> - [INSERT INTO]()
->
-> #### Atualização
->
-> - [UPDATE SET]()
->
-> #### Deleção
->
-> - [DELETE FROM]()
->
-> ### Colunas
->
-> #### Inserção
->
-> - [ALTER TABLE](https://www.w3schools.com/sql/sql_alter.asp)
->
-> #### Atualização
->
-> - [ALTER COLUMN](https://www.w3schools.com/sql/sql_ref_alter_column.asp)
->
-> #### Deleção
->
-> - [DROP COLUMN](https://www.w3schools.com/sql/sql_ref_drop_column.asp)
->
-
-## Projeto 1 | Dashboard de acompanhamento de vendas
->
-> > **Definição do problema**
-> >
-> > Objetivo: Criar um dashboard de vendas com os principais indicadores de desmpenho e com os principais drivers dos resultados do mês.
->
-> ### Queries
->
-> - [Queries](./exercicios/9_projeto1-dashboard-de-vendas/queries_projeto-1.sql)
->
-> ### Gráficos
->
-> - [Dashboard]()
->
-
-## Projeto 2 | Análise de perfil dos clientes
->
-> > **Definição do problema**
-> >
-> > Objetivo: Criar um dashboard que analise as principais características dos leads que visitam o nosso e-commerce
->
-> ### Queries
->
-> - [Queries](./exercicios/9_projeto1-dashboard-de-vendas/queries_projeto-2.sql)
->
->
-> ### Gráficos
->
-> - [Dashboard]()
+> - [WHERE | Subquery]()
+> - [WITH | Subquery]()
+> - [FROM | Subquery]()
+> - [SELECT | Subquery]()
 >
 
 ## Caso de Estudo | Biblioteca
@@ -464,16 +308,15 @@
 >
 > ### Exercícios | Udemy
 > 
-> - [Exercício 1 | Livros publicados após 2014](./exercicios-sqlite/biblioteca/ex01.sqlite)
-> - [Exercício 2]()
-> - [Exercício 3]()
-> - [Exercício 4]()
-> - [Exercício 5]()
-> - [Exercício 6]()
-> - [Exercício 7]()
+> - [Exercício 1](./exercicios-sqlite/biblioteca/ex01.sqlite)
+> - [Exercício 2](./exercicios-sqlite/biblioteca/ex02.sqlite)
+> - [Exercício 3](./exercicios-sqlite/biblioteca/ex03.sqlite)
+> - [Exercício 4](./exercicios-sqlite/biblioteca/ex04.sqlite)
+> - [Exercício 5](./exercicios-sqlite/biblioteca/ex05.sqlite)
+> - [Exercício 6](./exercicios-sqlite/biblioteca/ex06.sqlite)
+> - [Exercício 7](./exercicios-sqlite/biblioteca/ex07.sqlite)
 > 
 ## Caso de Estudo | Loja
->
 >
 > ### Schema
 >
@@ -481,14 +324,111 @@
 >
 > ### Exercícios | Udemy
 > 
-> - [Exercício 1]()
-> - [Exercício 2]()
-> - [Exercício 3]()
-> - [Exercício 4]()
-> - [Exercício 5]()
-> - [Exercício 6]()
-> - [Exercício 7]()
+> - [Exercício 8](./exercicios-sqlite/loja/ex08.sqlite)
+> - [Exercício 9](./exercicios-sqlite/loja/ex09.sqlite)
+> - [Exercício 10](./exercicios-sqlite/loja/ex10.sqlite)
+> - [Exercício 11](./exercicios-sqlite/loja/ex11.sqlite)
+> - [Exercício 12](./exercicios-sqlite/loja/ex12.sqlite)
+> - [Exercício 13](./exercicios-sqlite/loja/ex13.sqlite)
+> - [Exercício 14](./exercicios-sqlite/loja/ex14.sqlite)
+> - [Exercício 15](./exercicios-sqlite/loja/ex15.sqlite)
+> - [Exercício 16](./exercicios-sqlite/loja/ex16.sqlite)
+>
+
+## Tratamento de dados
+>
+> ### Comandos
+>
+> - [Operador `::`](https://learnsql.com/blog/double-colon-operator-postgresql/): transforma o dado no tipo de interesse, como por exemplo `'2023-04-10'::date`
 > 
+> - [CAST](https://www.w3schools.com/sql/func_sqlserver_cast.asp): realiza a mesma transformação, mas por vias diferentes.
+>
+> ### Tratamento Geral
+>
+> - [CASE WHEN](https://www.w3schools.com/sql/sql_case.asp): estabelece as condicionais para cada situação.
+> - [COALESCE](https://www.w3schools.com/sql/func_sqlserver_coalesce.asp): retorna o primeiro valor não-nulo da lista.
+>
+> ### Tratamento de Texto
+>
+> - [UPPER](https://www.w3schools.com/sql/func_sqlserver_upper.asp): transforma todas as letras para maiúsculas.
+> - [LOWER](https://www.w3schools.com/sql/func_sqlserver_lower.asp): transforma todas as letras para minúsculas.
+> - [TRIM](https://www.w3schools.com/sql/func_sqlserver_trim.asp): remove espaços de uma string.
+> - [REPLACE](https://www.w3schools.com/sql/func_sqlserver_replace.asp): substitui um caracter por outro.
+>
+> ### Tratamento de Datas
+>
+> - [DATE_ADD | INTERVAL](https://www.w3schools.com/sql/func_mysql_date_add.asp): retorna uma nova data com o intervalo corrigido.
+> - [DATE_TRUNC](https://www.w3resource.com/PostgreSQL/date_trunc-function.php): arredonda a data. 
+> - [EXTRACT](https://www.w3schools.com/sql/func_mysql_extract.asp): extrai partes de uma data.
+> - [DATEDIFF](https://www.w3schools.com/sql/func_mysql_datediff.asp): retorna o número de dias entre duas datas.
+>
+> ### Funções
+> 
+> - [Sintaxe para construir uma nova função](https://halleyoliv.gitlab.io/pgdocptbr/sql-createfunction.html)
+>
+> ### Exemplos
+>
+> - [Conversões](./exercicios-postgresql/7_tratamento-de-dados/conversoes.sql)
+> - [Tratamento Geral](./exercicios-postgresql/7_tratamento-de-dados/tratamento_geral.sql)
+> - [Tratamento Texto](./exercicios-postgresql/7_tratamento-de-dados/tratamento_texto.sql)
+> - [Tratamento de Datas](./exercicios-postgresql/7_tratamento-de-dados/tratamento_datas.sql)
+> - [Criando Funções](./exercicios-postgresql/7_tratamento-de-dados/funcoes.sql)
+>
+
+## Manipulação de tabelas
+>
+> ### Criação, Atualização e Deleção | Tabelas
+>
+> - [CREATE TABLE](https://www.w3schools.com/sql/sql_create_table.asp)
+> - [ALTER TABLE](https://www.w3schools.com/sql/sql_alter.asp)
+> - [DROP TABLE](https://www.w3schools.com/sql/sql_drop_table.asp)
+>
+> ### Inserção, Atualização e Deleção | Linhas
+>
+> - [INSERT INTO]()
+> - [UPDATE SET]()
+> - [DELETE FROM]()
+>
+> ### Inserção, Atualização e Deleção | Colunas
+>
+> - [ADD COLUMN](https://www.w3schools.com/sql/sql_alter.asp)
+> - [ALTER COLUMN](https://www.w3schools.com/sql/sql_ref_alter_column.asp)
+> - [DROP COLUMN](https://www.w3schools.com/sql/sql_ref_drop_column.asp)
+>
+> ### Exemplos
+>
+> - [Tabelas | CD](./exercicios-postgresql/8_tabelas/create-e-delete.sql)
+> - [Linhas | CUD](./exercicios-postgresql/8_tabelas/insert-update-delete-linhas.sql)
+> - [Colunas | CUD](./exercicios-postgresql/8_tabelas/insert-update-delete-colunas.sql)
+>
+
+## Projeto 1 | Dashboard de acompanhamento de vendas
+>
+> > **Objetivo**: Criar um dashboard de vendas com os principais indicadores de desmpenho e com os principais drivers dos resultados do mês.
+>
+> ### Queries
+>
+> - [Queries](./exercicios-postgresql/9_projeto1-dashboard-de-vendas/queries.sql)
+>
+> ### Gráficos
+>
+> - [Dashboard](./exercicios-postgresql/9_projeto1-dashboard-de-vendas/dashboard-de-vendas.xlsx)
+>
+
+## Projeto 2 | Análise de perfil dos clientes
+>
+> > **Objetivo**: Criar um dashboard que analise as principais características dos leads que visitam o nosso e-commerce.
+>
+> ### Queries
+>
+> - [Queries](./exercicios-postgresql/10_projeto2-perfil-dos-leads/queries.sql)
+>
+>
+> ### Gráficos
+>
+> - [Dashboard](./exercicios-postgresql/10_projeto2-perfil-dos-leads/dashboard_analise-de-perfil-clientes.xlsx)
+>
+
 ## Links ou referências
 >
 > - [Documentação | PostgreSQL 15](https://www.postgresql.org/docs/15/index.html)

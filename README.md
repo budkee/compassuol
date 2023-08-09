@@ -111,5 +111,3 @@
 
 ### Conteúdos | Sprint 2
 
-[![]()](./sprint_2/linux/resumo.md)
-
