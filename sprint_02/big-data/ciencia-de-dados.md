@@ -1,5 +1,6 @@
 # Ciência de Dados | Analytics
 ## Sumário
+
 > - [O que é Ciência de Dados?](#o-que-é-ciência-de-dados)
 > - [Diferença entre papéis envolvidos em Big Data](#diferença-entre-papéis-envolvidos-em-big-data)
 > - [Tipos de Dados](#tipos-de-dados)
@@ -17,11 +18,12 @@
 > ![relação de venn](https://abracd.org/wp-content/uploads/2019/04/diagrama-data-science.png)
 >
 > A área existe faz mais de 30 anos, entretando, foi somente com a popularização do [Big Data](big-data_sobre.md) e crescimento do [Maching Learning](ml-e-data-ops.md) obteve maior destaque. Assim, podemos enxergar ambas tecnologias como a **matéria-prima** e a **ferramenta de análise**, respectivamente, da Ciência de Dados.
-> 
+>
+> [Voltar para o topo](#sumário)
 
 ## Diferença entre papéis envolvidos em Big Data
 >
-> Dentro do processo de extração, transformação e carregamento de dados ([ETL](integracao-de-dados-etl.md)) existem alguns papéis a serem desempenhados de acordo com a área de atuação dos profissionais. 
+> Dentro do processo de extração, transformação e carregamento de dados ([ETL](integracao-de-dados-etl-elt.md)) existem alguns papéis a serem desempenhados de acordo com a área de atuação dos profissionais. 
 >
 > São eles: 
 > - [Cientista de Dados](#cientista-de-dados)
@@ -29,7 +31,9 @@
 > - [Engenheiro de Dados](#engenheiro-de-dados)
 > - [Desenvolvedores](#desenvolvedores)
 >
-> 
+> > [Voltar para o topo](#sumário)
+
+
 ### Cientista de Dados
 >
 > É aquele que retira os insights dos dados e agrega valor ao produto ou serviço da instituição. Este profissional deve ter uma boa base e um vasto conhecimento em:
@@ -51,20 +55,28 @@
 > - Businessperson: focado na geração de valor à instituição.
 > 
 > > Independente da segregação de perfis dos Cientistas de Dados é fundamental a participação de outros profissionais (Cientistas, Arquitetos, Engenheiros de Dados e Desenvolvedores) da área para o cumprimento dos objetivos do projeto.
-> 
+>
+> > [Voltar para a seção](#diferença-entre-papéis-envolvidos-em-big-data)
+
+
 ### Arquiteto de Solução para Dados
 >
 > O objetivo do Arquiteto de Soluções é projetar como os dados podem obter lucros.
-> 
+>
+> > > [Voltar para a seção](#diferença-entre-papéis-envolvidos-em-big-data)
+
 ### Engenheiro de Dados
 >
 > No caso do Engenheiro de Dados, seu objetivo consiste em implementar o projeto através de componentes tecnológicos. Para isto, este profissional deve possuir um amplo e profundo conceito sobre as ferramentas de implantação e funcionamento dos softwares utilizados.
+>
+> > [Voltar para a seção](#diferença-entre-papéis-envolvidos-em-big-data)
+>
 > 
 ### Desenvolvedores
 >
 > Para os Desenvolvedores, o seu propósito se sustenta como ponte entre o Arquiteto e o Engenheiro, sugerindo `necessidades e angustias` pela visão do cliente, ao lado do Arquiteto, bem como `melhorias ou alternativas de implementação do sistema`, ao lado do Engenheiro.
 >
-> 
+> > [Voltar para a seção](#diferença-entre-papéis-envolvidos-em-big-data)
 
 ### Trilhas pela Compasso
 > 
@@ -74,6 +86,9 @@
 > - Engenheiro de Dados | AWS, Azure e GCP
 > - Ciência de Dados | Negócio, Estatística e ML
 >
+> > [Voltar para a seção](#diferença-entre-papéis-envolvidos-em-big-data)
+
+
 ## Tipos de Dados
 >
 > Podemos categorizar os tipos de dados das seguintes formas:
@@ -106,21 +121,26 @@
 > - Estruturado | SQL
 > - Não Estruturado ou Semi Estruturado | NoSQL
 >
+> > [Voltar para o topo](#sumário)
+> 
 > ### Dados Estruturados | SQL
 > 
 > Possuem uma organização rígida e bem definida através de um planejamento e projeção da arquitetura e tipos admitidos no armazenamento.
 >
 > Podemos entender, portanto, que o registro feito em um cadastro, através de um formulário, por um usuário, irá conter um relacionamento entre os dados inseridos.
 >
-> **Exemplo**
+> >**Exemplo**
+> >
+> >Temos em um esquema, dessa forma, as tabelas contendo seus respctivos campos(atributos) e tipos(formatos), com a estrutura e relacionamento bem definidos.
 > 
-> Temos em um esquema, dessa forma, as tabelas contendo seus respctivos campos(atributos) e tipos(formatos), com a estrutura e relacionamento bem definidos.
 >
-> 
+> > [Voltar para o topo](#sumário)
+
+## Banco de Dados
+
 > ### Dados Não Estruturados | NoSQL
 >
 > Neste caso, os dados não possuem uma relação ou estrutura previamente planejada, sendo, por sua vez, caracterizados como flexíveis e dinâmicos. Sua estrutura geralmente é definida no momento que se utilizam os dados. 
-
 >
 > ### Dados Semi Estruturados | NoSQL
 >
@@ -131,6 +151,8 @@
 > ### Em suma | Estruturas de Dados
 >
 > ![dados-estrutura](https://universidadedatecnologia.com.br/wp-content/uploads/2019/02/banner_auxiliar_dados-1.png)
+>
+> > [Voltar para o topo](#sumário)
 
 ## Dado, Informação, Conhecimento e Sabedoria para Tomada de Decisões
 > 
@@ -150,7 +172,8 @@
 > 
 > ![dado-informação-conhecimento-sabedoria](https://universidadedatecnologia.com.br/wp-content/uploads/2019/01/Data-information-knowledge-wisdom.png)
 >
-> 
+>
+> > [Voltar para o topo](#sumário)
 
 ## Data Lake e Arquitetura Lambda
 >
@@ -189,7 +212,8 @@
 > **Camada de Velociadade**
 > 
 > Visando compensar esse "atraso", a camada de velocidade chega com tudo, sem perder a sua atomicidade, e gerando as informações enquanto a batch termina o processamento. Seu funcionamento é um tanto quanto complexo, entretando, sua única preocupação é com os dados que ainda não foram entregues.
-> 
+>
+> > [Voltar para o topo](#sumário)
 
 
 ## Links e Referências
