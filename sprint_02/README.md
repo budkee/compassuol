@@ -18,6 +18,7 @@
 ### Entregas da Sprint
 >
 > - [Resumo | SQL](./SQL/resumo.md)
+> - [Exercícios | SQL](./SQL/resumo.md#exercc3adcios--udemy-1)
 > - [Resumo | Big Data](./big-data/resumo.md)
 >
 ### Conteúdos da Sprint

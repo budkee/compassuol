@@ -25,6 +25,9 @@
 > - [Passo a passo via Notion](https://www.notion.so/siriusb/Linux-026e819fdf434cc8894eff9cb3010b79?pvs=4)
 > - [Vídeo para instalação](https://youtu.be/6mtfncj9vhU)
 >
+> Instalação do VSCode (IDE)
+>
+>     sudo apt install ./<file>.deb
 
 ### Sobre
 

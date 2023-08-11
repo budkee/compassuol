@@ -4,17 +4,15 @@
 
 - [x] [Setup](#setup)
 - [x] [Documentação | PostGreSQL e SQLite](#documentação)
-- [x] [Overview | PgAdmin 4.15](#overview--pgadmin-415)
-- [x] [Configuração do BD](#configuração-do-bd--análise-de-dados)
 - [x] [Fundamentos | Comandos](#fundamentos--comando)
 - [x] [Fundamentos | Operadores](#fundamentos--operadores)
 - [x] [Fundamentos | Comandos Avançados](#fundamentos--comandos-avançados)
-- [x] [Caso de Estudo | Biblioteca](#caso-de-estudo--biblioteca)
-- [x] [Caso de Estudo | Loja](#caso-de-estudo--loja)
 - [x] [Tratamento de Dados](#tratamento-de-dados)
 - [x] [Manipulação de tabelas](#manipulação-de-tabelas)
-- [x] [Projeto 1 | Dashboard de acompanhamento de vendas]()
-- [x] [Projeto 2 | Análise de perfil dos clientes]()
+- [x] [Projeto 1 | Dashboard de acompanhamento de vendas](#projeto-1--dashboard-de-acompanhamento-de-vendas)
+- [x] [Projeto 2 | Análise de perfil dos clientes](#projeto-2--análise-de-perfil-dos-clientes)
+- [x] [Caso de Estudo | Biblioteca](#caso-de-estudo--biblioteca)
+- [x] [Caso de Estudo | Loja](#caso-de-estudo--loja)
 - [x] [Links e outras referências](#links-ou-referências)
 - [x] [Certificado](#certificado)
 
@@ -78,17 +76,6 @@
 >
 > > [Voltar para o topo](#sumário)
 
-## Documentação
->
-> - [SQL Sintaxe | W3S](https://www.w3schools.com/sql/)
-> - [PostGreSQL | Manual](https://www.postgresql.org/docs/current/)
-> - [PostGreSQL | Instalação MacOS](https://www.postgresql.org/docs/current/installation-platform-notes.html#INSTALLATION-NOTES-MACOS)
-> - [SQLite | Manual](https://www.sqlite.org/doclist.html)
-> - [SQLite | Instalação](https://www.sqlite.org/zeroconf.html)
-> - [SQLite | Biblioteca Python](https://docs.python.org/3/library/sqlite3.html)
->
-> > [Voltar para o topo](#sumário)
-
 ## Fundamentos | Comandos
 >
 ### SELECT
@@ -97,7 +84,7 @@
 >
 > **Exercícios de Exemplo**
 >
-> - [SELECT]()
+> - [SELECT](./exercicios-postgresql/1_comandos/select.sql)
 >
 
 ### DISTINCT
@@ -111,7 +98,7 @@
 >
 > **Exercícios de Exemplo**
 >
-> - [DISTINCT]()
+> - [DISTINCT](./exercicios-postgresql/1_comandos/select-distinct.sql)
 >
 
 ### WHERE
@@ -125,7 +112,7 @@
 >
 > **Exercícios de Exemplo**
 >
-> - [WHERE]()
+> - [WHERE](./exercicios-postgresql/1_comandos/where.sql)
 >
 
 ### ORDER BY
@@ -138,7 +125,7 @@
 >
 **Exercícios de Exemplo**
 >
-> - [ORDER BY]()
+> - [ORDER BY](./exercicios-postgresql/1_comandos/order-by.sql)
 >
 
 ### LIMIT
@@ -151,7 +138,7 @@
 >
 > **Exercícios de Exemplo**
 >
-> - [LIMIT]()
+> - [LIMIT](./exercicios-postgresql/1_comandos/limit.sql)
 >
 > > [Voltar para o topo](#sumário)
 
@@ -175,7 +162,7 @@
 >
 > **Exercícios de Exemplo**
 >
-> - [Operadores Aritméticos e Concatenação]()
+> - [Operadores Aritméticos e Concatenação](./exercicios-postgresql/2_operadores/op_aritmeticos.sql)
 >
 
 ### Operadores de Comparação
@@ -186,7 +173,7 @@
 >
 > **Exercícios de Exemplo**
 >
-> - [Comparação]()
+> - [Comparação](./exercicios-postgresql/2_operadores/op_comparacao.sql)
 >
 
 ### Operadores Lógicos
@@ -197,7 +184,7 @@
 >
 > **Exercícios de Exemplo**
 >
-> - [Lógicos]()
+> - [Lógicos](./exercicios-postgresql/2_operadores/op_logicos.sql)
 >
 > > [Voltar para o topo](#sumário)
 
@@ -209,21 +196,21 @@
 >
 > **Exercícios de Exemplo**
 >
-> - [Funções agregadas]()
+> - [Funções agregadas](./exercicios-postgresql/3_funcoes-agregadas/func_agregadas.sql)
 >
 
 ### GROUP BY | Funções Agregadas
 >
 > O comando [GROUP BY](https://www.w3schools.com/sql/sql_groupby.asp) é utilizado para fazer agrupamentos entre colunas. Geralmente é utilizado com [funções agregadas](#funções-agregadas), além de ser visto também ao analisar dados de um determinado grupo (Clientes) por um atributo desse grupo (País de origem).
 >
-> - [GROUP BY]()
+> - [GROUP BY](./exercicios-postgresql/3_funcoes-agregadas/group_by.sql)
 >
 
 ### HAVING | Funções Agregadas
 >
 > O comando [HAVING](https://www.w3schools.com/sql/sql_having.asp) é utilizado para filtrar funções agregadas.
 >
-> - [HAVING]()
+> - [HAVING](./exercicios-postgresql/3_funcoes-agregadas/having.sql)
 >
 
 ### Joins | Relacionamentos
@@ -245,7 +232,7 @@
 > <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/SQL_Join_-_01_A_Left_Join_B.svg/2844px-SQL_Join_-_01_A_Left_Join_B.svg.png' width= "200" height="150">
 >
 >
-> - [Left Join | Exemplos]()
+> - [Left Join | Exemplos](./exercicios-postgresql/4_joins/left_join.sql)
 >
 > ### Inner Join
 >
@@ -253,7 +240,7 @@
 >
 > <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/SQL_Join_-_07_A_Inner_Join_B.svg/2844px-SQL_Join_-_07_A_Inner_Join_B.svg.png" width = "200" height = "150" >
 >
-> - [Inner Join | Exemplos]()
+> - [Inner Join | Exemplos](./exercicios-postgresql/4_joins/inner_join.sql)
 >
 > ### Right Join
 >
@@ -261,7 +248,7 @@
 >
 > <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/SQL_Join_-_03_A_Right_Join_B.svg/2844px-SQL_Join_-_03_A_Right_Join_B.svg.png" width = "200" height = "150" >
 >
-> - [Right Join | Exemplos]()
+> - [Right Join | Exemplos](./exercicios-postgresql/4_joins/right_join.sql)
 >
 > ### Full Join
 >
@@ -269,7 +256,7 @@
 >
 > <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/SQL_Join_-_05b_A_Full_Join_B.svg/2844px-SQL_Join_-_05b_A_Full_Join_B.svg.png" width = "200" height = "150" >
 >
-> - [Full Join | Exemplos]()
+> - [Full Join | Exemplos](./exercicios-postgresql/4_joins/full_join.sql)
 >
 
 ### Unions
@@ -286,14 +273,14 @@
 > >
 > > Caso haja uma tabela contendo, em alguma coluna, um tipo diferente, como `float`, vai dar erro.
 > >
-> > - [Union | Exemplo]()
+> > - [Union | Exemplo](./exercicios-postgresql/5_unions/union.sql)
 > >
 >
 > ### Union All
 >
 > > Utiliza-se o mesmo conceito, entretanto, ele não remove as linhas duplicadas, te entregando `dados brutos`.
 > >
-> > - [Union All | Exemplo]()
+> > - [Union All | Exemplo](./exercicios-postgresql/5_unions/union.sql)
 >
 
 ### Subqueries
@@ -302,46 +289,10 @@
 >
 > ### Tipos
 >
-> - [WHERE | Subquery]()
-> - [WITH | Subquery]()
-> - [FROM | Subquery]()
-> - [SELECT | Subquery]()
->
-> > [Voltar para o topo](#sumário)
-
-## Caso de Estudo | Biblioteca
->
-> ### Schema
->
-> ![DER | Biblioteca](/sprint_02/SQL/exercicios-sqlite/biblioteca/DER%20-%20Biblioteca.png)
->
-> ### Exercícios | Udemy
->
-> - [Exercício 1](./exercicios-sqlite/biblioteca/ex01.sqlite)
-> - [Exercício 2](./exercicios-sqlite/biblioteca/ex02.sqlite)
-> - [Exercício 3](./exercicios-sqlite/biblioteca/ex03.sqlite)
-> - [Exercício 4](./exercicios-sqlite/biblioteca/ex04.sqlite)
-> - [Exercício 5](./exercicios-sqlite/biblioteca/ex05.sqlite)
-> - [Exercício 6](./exercicios-sqlite/biblioteca/ex06.sqlite)
-> - [Exercício 7](./exercicios-sqlite/biblioteca/ex07.sqlite)
->
-## Caso de Estudo | Loja
->
-> ### Schema
->
-> ![DER | Biblioteca](/sprint_02/SQL/exercicios-sqlite/loja/DER_Loja.png)
->
-> ### Exercícios | Udemy
->
-> - [Exercício 8](./exercicios-sqlite/loja/ex08.sqlite)
-> - [Exercício 9](./exercicios-sqlite/loja/ex09.sqlite)
-> - [Exercício 10](./exercicios-sqlite/loja/ex10.sqlite)
-> - [Exercício 11](./exercicios-sqlite/loja/ex11.sqlite)
-> - [Exercício 12](./exercicios-sqlite/loja/ex12.sqlite)
-> - [Exercício 13](./exercicios-sqlite/loja/ex13.sqlite)
-> - [Exercício 14](./exercicios-sqlite/loja/ex14.sqlite)
-> - [Exercício 15](./exercicios-sqlite/loja/ex15.sqlite)
-> - [Exercício 16](./exercicios-sqlite/loja/ex16.sqlite)
+> - [WHERE | Subquery](./exercicios-postgresql/6_subqueries/where.sql)
+> - [WITH | Subquery](./exercicios-postgresql/6_subqueries/with.sql)
+> - [FROM | Subquery](./exercicios-postgresql/6_subqueries/from.sql)
+> - [SELECT | Subquery](./exercicios-postgresql/6_subqueries/select.sql)
 >
 > > [Voltar para o topo](#sumário)
 
@@ -451,13 +402,71 @@
 >
 > > [Voltar para o topo](#sumário)
 
+## Caso de Estudo | Biblioteca
+>
+> ### Schema
+>
+> ![DER | Biblioteca](./exercicios-sqlite/biblioteca/DER%20-%20Biblioteca.png)
+>
+> ### Exercícios | Udemy
+>
+> - [Exercício 1](./exercicios-sqlite/biblioteca/ex01.sqlite)
+> - [Exercício 2](./exercicios-sqlite/biblioteca/ex02.sqlite)
+> - [Exercício 3](./exercicios-sqlite/biblioteca/ex03.sqlite)
+> - [Exercício 4](./exercicios-sqlite/biblioteca/ex04.sqlite)
+> - [Exercício 5](./exercicios-sqlite/biblioteca/ex05.sqlite)
+> - [Exercício 6](./exercicios-sqlite/biblioteca/ex06.sqlite)
+> - [Exercício 7](./exercicios-sqlite/biblioteca/ex07.sqlite)
+>
+> ### Exports .csv
+> 
+> - [Separador ;](./exercicios-sqlite/export01.csv)
+> - [Separador |](./exercicios-sqlite/export02.csv)
+>
+> > [Voltar para o topo](#sumário)
+>
+> 
+## Caso de Estudo | Loja
+>
+> ### Schema
+>
+> ![DER | Loja](./exercicios-sqlite/loja/DER_Loja.png)
+>
+> ### Exercícios | Udemy
+>
+> - [Exercício 8](./exercicios-sqlite/loja/ex08.sqlite)
+> - [Exercício 9](./exercicios-sqlite/loja/ex09.sqlite)
+> - [Exercício 10](./exercicios-sqlite/loja/ex10.sqlite)
+> - [Exercício 11](./exercicios-sqlite/loja/ex11.sqlite)
+> - [Exercício 12](./exercicios-sqlite/loja/ex12.sqlite)
+> - [Exercício 13](./exercicios-sqlite/loja/ex13.sqlite)
+> - [Exercício 14](./exercicios-sqlite/loja/ex14.sqlite)
+> - [Exercício 15](./exercicios-sqlite/loja/ex15.sqlite)
+> - [Exercício 16](./exercicios-sqlite/loja/ex16.sqlite)
+>
+> > [Voltar para o topo](#sumário)
+
+
+
 ## Links ou referências
+>
+>
+> ### Documentação
 >
 > - [Documentação | PostgreSQL 15](https://www.postgresql.org/docs/15/index.html)
 > - [Documentação | SQLite](https://www.sqlite.org/lang.html)
 >
-> > [Voltar para o topo](#sumário)
+> ### Outras Referências
+> - [SQL Sintaxe | W3S](https://www.w3schools.com/sql/)
+> - [PostGreSQL | Manual](https://www.postgresql.org/docs/current/)
+> - [PostGreSQL | Instalação MacOS](https://www.postgresql.org/docs/current/installation-platform-notes.html#INSTALLATION-NOTES-MACOS)
+> - [SQLite | Manual](https://www.sqlite.org/doclist.html)
+> - [SQLite | Instalação](https://www.sqlite.org/zeroconf.html)
+> - [SQLite | Biblioteca Python](https://docs.python.org/3/library/sqlite3.html)
 >
+> > [Voltar para o topo](#sumário)
+
+
 
 ## Certificado
 >
