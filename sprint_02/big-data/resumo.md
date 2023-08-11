@@ -3,7 +3,7 @@
 ## Sumário
 >
 > - [x] [Fundamentos | Big Data](#fundamentos)
-> - [x] [Fundamentos | Analytics]()
+> - [x] [Fundamentos | Ciência de Dados](#fundamentos--ciência-de-dados)
 > - [x] [Links e outras Referências](#links-e-outras-referências)
 > - [x] [Certificado](#certificado)
 >
@@ -16,7 +16,7 @@
 > - [Cloud Computing](cloud-computing.md)
 > - [MLOps e DataOps](ml-e-data-ops.md)
 > - [Dados como Serviço](daas.md)
-> - [ETL | Extração, Transformação e Carga de Dados](integracao-de-dados-etl.md)
+> - [Integração de Dados | ETL e ELT](integracao-de-dados-etl-elt.md)
 > - [Como iniciar um projeto de Big Data?](iniciando-projeto.md)
 > 
 
