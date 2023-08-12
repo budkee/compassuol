@@ -2,7 +2,7 @@
 
 ## Sumário
 >
-> - [x] [Fundamentos | Big Data](#fundamentos)
+> - [x] [Fundamentos | Big Data](#fundamentos--big-data)
 > - [x] [Fundamentos | Ciência de Dados](#fundamentos--ciência-de-dados)
 > - [x] [Links e outras Referências](#links-e-outras-referências)
 > - [x] [Certificado](#certificado)
@@ -11,7 +11,6 @@
 ## Fundamentos | Big Data
 >
 > - [O que é Big Data?](big-data_sobre.md)
-> - [Sistemas de Armazenamento de Dados](armazenamento.md)
 > - [Armazenamento e Processamento Paralelo](armaz-e-processamento-paralelo.md)
 > - [Cloud Computing](cloud-computing.md)
 > - [MLOps e DataOps](ml-e-data-ops.md)
