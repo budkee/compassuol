@@ -34,5 +34,5 @@
 
 ### Resumo da Sprint
 >
-> > Com essa sprint foi possível conhecer os conceitos de Big Data e Linguagem SQL. Além de conceitos, através dos exercícios propostos tanto no curso quanto na plataforma, foi possível aplicar e entender melhor o funcionamento da linguagem utilizada pelos Sistemas de Gerenciamento de Banco de Dados (SGBD). 
+> > Com essa sprint foi possível conhecer os conceitos de Big Data e Linguagem SQL. Além de conceitos, através dos exercícios propostos tanto no curso quanto na plataforma, foi possível aplicar e entender melhor o funcionamento da linguagem SQL utilizada pelos Sistemas de Gerenciamento de Banco de Dados (SGBD).
 >  
