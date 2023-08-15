@@ -2,7 +2,7 @@
 
 ## Sumário | Git
 
-- [x] Setup
+- [x] [Setup](#setup)
 - [x] Fundamentos
 - [x] Lista de comandos
 - [x] Gestão e Manipulação do código-fonte
@@ -46,7 +46,7 @@
 
 ## Lista de Comandos | Desenvolvimento Individual
 
-> >Todos os comandos devem ser executados dentro da pasta de interesse
+> > Todos os comandos devem ser executados dentro da pasta de interesse
 >
 > Inicializar o git no repositório
 >
@@ -56,6 +56,9 @@
 >
 >     git clone [URL] .
 >
+> > Ao clonar o repo, crie um token de acesso pelas configuracoes do seu perfil do github e coloque no momento em que o terminal pedir a senha.
+> 
+> 
 > Verifica o status do repositório local
 >
 >     git status
@@ -67,6 +70,11 @@
 > Enviar o commit com uma mensagem (-m) incluindo todas as modificações (-a)
 > 
 >     git commit -a -m "mensagem"
+> 
+> > Apos commitar, o git ira pedir pra voce dizer quem e'. Para isso fa'ca:
+> > 
+> >     git config --global user.email "you@example.com" 
+> >     git config --global user.name "Seu nome" 
 > 
 > Enviar as modificações (commits) para o servidor
 > 
