@@ -35,7 +35,6 @@ A companhia de software para gerenciamento de produções agrícolas usa analyti
 - Nippon Paint
 
 Uma das maiores fornecedoras de tinta da Ásia usa os processadores Intel Xeon E7 v2 para compreender o comportamento de clientes, otimizar sua cadeia de suprimentos e melhorar suas campanhas de marketing. A Nippon Paint agora testa um novo sistema baseado no Hadoop para usufruir das ferramentas de alto desempenho e processar Big Data.
-Outras empresas usando Hadoop:
 
 
 ### Como Iniciar um Projeto de Big Data?
