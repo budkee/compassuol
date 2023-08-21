@@ -10,16 +10,29 @@
 > 
 > Abraços!
 
-### Objetivos da Sprint
+### Objetivos da Sprint 3
 >
-> - 
+> - Aprender do básico até o intermediário na Linguagem Python e compreender diversos conceitos utilizados na área de de Data & Analytics.
 >
-### Entrega da Sprint
+
+### Conteúdos
+> 
+> - Configuração do Ambiente
+> - Introdução à Linguagem Python
+> - Contêineres em Python
+> - Funções em Python
+> - Classes em Python
+> - Orientação a Objetos em Python
+> - ETL
+> - ETL em Python
 >
-> - [Resumo]()
-> - [Exercícios]()
+
+### Entregas da Sprint 3
+>
+> - [Resumo](./python/curso-cod3r/resumo.ipynb)
+> - [Exercícios](./python/exercicios/exercicios.md)
 > - [Desafio | Atores](/sprint_03/python/exercicios/parte-4-ETL/desafio.py)
 >
-### Resumo da Sprint
+### Resumo da Sprint 3
 >
 > 
