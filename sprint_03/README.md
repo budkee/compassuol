@@ -16,7 +16,9 @@
 >
 ### Entrega da Sprint
 >
-> - 
+> - [Resumo]()
+> - [Exercícios]()
+> - [Desafio | Atores](/sprint_03/python/exercicios/parte-4-ETL/desafio.py)
 >
 ### Resumo da Sprint
 >

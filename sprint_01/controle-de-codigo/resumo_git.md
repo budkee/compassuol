@@ -3,11 +3,11 @@
 ## Sumário | Git
 
 - [x] [Setup](#setup)
-- [x] Fundamentos
-- [x] Lista de comandos
-- [x] Gestão e Manipulação do código-fonte
-- [x] Links e outras referências
-- [x] Certificado
+- [x] [Fundamentos](#fundamentos)
+- [x] [Lista de comandos](#lista-de-comandos--desenvolvimento-individual)
+- [x] [Gestão e Manipulação do código-fonte](#gestão-e-manipulação-do-código-fonte)
+- [x] [Links e outras referências](#links-e-outras-referências)
+- [x] [Certificado](#certificado)
       
 ## Setup
 
@@ -140,6 +140,12 @@
 >
 >     git tag -l
 >
+> Corrigir um commit
+> 
+> 1. Encontre a hash do commit que você deseja alterar com `git log`.
+> 2. No terminal, execute o comando `git rebase -i <hash_do_commit_anterior_ao_que_você_quer_editar>`.
+> 3. Encontre o commit que você deseja renomear e mude a palavra "pick" para "reword" ou "r" em frente a esse commit.
+> 
 
 ## Links e outras referências
 >
