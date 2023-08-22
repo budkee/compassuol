@@ -19,18 +19,19 @@
 > 
 > - Configuração do Ambiente
 > - Introdução à Linguagem Python
-> - Contêineres em Python
 > - Funções em Python
 > - Classes em Python
 > - Orientação a Objetos em Python
-> - ETL
 > - ETL em Python
 >
 
 ### Entregas da Sprint 3
 >
-> - [Resumo](./python/curso-cod3r/resumo.ipynb)
-> - [Exercícios](./python/exercicios/exercicios.md)
+> A seguir você encontra o `hub` dos resumos, exercícios e do desafio final. 
+>
+> - [Fundamentos | Python](./python/curso-cod3r/resumo.ipynb)
+> - [Guia Dev](./python/resumo.md)
+> - [Exercícios | Python](./python/exercicios/exercicios.md)
 > - [Desafio | Atores](/sprint_03/python/exercicios/parte-4-ETL/desafio.py)
 >
 ### Resumo da Sprint 3

@@ -1,5 +1,8 @@
-# venv do JetBrains
+# Configurações do JetBrains
 .idea
 
 # Apple
 .DS_Store
+
+# Ambiente Virtual
+.venv/

@@ -80,3 +80,4 @@
 > 
 > - [Markdown Guide](https://www.markdownguide.org/getting-started/)
 > - [Markdown](https://bitbucket.org/tutorials/markdowndemo)
+> - [Símbolos](https://symbl.cc/pt/)

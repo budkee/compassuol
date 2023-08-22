@@ -362,13 +362,25 @@ nome_01 = atores['nome'][indice_01]
 etapa_01 = [maior_num_filmes, nome_01]
 print(etapa_01)
 
+
+
 # -------------------------------------------
 ## Etapa 02: Apresente a média de faturamento bruto por ator.
 
 ## Média de faturamento bruto por ator
-media_fat_bruto_ator = []
+media_fat_bruto_ator = {
 
-### Med[i] = autores['fat_bruto']/autores['num_filmes']
+    "nome_ator": atores['nome'],
+    "media_fat_bruto": atores['media_fat_por_filme']
+}
+
+## Resultado formatado
+print("Ator | Faturamento por ator ")
+
+for _ in range(len(atores['nome'])):
+    print("{} | {} ".format(atores['nome'][_], atores['media_fat_por_filme'][_]))
+
+#print(media_fat_bruto_ator)
 
 # -------------------------------------------
 ## Etapa 03: Apresente o ator/atriz com a maior média de faturamento por filme.
@@ -376,7 +388,15 @@ media_fat_bruto_ator = []
 ## Separar os atores por filmes
 chave_filmes = ["nome_filme", "atores_participantes", "media_fat_filme"]
 filmes = dict.fromkeys(chave_filmes)
-print(filmes)
+print("\n",filmes)
 
 ### 
 
+
+# -------------------------------------------
+## Etapa 04: O nome do(s) filme(s) mais frequente(s) e sua respectiva frequência.
+
+
+
+# -------------------------------------------
+## Etapa 05: A lista dos atores ordenada pelo faturamento bruto total, em ordem decrescente.
