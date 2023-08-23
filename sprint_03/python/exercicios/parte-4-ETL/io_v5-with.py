@@ -1,16 +1,14 @@
-# Antes de iniciar verifique se o programa.py e o arquivo.csv estejam dentro do mesmo diretório.
+# Antes de iniciar verifique se o programa.py e o arquivo.csv estejam dentro do mesmo diretório. Em seguida, entre no diretório pela CLI e, após a escrita, execute este arquivo por lá.
 
-# Pela CLI: entre no diretório
+#----------------On-Streamming-----------------
 
-# Início do programa
+# Ao executar o programa, tente:
 
-## Ao executar o programa, tente:
-
+## Abra o arquivo.csv e reserve como 'arquivo'
 with open('actors.csv') as arquivo:
 
     for registro in arquivo:
         
-        # Sem colchete
         print(*registro.split(','))
 
 ## Se o arquivo tiver sido fechado sem erros, imprima:

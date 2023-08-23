@@ -33,7 +33,8 @@ Abaixo segue a definição das colunas contidas no arquivo actors.csv
 `Number of movies`: Número de filmes em que o ator participou
 
 `Average per Movie`: Corresponde à bilheteria bruta dividida pelo número de filmes
-#1 Movie: Filme de maior receita bruta em que o ator participou
+
+`#1 Movie`: Filme de maior receita bruta em que o ator participou
 
 `Gross`: Receita bruta de bilheteria doméstica, em milhões de dólares, do filme de maior receita.
 
@@ -41,29 +42,24 @@ Abaixo segue a definição das colunas contidas no arquivo actors.csv
 
 1. Apresente o ator/atriz com maior número de filmes e a respectiva quantidade. A quantidade de filmes encontra-se na coluna `Number of Movies` do arquivo.
 
-- [Código 01](./parte-4-ETL/desafio-01.py)
-- [Etapa 01](./parte-4-ETL/etapa-1.txt)
+- [Etapa 01 | Resposta](./parte-4-ETL/etapa-1.txt)
 
 2. Apresente a média de receita de bilheteria bruta dos principais filmes `#1 Movie`, considerando todos os atores. Estamos falando aqui da média da coluna `Gross`.
 
-- [Código 02]()
-- [Etapa 02](./parte-4-ETL/etapa-2.txt)
+- [Etapa 02 | Resposta](./parte-4-ETL/etapa-2.txt)
 
 3. Apresente o ator/atriz com a maior média de receita de bilheteria bruta por filme do conjunto de dados. Considere a coluna `Avarage per Movie` para fins de cálculo.
 
-- [Código 03]()
-- [Etapa 03](./parte-4-ETL/etapa-3.txt)
+- [Etapa 03 | Resposta](./parte-4-ETL/etapa-3.txt)
 
 4. A coluna `#1 Movie` contém o filme de maior bilheteria em que o ator atuou. Realize (i) a contagem de aparições destes filmes no dataset, (ii) listando-os ordenados pela quantidade de vezes em que estão presentes. Considere a ordem decrescente e, em segundo nível, o nome do  filme.
 
 > Ao escrever no arquivo, considere o padrão de saída <sequencia> - O filme <nome filme> aparece <quantidade> vez(es) no dataset, adicionando um resultado a cada linha.
 
-- [Código 04]()
-- [Etapa 04](./parte-4-ETL/etapa-4.txt)
+- [Etapa 04 | Resposta](./parte-4-ETL/etapa-4.txt)
 
 5. Apresente a lista dos atores ordenada pela receita bruta de bilheteria de seus filmes (coluna Total Gross), em ordem decrescente.
 
 > Ao escrever no arquivo, considere o padrão de saída <nome do ator> -  <receita total bruta>, adicionando um resultado a cada linha.
    
-- [Código 05]()
-- [Etapa 05](./parte-4-ETL/etapa-5.txt)
+- [Etapa 05 | Resposta](./parte-4-ETL/etapa-5.txt)

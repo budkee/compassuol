@@ -1,8 +1,7 @@
-# Antes de iniciar verifique se o programa.py e o arquivo.csv estejam dentro do mesmo diretório.
+# Antes de iniciar verifique se o programa.py e o arquivo.csv estejam dentro do mesmo diretório. Em seguida, entre no diretório pela CLI e, após a escrita, execute este arquivo por lá.
 
-# Pela CLI: entre no diretório
+#----------------On-Streamming-----------------
 
-# Início do programa
 
 ## Ao executar o programa, tente:
 try:
