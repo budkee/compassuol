@@ -9,7 +9,6 @@ with open('actors.csv', 'r') as arquivo:
     linhas = arquivo.readlines()
     cabecalho = linhas[0].strip().split(',')
 
-    print(*cabecalho)
     # Criando o dicionário de atores
     chaves = ['nome', 'fat_bruto', 'num_filmes', 'media_fat_por_filme', 'filme_maior_fat', 'fat_bruto_filme']
     
@@ -19,17 +18,19 @@ with open('actors.csv', 'r') as arquivo:
 
         valores = linha.strip().split(',')
         
-        if linhas[5]:
+        if linhas[5] == linha:
             com_aspas = linhas[5]
             sem_aspas = com_aspas.replace('"', ' ')
             #print(sem_aspas)
-            valor = sem_aspas.strip().split(',', 1)
+            valor = sem_aspas.strip().split()
+            atores['nome'] = valor[0] + valor[1] + valor[2]
+            atores[linha]['fat_bruto'] = float(valores[1])
 
         else:
             atores['nome'] = valores[0]
             atores['fat_bruto'] = valores[1]
             
-    print(valor)
+    print(atores['nome'], atores['fat_bruto'])
         #atores['num_filmes'] = valores[2]
         #atores['media_fat_por_filme'] = valores[3]
         #atores['filme_maior_fat'] = valores[4]
