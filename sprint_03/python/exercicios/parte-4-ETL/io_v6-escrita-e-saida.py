@@ -25,30 +25,34 @@ with open('actors.csv', 'r') as arquivo:
             valor = sem_aspas.strip().split()
             atores['nome'] = valor[0] + valor[1] + valor[2]
             atores[linha]['fat_bruto'] = float(valores[1])
+            print(atores['nome'], atores['fat_bruto'])
 
         else:
             atores['nome'] = valores[0]
             atores['fat_bruto'] = valores[1]
             
-    print(atores['nome'], atores['fat_bruto'])
-        #atores['num_filmes'] = valores[2]
-        #atores['media_fat_por_filme'] = valores[3]
-        #atores['filme_maior_fat'] = valores[4]
-        #atores['fat_bruto_filme'] = valores[5]
-        #print(f"nome: {atores['nome']}")
-        #for i, valor in atores.items():
-            #print(f"{i}: {valor}")
+            print(atores['nome'], atores['fat_bruto'])
+        atores['num_filmes'] = valores[2]
+        atores['media_fat_por_filme'] = valores[3]
+        atores['filme_maior_fat'] = valores[4]
+        atores['fat_bruto_filme'] = valores[5]
+        print(f"nome: {atores['nome']}")
+        
+        for i, valor in atores.items():
+            print(f"{i}: {valor}")
+        
         # Com a abertura da saida.txt, habilitado para escrita, realize a seguinte operação e armazene como 'saida':
-   # with open('todos-os-atores.txt', 'w') as saida:
+
+    with open('todos-os-atores.txt', 'w') as saida:
 
         # Percorra as linhas do arquivo
         #for registro in arquivo:
             
             # Leia e reserve
-            #ator = registro.strip().split(',')
+            ator = registro.strip().split(',')
             
             # Escreva a saída
-            #print('Actor: {}| {}| {}| {}| {}| {}\n'.format(*ator), file=saida)
+            print('{}'.format(*ator), file=saida)
 
 ## Se o arquivo de entrada tiver sido fechado sem erros, imprima:
 if arquivo.closed:
