@@ -32,8 +32,8 @@
 > - [Resumo | Guia Dev](./python/resumo.md)
 > - [Fundamentos | Python](./python/curso-cod3r/fundamentos-py.ipynb)
 > - [Exercícios | Python](./python/resumo.md#exercícios)
-> - [Desafio | Atores](/sprint_03/python/exercicios/parte-4-ETL/desafio.py)
+> - [Desafio | Atores](./python/exercicios/desafio.md)
 >
 ### Resumo da Sprint 3
 >
-> Nesta sprint foi posssível compreender e aplicar os conceitos de Python, desde o básico até o avançado. Outras atividades foram propostas com o objetivo de nos desafiar diante da aplicação dos conceitos de ETL. De modo particular, houveram algumas dificuldades na hora de realizar a extraçãp dos dados, sendo possível compreender com mais profundidade apenas a etapa de Transformação dos dados. É de se entender que isso se deve ao prévio cconhecimento que havia tido com a linguagem relacionado a resolução de problemas simples e direcionados. Entretanto, ao conciliar o que foi visto pelo curso da Cod3r com o que deveria ter sido aplicado ao Desafio dos Atores, nota-se a necessidade da prática direcionada aos exercícios de manipulações de arquivos e tratamento dos dados. 
+> Nesta sprint foi posssível compreender e aplicar os conceitos de Python, desde o básico até o avançado. Outras atividades foram propostas com o objetivo de nos desafiar diante da aplicação dos conceitos de ETL. De modo particular, houveram algumas dificuldades na hora de realizar a extração dos dados, sendo possível compreender com mais profundidade apenas a etapa de Transformação dos dados, que podem ser encontradas neste [link](./python/exercicios/parte-4-ETL/desafio-etl.py). Assim, ao conciliar o que foi visto pelo curso da Cod3r com o que foi aplicado ao Desafio dos Atores, e, apensar de ter compreendido como funciona o processo de ETL de forma transvesal, notou-se a necessidade de dedicar um tempo a mais para os exercícios de manipulações de arquivos e tratamento dos dados que serão necessários para outros desafios ao longo da carreira. 

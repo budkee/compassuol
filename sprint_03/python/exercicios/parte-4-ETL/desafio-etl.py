@@ -22,8 +22,6 @@ with open('actors.csv', 'r') as arquivo:
         atores['media_fat_por_filme'] = valores[3]
         atores['filme_maior_fat'] = valores[4]
         atores['fat_bruto_filme'] = valores[5]
-            
-    print()
 
 # -------------------------------------------
 ## Etapa 01: Apresente o ator/atriz com o maior número de filmes e a respectiva quantidade.

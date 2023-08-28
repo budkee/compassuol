@@ -100,3 +100,8 @@
 > - [Roadmap Python Developer](https://roadmap.sh/python)
 > 
 > [Voltar para o topo](#sumário--python)
+
+### Certificado do curso
+> 
+> ![python-cod3r-1](./img/part-1.png)
+> ![python-cod3r-1](./img/part-2.png)
