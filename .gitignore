@@ -6,3 +6,6 @@
 
 # Ambiente Virtual
 .venv/
+
+# Tokens/Security Codes
+.psword
