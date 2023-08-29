@@ -12,12 +12,23 @@
 
 ### Objetivos da Sprint
 >
-> - 
+> - Ampliar os conhecimentos de linguagem Python por meio do paradigma da programação funcional
+> - Fundamentos de Machine Learning
+> - Fundamentos de container, utilizando Docker e Kubernetes
 >
-### Entrega da Sprint
+
+### Contaúdos
 >
-> - 
+> - Programação Funcional
+> - Programação Funcional em Python
+> - Machine Learning
+> - Container Docker
+> - Orquestração de Container com Kubernetes
+
+### Entregas da Sprint 4
 >
-### Resumo da Sprint
+> - Realizar a leitura dos materiais de estudo complementares e concluir o desenvolvimento dos exercícios propostos.
+>
+### Resumo da Sprint 4
 >
 > 
