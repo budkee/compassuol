@@ -9,3 +9,9 @@
 
 # Tokens/Security Codes
 .psword
+
+# Node modules
+node_modules/
+
+# Docker
+.dockerignore
