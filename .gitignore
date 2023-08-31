@@ -15,3 +15,6 @@ node_modules/
 
 # Docker
 .dockerignore
+
+# PATH
+.bashrc

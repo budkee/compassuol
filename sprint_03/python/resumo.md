@@ -11,7 +11,8 @@
 ## Setup 
 >
 > ### Python
->
+> 
+> 
 > Antes de configurar o ambiente, verifique se você já tem a instalação.
 > 
 >     python --version
@@ -20,7 +21,49 @@
 >
 > Após realizar a instalação, siga os passos do instalador e seu ambiente estará pronto para execução.
 > 
-> ### Anaconda | Jupyter Notebook
+> #### Apontar o comando `python3` no PATH do sistema para `python`
+> 
+> 1. No terminal execute:
+> 
+>     sudo nano .bashrc
+> 
+> Ele irá criar um arquivo `.bashrc` caso não encontre no diretório. Para 
+> 2. No editor de texto, digite: `alias python=python3`. Digite `CTRL+O` para escrever e `CTRL+X` para sair.
+> 
+> 3. De volta ao terminal, execute:
+> 
+>     source .bashrc
+> 
+> 4. Teste verificando a versão do python.
+>
+> #### Executando o codigo.py
+> 
+> A execução do código pode ser feita de várias formas. A mais comum é pelo terminal, estando dentro do diretório onde se encontra o código, executando o seguinte comando:
+> 
+>     python codigo.py
+> 
+> Ou...
+> 
+>     python3 codigo.py
+> 
+> É comum encontrar em alguns códigos Python, na primeira linha, o comentário `#!/usr/local/bin/python3`. Este tipo de declaração se chama **Shebang** ou **Hasbang** e serve para que a máquina reconheça qual é o interpretador que deverá executar o código que vem em seguida. É interessante declarar para facilitar a execução do código para usuários que utilizam o _Windows_.
+> 
+> - [Shebang Lines | Python Docs](https://docs.python.org/3/using/windows.html#shebang-lines)
+> 
+> Por outro lado, essa linha não é necessária para usuários de _Linux_ ou _MacOS_. No contexto dessas SOs, o uso do shebang pode ser interessante para executar o código de modo econômico, 
+> 
+>     ./codigo.py
+> 
+> Ou...
+> 
+>     ./codigo
+> 
+> Neste formato é necessário habilitar a permissão de execução através do comando `chmod`, passando o número referente a permissão que você deseja dar ao **dono** (`u`), **grupo** (`g`) ou **usuário** (`o`) do código.  
+> 
+> - [Permissões do chmod | Wiki](https://pt.wikipedia.org/wiki/Chmod#Permiss%C3%B5es_num%C3%A9ricas)
+>
+
+### Anaconda | Jupyter Notebook
 >
 > Entre no [site](https://www.anaconda.com/) e baixe de acordo com o seu sistema operacional e siga os passos para as configurações do instalador.
 >
@@ -45,7 +88,8 @@
 
 ## Fundamentos
 >
-> - [Caderno Notebook](./curso-cod3r/fundamentos-py.ipynb)
+> - [Guia Dev | Jupyter Notebook](./curso-cod3r/fundamentos-py.ipynb)
+> - [Guia Dev | Local]()
 >
 > [Voltar para o topo](#sumário--python)
 
@@ -83,6 +127,7 @@
 ## Links e Referências
 >
 > - [PEP 8](https://peps.python.org/pep-0008/)
+> - [Configurações iniciais | Python Docs](https://docs.python.org/3/using/configure.html)
 > 
 > PDFs e Apostilas para consulta
 > - [PDF | Básico ao Avançado | Cod3r](./curso-python-versao-1.1.pdf)

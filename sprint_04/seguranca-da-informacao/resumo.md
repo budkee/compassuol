@@ -1,5 +1,3 @@
-![]()
-
 ## Sumário | Segurança da Informação
 
 - [] Setup
@@ -8,6 +6,10 @@
 - [] Certificado
       
 ## Setup
+>
+> - [Kali Linux | UTM](https://www.kali.org/docs/virtualization/install-utm-guest-vm/)
+> - [OWASP Broken Web Apps](https://sourceforge.net/projects/owaspbwa/)
+>
 
 ## Links e outras referências
 >

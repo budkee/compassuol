@@ -5,7 +5,7 @@
 
 - [Setup | Docker]()
 - [Hub | Docker]()
-- [Hub | Python](/sprint_03/python/resumo.md)
+- [Hub | Python]()
 - [Exercícios]()
 - [Links e outras referências]()
 - [Certificado]()
