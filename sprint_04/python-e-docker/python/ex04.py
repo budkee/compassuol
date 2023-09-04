@@ -30,29 +30,34 @@ Na resolução da atividade você deverá aplicar as seguintes funções:
 """
 
 # Declaração da função
-#def calcular_valor_maximo(operadores,operandos) -> float:
+def calcular_valor_maximo(operadores,operandos) -> float:
 
-operadores = ['+','-','*','/','+']
-operandos  = [(3,6), (-7,4.9), (8,-8), (10,2), (8,4)]
+    # 1. Aplicar a operação com os operandos usando zip
+    trios = zip(operadores, operandos)
 
-# 1. Aplicar a operação com os operandos usando zip
-equacao = zip(operandos[0][0], operadores, operandos[0][1])
+    # Dicionário de operadores
+    operacao = lambda sinal, operandos: {
+        '+': lambda x, y: x + y,
+        '-': lambda x, y: x - y,
+        '*': lambda x, y: x * y,
+        '/': lambda x, y: x / y,
+        '%': lambda x, y: x % y
+    }.get(sinal)(operandos[0], operandos[1])
 
-resultados = list(map(lambda sinal, val:  val[0][0] + val[0][1] if sinal == '+' else val[0][0] - val[0][1] if sinal == '-' else val[0][0] * val[0][1] if sinal == '*' else val[0][0] / val[0][1] if sinal == '/' else val[0][0] % val[0][1], list(zip(equacao))))
+    # Fazendo os cálculos e imprimindo os resultados
+    resultados = list(map(lambda z: operacao(z[0], z[1]), zip(operadores, operandos)))
 
-print(list(resultados))
+    #print(resultados)
 
-# 2. Calcular e retornar o maior valor entre eles 
-maximo = max(resultados)
-print(maximo)
+    # 2. Calcular e retornar o maior valor entre eles 
+    maximo = max(resultados)
+    #print(maximo)
 
- #   return maximo
+    return maximo
 
 # Inicio
-"""
-if __name__ == "__main__":
 
+#if __name__ == "__main__":
 
-    maximo = calcular_valor_maximo(operadores, operandos)
-    print(maximo)
-"""
+ #   maximo = calcular_valor_maximo(operadores, operandos)
+  #  print(maximo)
