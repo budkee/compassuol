@@ -1,10 +1,17 @@
 # Programação Funcional
 
-## Material de apoio
+## Sobre
 >
-> - [Programação Funcional | Alura](https://www.alura.com.br/artigos/programacao-funcional-o-que-e)
 > 
 > A programação funcional é um paradigma que modela a forma como o programador estrutura seu algoritmo. Aqui o desenho do código do programador é direcionada ao reuso e composição de funções. 
+> 
+> ### Links e Referências
+> 
+> - [Programação Funcional | Alura](https://www.alura.com.br/artigos/programacao-funcional-o-que-e)
+> - [Programação Funcional | dunossauro](https://github.com/dunossauro/python-funcional)
+>
+
+## Recursos
 > 
 > Alguns recursos compartilhado pelas linguagens que utilizam esse paradigma incluem:
 >
