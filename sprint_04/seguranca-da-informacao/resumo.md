@@ -94,6 +94,7 @@ Princípios
 
 ## Links e outras referências
 >
+> - [OWASP |GitHub](https://github.com/OWASP)
 > - [Automatizando Testes de Vulnerabilidades em Aplicações Web com o OWASP ZAP e Python](https://gustavoh.medium.com/automatizando-testes-de-vulnerabilidade-em-aplica%C3%A7%C3%B5es-web-com-o-owasp-zap-e-python-fdcdcf78b587)
 > 
 > [Voltar para o topo](#sumário--segurança-da-informação)

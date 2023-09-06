@@ -1,5 +1,8 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
+
+- [Docker Security](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
+
 ## Fundamentos
 
 ### Container | Ambiente de Desenvolvimento
@@ -162,6 +165,36 @@
 > Finalizando a sessão
 > 
 >     docker logout
+>
+> Salvando arquivos na sua máquina | Bind mount
+> 
+>     docker run -d -p <porta-local>:<porta-EXPOSE> --name <container> -v <caminho-dir-para-salvar_arquivos-sua-maquina>:<caminho-WORKDIR/dir-para-salvar_arquivos-container> --rm <imagem>
+>
+> Atualizar o projeto em tempo real | Bind mount
+>
+>     docker run -d -p <porta-local>:<porta-EXPOSE> --name <container> -v <caminho-dir-do-projeto-sua-maquina>:<caminho-WORKDIR/dir-do-projeto-container> --rm <imagem>
+> 
+> Criando um volume
+>
+>     docker volume create <nome-volume>
+>
+> Analisando um volume
+> 
+>     docker volume inspect <nome-volume>
+> 
+> Removendo volumes
+>
+>     docker volume rm <nome-volume>
+> 
+> Removendo volumes não utilizados (Volumes anônimos)
+>
+>     docker volume prune
+> 
+> Criando volumes de apenas leitura (ro)
+> 
+>     docker run -v volume:/data:ro
+> 
+> 
 
 ### Comandos | Análise de Uso
 >
@@ -176,6 +209,22 @@
 > Verificar o processamento de todos os containers em tempo real
 >
 >     docker stats
+>
+
+## Tipos de conexão | Networks
+>
+> - Container <-> Externa(APIs)
+> - Container <-> Host-Docker
+> - Container <-> Container
+>
+
+## Tipos de redes | Drivers
+>
+> - bridge: conexão padrão dos conteiners
+> - host: conexão da máquina que hospeda o Docker e um container
+> - macvlan: conexão a um conteiner via MAC address
+> - none: remove todas as conexões
+> - plugins: permite a entrada de extensões de terceiros para criar outras redes
 >
 
 
