@@ -2,11 +2,11 @@
 
 ## Sumário | Python
 
-- [] Setup
-- [] Fundamentos
-- [] Exercícios
-- [] Links e outras referências
-- [] Certificado
+- [Setup](#setup)
+- [Fundamentos](#fundamentos)
+- [Exercícios](#exercícios)
+- [Links e outras referências](#links-e-referências)
+- [Certificado](#certificado-do-curso)
       
 ## Setup 
 >
@@ -25,14 +25,14 @@
 > 
 > 1. No terminal execute:
 > 
->     sudo nano .bashrc
+>     sudo vi .zshrc
 > 
-> Ele irá criar um arquivo `.bashrc` caso não encontre no diretório. Para 
+> Ele irá criar um arquivo `.zshrc` caso não encontre no diretório. Para 
 > 2. No editor de texto, digite: `alias python=python3`. Digite `CTRL+O` para escrever e `CTRL+X` para sair.
 > 
 > 3. De volta ao terminal, execute:
 > 
->     source .bashrc
+>     source .zshrc
 > 
 > 4. Teste verificando a versão do python.
 >

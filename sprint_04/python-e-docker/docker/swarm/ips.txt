@@ -1,0 +1,13 @@
+# Instâncias criadas na AWS
+## Node 1
+Acesso via SSH:
+
+## Node 2
+Acesso via SSH:
+
+## Node 3
+Acesso via SSH:
+
+# Token para adicionar(join) um novo Node
+
+

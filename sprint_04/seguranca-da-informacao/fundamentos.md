@@ -50,7 +50,6 @@
 > 10. **Monitoramento**: nossa última vulnerabilidade é referente à falta de monitoramento do sistema.
 >
 >
->
 > ### Planejamento da Análise de Vulnerabilidades
 >
 > Antes de tudo devemos coletar os seguintes pontos:
@@ -86,8 +85,11 @@
 > - [Como a internet funciona em 5 minutos](https://www.youtube.com/watch?v=7_LPdttKXPc)
 > - [Como funciona a Internet? | Computer Science .fyi](https://cs.fyi/guide/how-does-internet-work)
 >
-> ## OWASP, Projeto BWA e Ferramentas
->
+
+## OWASP, Projeto BWA e Ferramentas
+
+- [Setup das ferramentas](resumo.md#setup)
+> 
 > A OWASP é também uma metodologia direcionada a testes em servidores e aplicações web. Os testes realizados pela ferramenta incluem:
 >
 > - Testes de Injeção
@@ -109,4 +111,62 @@
 >
 > Por fim, podemos utilizar também o [OWASP ZAP](https://en.wikipedia.org/wiki/OWASP_ZAP) como Proxy para realizar testes de intrusão em aplicativos Web, encontrando automaticamente falhas de segurança ao desenvolver o aplicativo.
 >  
+
+## Testes de Vulnerabilidade
+> - SQL Injection
+> - XSS Script
+> - Command Injection
+> - Local/Remote File Injection (LFI/RFI)
+> - TCP/IP
+> - Denial of Service
+
+## Transporte Inseguro
+> - Tráfego de rede
+> - SSL e TLS
+
+## Mecanismos de Recuperação de Senhas Vulneráveis
+> 
+> - Brute Force | OWASP ZAP
+> - Brute Force | CEWL
+> - Brute Force | HYDRA
+
+## Métodos de Descoberta Automática de Vulnerabilidades
+
+> - OWASP ZAP
+> - Nikto
+> - WPScan
+> - Wapiti3 | Python
+> - GoLismero
+
+## Perguntas | XSS Script
+
+Qual código você inseriu para fazer com que o site parecesse fora do ar?
+
+    <script>
+    document.body.innerHTML="";
+    </script>
+    
+Qual código você inseriu para fazer com que sua imagem fosse exibida no site?
+
+    <script>
+    document.body.innerHTML="";
+    var imagem = new Image();
+    imagem.src = "https://images.unsplash.com/photo-1692867237471-02d51cf218e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2787&q=80";
+    document.body.appendChild(imagem)
+    </script>
+
+## Métodos para Proteção
+
+### Proxy de Aplicação
+
+> Princípios
+> - Flexibilidade
+> - Passividade
+> - Previsibilidade
+> - Qualidade acima de quantidade
+
+### Modsecurity
+
+É um firewall para proteção de Aplicações Web por meio de regras.
+
 > [Voltar para o topo](#tópico-dos-conteúdos)
