@@ -1,14 +1,13 @@
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-## Sumário | Python e Containers
+## Sumário 
 
-- [Setup | Docker]()
-- [Hub | Docker]()
-- [Hub | Python]()
-- [Exercícios]()
-- [Links e outras referências]()
-- [Certificado]()
+- [Setup | Docker](#setup--docker)
+- [Hub | Docker](./docker/docker.md)
+- [Hub | Python](./python/prog-funcional.md)
+- [Exercícios](#exercícios)
+- [Links e outras referências](#links-e-outras-referências)
 
 ## Setup | Docker
 >
@@ -20,12 +19,14 @@
 
 ## Exercícios
 >
-> - [Exercício | Docker]()
-> - [Exercício | Python Funcional 01]()
-> - [Exercício | Python Funcional 02]()
-> - [Exercício | Python Funcional 03]()
-> - [Exercício | Python Funcional 04]()
-> - [Exercício | Python Funcional 05]()
+> - [Exercícios | Docker](./docker/docker.md#exercícios--trilha-compassuol)
+> - [Exercício | Python Funcional 01](./python/ex01.py)
+> - [Exercício | Python Funcional 02](./python/ex02.py)
+> - [Exercício | Python Funcional 03](./python/ex03.py)
+> - [Exercício | Python Funcional 04](./python/ex04.py)
+> - [Exercício | Python Funcional 05](./python/ex05.py)
+> - [Exercício | Python Funcional 06](./python/ex06.py)
+> - [Exercício | Python Funcional 07](./python/ex07.py)
 
 
 ## Links e outras referências

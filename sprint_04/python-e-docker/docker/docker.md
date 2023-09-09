@@ -1,7 +1,9 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
-
-- [Docker Security](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
+## Sumário
+- [Fundamentos](#fundamentos)
+- [Exercícios](#exercícios--trilha-compassuol)
+- [Certificado](#certificado-do-curso)
 
 ## Fundamentos
 
@@ -220,15 +222,15 @@
 
 ## Tipos de redes | Drivers
 >
-> - bridge: conexão padrão dos conteiners
-> - host: conexão da máquina que hospeda o Docker e um container
-> - macvlan: conexão a um conteiner via MAC address
-> - none: remove todas as conexões
-> - plugins: permite a entrada de extensões de terceiros para criar outras redes
+> - **bridge:** conexão padrão dos conteiners
+> - **host:** conexão da máquina que hospeda o Docker e um container
+> - **macvlan:** conexão a um conteiner via MAC address
+> - **none:** remove todas as conexões
+> - **plugins:** permite a entrada de extensões de terceiros para criar outras redes
 >
 
 
-## Exercício | Trilha CompassUOL
+## Exercícios | Trilha CompassUOL
 
 ### Sobre
 
@@ -238,41 +240,51 @@ O objetivo será **gerar imagens que permitam facilmente executar nosso código,
 
 ### Perguntas do exercício
 
-1. [x] Construa uma imagem a partir de um arquivo de instruções (Dockerfile) que execute o código carguru.py. Após, execute um container a partir da imagem criada. Registre aqui o conteúdo de seu arquivo Dockerfile e o comando utilizado para execução do container.
+1. Construa uma imagem a partir de um arquivo de instruções (Dockerfile) que execute o código carguru.py. Após, execute um container a partir da imagem criada. Registre aqui o conteúdo de seu arquivo Dockerfile e o comando utilizado para execução do container.
     
-    1. Configuração do `Dockerfile`:
-        - [Dockerfile](./exercicio-docker-00/Dockerfile)
-    2. Build da Imagem:
-        - Comando para execução do build: `docker build -t python-compass .`
-    3. Construção de um container a partir da imagem:
-        - Comando para execução do container: `docker run -it --name compass_conteiner 7df733590bfe`
+    > 1.1 Configuração do `Dockerfile`:
+    > - [Dockerfile](./exercicio-docker-00/Dockerfile)
+    > 
+    > 1.2 Build da Imagem:
+    > - Comando para execução do build: `docker build -t python-compass .`
+    > 
+    > 1.3 Construção de um container a partir da imagem:
+    > - Comando para execução do container: `docker run -it --name compass_conteiner 7df733590bfe`
 
-2. [x] É possível reutilizar containers? Em caso positivo, apresente o comando necessário para reiniciar um dos containers parados em seu ambiente Docker? Não sendo possível reutilizar, justifique sua resposta.
+2. É possível reutilizar containers? Em caso positivo, apresente o comando necessário para reiniciar um dos containers parados em seu ambiente Docker? Não sendo possível reutilizar, justifique sua resposta.
     
-    - Sim. Existem duas possibilidades: 
-
-        1. `docker start -i <nome-container>`: para reiniciar o container no modo interativo;
-        2. `docker restart <nome-container>`: para reiniciar o container trabalhando com portas;
+    > - Sim. Existem duas possibilidades: 
+    >
+    >    1. `docker start -i <nome-container>`: para reiniciar o container no modo interativo;
+    >    2. `docker restart <nome-container>`: para reiniciar o container trabalhando com portas;
 
 3. Agora vamos exercitar a criação de um container que permita receber inputs durante sua execução. Seguem as instruções:
 
-    1. [x] Crie um novo script Python que implementa o algoritmo a seguir:
+    > 3.1 Crie um novo script Python que implementa o algoritmo a seguir:
+    >
+    > 3.1.1 Receber uma string via input
+    >
+    > 3.1.2 Gerar o hash da string por meio do algoritmo SHA-1
+    > 
+    > 3.1.3 Imprimir o hash em tela, utilizando o método hexdigest
+    >
+    > 3.1.4 Retornar ao passo 1
 
-        1. Receber uma string via input
+2. Criar uma imagem Docker chamada `mascarar-dados` que execute o script Python criado anteriormente.
 
-        2. Gerar o hash da string por meio do algoritmo SHA-1
+3. Iniciar um container a partir da imagem, enviando algumas palavras para mascaramento
 
-        3. Imprimir o hash em tela, utilizando o método hexdigest
+4. Registrar o conteúdo do script Python, arquivo Dockerfile e comando de inicialização do container neste espaço
+    > Resposta:
+    > 
+    > - [Script](./exercicio-docker-01/input-container.py)
+    > - [Dockerfile](./exercicio-docker-01/Dockerfile)
+    > - Comando: `docker run -it --name compass_mascarar-dados 746660b064b3`
 
-        4. Retornar ao passo 1
+## Links e Referências
 
+- [Docker Security | OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)
 
-    2. [x] Criar uma imagem Docker chamada `mascarar-dados` que execute o script Python criado anteriormente.
+## Certificado do curso
 
-    3. [x] Iniciar um container a partir da imagem, enviando algumas palavras para mascaramento
-
-    4. Registrar o conteúdo do script Python, arquivo Dockerfile e comando de inicialização do container neste espaço
-
-        - [Script.py](./exercicio-docker-01/input-container.py)
-        - [Dockerfile](./exercicio-docker-01/Dockerfile)
-        - Comando: `docker run -it --name compass_mascarar-dados 746660b064b3`
+![cert](../img/cert-docker.jpg)
