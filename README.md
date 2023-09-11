@@ -90,10 +90,10 @@
 
 | Sprint | Início | Término | Scrum Master | Líder | Entregues |
 |--------|--------|---------|----| ----- |---------|
-| 1 | 17/07 | 31/07 | [Bernardo Almeida Turela](https://www.linkedin.com/in/bernardo-almeida-turela-2363b131) | [João Pedro Santos de Brito](https://github.com/brito219) | [Sprint 1](/sprint_01/README.md) |
-| 2 | 31/07 | 14/08 | [Júlia Luisa Schmidt](https://www.linkedin.com/in/juliaschmidt0710/) | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago)| [Sprint 2](/sprint_02/README.md) |
-| 3 | 14/08 | 28/08 | [Lays Moreira Lima](https://www.linkedin.com/in/lays-moreira-lima/) | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) | [Sprint 3](/sprint_03/README.md) |
-| 4 | 28/08 | 11/09 | [Icaro Anthony Morais dos Santos](https://www.linkedin.com/in/icaroanthony/) | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) | [Sprint 4](/sprint_04/README.md)|
+| ~~1~~ | ~~17/07~~ | ~~31/07~~ | [Bernardo Almeida Turela](https://www.linkedin.com/in/bernardo-almeida-turela-2363b131) | [João Pedro Santos de Brito](https://github.com/brito219) | [Sprint 1](./sprint_01/README.md) |
+| ~~2~~ | ~~31/07~~ | ~~14/08~~ | [Júlia Luisa Schmidt](https://www.linkedin.com/in/juliaschmidt0710/) | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago)| [Sprint 2](./sprint_02/README.md) |
+| ~~3~~ | ~~14/08~~ | ~~28/08~~ | [Lays Moreira Lima](https://www.linkedin.com/in/lays-moreira-lima/) | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) | [Sprint 3](./sprint_03/README.md) |
+| ~~4~~ | ~~28/08~~ | ~~11/09~~ | [Icaro Anthony Morais dos Santos](https://www.linkedin.com/in/icaroanthony/) | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) | [Sprint 4](./sprint_04/README.md)|
 | 5 | 11/09 | 25/09 | [Flavio Laerton Seixas Castro]() | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) | [Sprint 5](/sprint_05/README.md)|
 | 6 | 25/09 | 09/10 | [Anne Karoline Fortunato do Carmo]() | [Isadora Sandri da Silva](https://github.com/isandri) | [Sprint 6](/sprint_06/README.md)| 
 | 7 | 09/10 | 23/10 | [Italo de Andrade Souza]() | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) | [Sprint 7](/sprint_07/README.md) |

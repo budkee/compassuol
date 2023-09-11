@@ -28,9 +28,9 @@
 >
 > - [Metodologias Ágeis](./metodologias-agil/resumo.md)
 > - [Segurança da Informação](./seguranca-da-informacao/resumo.md)
-> - [Estatística Descritiva]()
+> - [Estatística Descritiva](./estatistica-descritiva/resumo.md)
 > - [Python Funcional](./python-e-docker/python/prog-funcional.md)
-> - [Python Funcional | Exercícios](./python-e-docker/python/prog-funcional.md)
+> - [Python Funcional | Exercícios](./python-e-docker/resumo.md#exercícios)
 > - [Docker, Swarm e Kubernets](./python-e-docker/docker/docker.md)
 >
 ### Resumo da Sprint 4
