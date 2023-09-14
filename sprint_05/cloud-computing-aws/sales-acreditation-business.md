@@ -1,4 +1,4 @@
-## Sales Accreditation (Business)
+## Sales Accreditation Business | Notes
 
 ### Módulo 1: Conceitos de nuvem e serviços da AWS
 
