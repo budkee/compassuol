@@ -1,4 +1,4 @@
-## Sales Accreditation Economics | Notes
+## Cloud Practitioner Exam Prep | Notes
 
 - [AWS Certified Cloud Practitioner | Exam](https://aws.amazon.com/pt/certification/certified-cloud-practitioner/)
 - [Guia de Estudo | PDF](./AWS-Certified-Cloud-Practitioner_Exam-Guide.pdf)
@@ -13,25 +13,29 @@
 
 ### Módulo 1: Cloud Concepts
  
- - [] Defina o que é a AWS Cloud e; 
+ - [] Defina o que é a AWS Cloud; 
 
-    - Fale sobre os benefícios da AWS Cloud em várias áreas de aplicação e 
-    - Ressalte como a AWS Cloud tem a oferecer de segurança.
-        - Features: IAM; Grupos de Segurança;
-        - Benefícios: Controle de Segurança; Garante padrões a todos os usuários; Alta disponibilidade (máquinas fisicas quanto virtuais); High Availability; Componentes de nuvem para elasticidade;
+    - Fale sobre os benefícios da AWS Cloud em várias áreas de aplicação;
+    - Ressalte como a AWS Cloud tem a oferecer de segurança através de:
+        - **Features:** IAM; Grupos de Segurança;
+        - **Benefícios:** Controle de Segurança; Garante padrões a todos os usuários; High Availability; Componentes de nuvem para elasticidade; etc...;
 
 - [] Qual é a proposta de valor da AWS Cloud? 
     
-    - Fazer com que seu cliente não precise ter custos com manutenção da infraestrutura de máquinas físicas. Isso permite que o cliente priorize outras atividades do seu próprio negócio: Melhoria da experiência do usuário (Desing de UX); Melhorias na interface do aplicativo (funcionalidades de Front-End); 
-    - [Valor empresarial da AWS](https://aws.amazon.com/pt/executive-insights/content/business-value-on-aws/)
+    - Fazer com que seu cliente não precise ter custos com manutenção da infraestrutura de máquinas físicas. 
+    - Isso permite que o cliente priorize outras atividades do seu próprio negócio: Melhoria da experiência do usuário (**Desing de UX**); Melhorias na interface do aplicativo (funcionalidades de **Front-End**); 
+    
+    > [Valor empresarial da AWS](https://aws.amazon.com/pt/executive-insights/content/business-value-on-aws/)
  
  - [] Identifique os aspectos econômicos da AWS Cloud
     **Total Cost Propriety**
+
+    > 
     
  - [] Explique os princípios do projeto de arquitetura da nuvem.
     **AWS Well-Architected**
     
-    > ### Pilares
+    > ### Pilares da AWS Well-Architected
     > 
     > - excelência operacional
     > - segurança
@@ -41,7 +45,7 @@
     > - sustentabilidade
     >
 
-    - [AWS Well-Architected](https://aws.amazon.com/pt/architecture/well-architected/)
+    > [AWS Well-Architected](https://aws.amazon.com/pt/architecture/well-architected/)
 #### Links e Referências
 
 - [6 Vantagens da computação em nuvem](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/six-advantages-of-cloud-computing.html)
