@@ -3,7 +3,6 @@
 ### Módulo 2: Introdução às tecnologias essenciais da AWS
 
 - Benefícios da computação em nuvem
-    
     - Elasticidade 
     - Controle
     - Flexibilidade
@@ -141,16 +140,3 @@
 - Maria apresenta a sua solução
 - Fornecer uma prova de conceito
 - Recursos
-
-### Módulo 5: próximos passos
-
-- Planejamento da migração
-- Modernização
-- Recursos
-
-Módulo 6: recursos da rede de parceiros da AWS
-
-Visão geral
-Recursos da rede de parceiros da AWS
-Teste de conhecimento e recursos
-

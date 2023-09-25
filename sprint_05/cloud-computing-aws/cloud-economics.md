@@ -7,26 +7,9 @@
 - Identificar os quatro pilares do Cloud Value Framework
 - Descrever um exemplo do valor realizado por um cliente com a migração para a AWS
 
-## Módulo 1: Business Value
-
-
-## Módulo 2:  Cost Savings
-
-Retorno sobre o Investimento (ROI) = (Economia de custo)/(Custos irrecuperáveis + Custos da migração)
-
-## Módulo 3: Staff Productivity
-
-## Módulo 4: Operational Resilience
-
-## Módulo 5: Business Agility
-
-
-## Módulo 6: Cloud Financial Management
-
-### Sobre 
+## Cloud Financial Management
 
 Este módulo aborda aspectos referente ao gerenciamento financeiro da nuvem, apontando as melhores práticas, principais áreas, ferramentas para planejamento e previsão de custos e as diferenças entre as opções de compra das instâncias EC2.
-
 
 ### 4 Melhores Práticas de Otimização de Custo
 
@@ -60,7 +43,7 @@ Este módulo aborda aspectos referente ao gerenciamento financeiro da nuvem, apo
 
 - **Sob demanda:** pague pela capacidade computacional por segundo sem compromissos de longo prazo.
 
-## Módulo 7: Migration Portfolio Assessment | MPA
+## Migration Portfolio Assessment | MPA
 
 ### Para quê serve?
 
@@ -86,7 +69,3 @@ A ferramenta pode auxiliar na fase de descoberta do processo de validação do n
 - Visualização de dados no ambiente local
 - Agrupamento de aplicativos, priorização e planejamento da migração
 
-## Módulo 8: Cost Savings with MPA
-
-### Como criar um portfólio
-### Executar análises de economia de custo
