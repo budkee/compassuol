@@ -14,9 +14,9 @@
 >
 > - 
 >
-### Entrega da Sprint
+### Entregas da Sprint
 >
-> - 
+> - [Como configurar um site estático no Amazon S3?](https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html)
 >
 ### Resumo da Sprint
 >
