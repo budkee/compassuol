@@ -47,10 +47,6 @@ Os componentes que envolvem um processo de avaliação de dados são:
 - Veracidade (Procedência dos dados)
 - Valor
 
-#### Procedência dos dados
-
-> Conhecer a cadeia de custódia dos dados
-
 ## Volume | Armazenamento
 
 > Quando as empresas têm mais dados do que conseguem processar e analisar, elas têm um problema de volume.
@@ -58,18 +54,20 @@ Os componentes que envolvem um processo de avaliação de dados são:
 
 ### Formas de agregar dados
 
+> Você pode entregar ou encontrar dados estruturados, semi-estruturados ou não estruturados.
+
 #### Dados estruturados (10%)
 
-> são volumes de dados que se organizam de maneira relacional e seguem uma regra previamente definida, possuindo atributos desejáveis em uma estratégia de movimentação.
+> São volumes de dados que se organizam de maneira relacional e seguem uma regra previamente definida, possuindo atributos desejáveis em uma estratégia de movimentação.
 > 
 > Organizadas em:
-
-- Tabelas
-    - Linhas
-    - Colunas
-- Arquivos:
-    - .csv
-    - .xlsx
+>
+> - Tabelas
+>   - Linhas
+>   - Colunas
+> - Arquivos:
+>   - .csv
+>   - .xlsx
 
 
 #### Dados semiestruturados (10%)
@@ -94,52 +92,106 @@ Os componentes que envolvem um processo de avaliação de dados são:
     void(); // não tem uma organização definida. é o espaço com um tanto escalável de dados tem que colocar tags(*KPIs*) 
 
 > Podem ser encontrados em forma de arquivos ou objetos:
-- emails;
+- e-mails;
 - fotos;
 - documentos textuais;
 - videos;
 
-
-## Amazon S3
-
-É um serviço da AWS que realiza o mapeamento de dados, como colocam eles mesmos:
-
-> *"Como a combinação de um bucket, chave e ID de versão identifica exclusivamente cada objeto, você pode considerar o Amazon S3 como um mapa de dados básico entre “bucket + chave + versão” e o próprio objeto."*
-
-**Free tier**: No primeiro ano, inclui 750 horas de uso de instâncias t2.micro (ou t3.micro nas regiões em que o t2.micro está indisponível) em AMIs de nível gratuito por mês, 30 GiB de armazenamento do EBS, 2 milhões de E/S, 1 GB de snapshots e 100 GB de largura de banda para a Internet
+### Amazon S3
 
 Para realizar a comunicação, cada objeto pode ser referenciado através de (i) endpoints de serviços web, (ii)nome do bucket, (iii) da chave e (iv) da versão.
 
-### Benefícios
+#### Custos
+**Free tier**: No primeiro ano, inclui 750 horas de uso de instâncias t2.micro (ou t3.micro nas regiões em que o t2.micro está indisponível) em AMIs de nível gratuito por mês, 30 GiB de armazenamento do EBS, 2 milhões de E/S, 1 GB de snapshots e 100 GB de largura de banda para a Internet
+
+
+### Benefícios | S3
 
 - Desacoplamento entre o armazém e o processador;
 - Arquitetura de dados centralizada;
 - Integração com serviços AWS sem cluster e sem servidor;
 - Interfaces de programação de aplicativos (APIs) personalizadas;
 
-### Data Lakes;
 
-### Introdução aos métodos de armazenamento de dados.
+## Velocidade | Processamento de dados
 
-### Velocidade – Processamento de dados
+Processamento de dados em batch;
+Processamento de dados em stream.
 
-Introdução aos métodos de processamento de dados;
-Introdução ao processamento de dados em batch;
-Introdução ao processamento de dados em stream.
+## Variedade – Estrutura e tipos de dados
 
-### Lição 4
-Variedade – estrutura e tipos de dados
-Introdução a armazenamento de dados de origem;
-Introdução a datastores estruturados;
-Introdução a datastores semiestruturados e não estruturados.
+Armazenamento de dados de origem;
 
-### Lição 5
-Veracidade – limpeza e transformação
-Compreensão de integridade de dados;
-Compreensão de consistência de bancos de dados;
-Introdução ao processo de ETL.
+Datastores estruturados;
+Datastores semiestruturados e não estruturados.
 
-### Lição 6
-Valor – geração de relatórios e business intelligence
-Introdução à análise de dados;
-Introdução à visualização de dados.
+## Veracidade – limpeza e transformação
+
+Integridade de dados;
+
+Consistência de bancos de dados;
+Processo de ETL
+
+## Valor | Relatórios e Business Intelligence
+
+### Análise de dados
+
+> Em suma, analisar dados é atribuir significado ao que foi coletado. Você como analista de dados deverá descrever ao consumidor do relatório (1) o que ele está vendo, (2) por que é importante e (3) como avançar com as informações fornecidas.
+
+#### Análise de Informações | BI
+
+> Processo que busca encontrar valor contido nas informações coletadas por uma empresa.
+
+Ferramentas 
+
+
+#### Análise Operacional | POPs
+
+> Processo que busca encontrar valor nas operações digitais de uma empresa.
+
+- [Amazon ElasticSearch Service](https://aws.amazon.com/elasticsearch-service/)
+
+#### Visualização de dados
+
+- [Kibana](https://www.elastic.co/pt/kibana?)
+- [Amazon QuickSight]()
+
+### Tipos de Análises
+
+![tipos-de-analise](../img/tipos-de-analise.png)
+
+#### Análise Descritiva: O que aconteceu?
+![Static Badge](https://img.shields.io/badge/Avalia%C3%A7%C3%A3o%20Humana-3d85c6)
+
+- Concentra-se em analisar o passado.
+- Coleta e mineração de dados.
+
+#### Análise de Diagnóstico: Por que aconteceu?
+![Static Badge](https://img.shields.io/badge/Avalia%C3%A7%C3%A3o%20Humana-3d85c6)
+
+- Concentra-se em entender o porquê de ter acontecido.
+- Realiza-se a comparação de dados a partir da coleta.
+- Busca-se por dependências e padrões entre os dados.
+
+#### Análise Preditiva: O que acontecerá?
+![Static Badge](https://img.shields.io/badge/Avalia%C3%A7%C3%A3o%20Humana-3d85c6)
+
+- Concentra-se no que já existe de informação e o que pode acontecer.
+- Realiza-se a previsão a partir das análises descritivas e diagnósticas prevendo eventos e tendências futuras.
+- A precisão do resultado depende da qualidade dos dados e da estabilidade da situação.
+
+- [Amazon Machine Learning]()
+
+#### Análise Prescritiva: O que devo fazer?
+![Static Badge](https://img.shields.io/badge/Automatizado-58b858)
+
+- Concentra-se, a partir da previsão, em sugerir ações com menores riscos.
+- Realiza-se a entrada dos dados previamente coletados, adicionando regras e otimizações baseadas em restrições.
+- Sugestões e personalizações utilizando Machine Learning.
+
+
+#### Análise Cognitiva(IA): Quais são as ações recomendadas com base na linguagem natural ou no autoaprendizado?
+![Static Badge](https://img.shields.io/badge/Automatizado-58b858)
+
+- Sistemas analíticos cognitivos imitam o que o cérebro humano faz, ou seja, geram hipóteses, conexões e restrições a partir de dados existentes.
+- Retornam respostas na forma de recomendações e classificações de confiança.

@@ -1,5 +1,5 @@
 #------------------//^.^// -------------------#
-# Extração e Tratamento dos Dados
+# Extração e Tratamento dos Dados (ET)
 
 # Criando o dicionário de atores
 chaves = []

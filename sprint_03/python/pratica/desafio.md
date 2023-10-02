@@ -13,7 +13,7 @@ Nosso modelo de processamento será semelhante ao diagramação abaixo. Nele há
 
 ### Processo
 
-![processo-etl](/sprint_03/python/img/processo-ETL.png)
+![processo-etl](../img/processo-ETL.png)
 
 ### Importante
 
