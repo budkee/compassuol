@@ -88,10 +88,14 @@
 
 ## Data Analytics na AWS | Resumo
 
-## Athena
+## AWS Athena
 
 - [AWS Athena | Getting Started](https://docs.aws.amazon.com/pt_br/athena/latest/ug/getting-started.html)
 - [CSV to Athena](https://simplemaps.com/resources/csv-to-athena)
+
+## AWS Lambda
+
+- [AWS Lambda | Criando uma Função](https://docs.aws.amazon.com/pt_br/lambda/latest/dg/getting-started.html#getting-started-create-function)
 
 ## Links e Referências
 
