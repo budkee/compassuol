@@ -88,6 +88,10 @@
 
 ## Data Analytics na AWS | Resumo
 
+## AWS S3
+
+- [Como configurar um site estático no Amazon S3?](https://docs.aws.amazon.com/pt_br/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html)
+
 ## AWS Athena
 
 - [AWS Athena | Getting Started](https://docs.aws.amazon.com/pt_br/athena/latest/ug/getting-started.html)
@@ -96,8 +100,6 @@
 ## AWS Lambda
 
 - [AWS Lambda | Criando uma Função](https://docs.aws.amazon.com/pt_br/lambda/latest/dg/getting-started.html#getting-started-create-function)
-
-## Links e Referências
-
-
+- [Usar um acionador do Amazon S3 para invocar uma função do Lambda](https://docs.aws.amazon.com/pt_br/lambda/latest/dg/with-s3-example.html)
+- [Criando uma camada Lambda pelo Docker](https://levelup.gitconnected.com/creating-a-lambda-layer-via-docker-python-layers-docker-e4e318717822)
 

@@ -116,20 +116,23 @@ Para realizar a comunicação, cada objeto pode ser referenciado através de (i)
 ## Velocidade | Processamento de dados
 
 Processamento de dados em batch;
+
 Processamento de dados em stream.
 
-## Variedade – Estrutura e tipos de dados
+## Variedade | Estrutura e tipos de dados
 
 Armazenamento de dados de origem;
 
 Datastores estruturados;
+
 Datastores semiestruturados e não estruturados.
 
-## Veracidade – limpeza e transformação
+## Veracidade | limpeza e transformação
 
 Integridade de dados;
 
 Consistência de bancos de dados;
+
 Processo de ETL
 
 ## Valor | Relatórios e Business Intelligence

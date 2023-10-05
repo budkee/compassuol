@@ -2,11 +2,13 @@
 
 ### Módulo 1: Oportunidade de mercado 
 
-Introdução e visão geral do curso
 Dados como um ativo estratégico e diferencial
+
 Oportunidade de mercado para análise de dados
+
 Desafios de análise de dados enfrentados por empresas
-O pipeline de dados e o Data Flywheel
+
+O [pipeline de dados](https://aws.amazon.com/pt/what-is/data-pipeline/) e o [Data Flywheel](https://pages.awscloud.com/EMEA-Data-Flywheel.html?nc1=f_ls)
 
 ### Módulo 2: Soluções de análise de dados na AWS
 

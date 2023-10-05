@@ -19,7 +19,7 @@
 
 **🎯 Currículo acadêmico**
 
-- ✅ Realizei Iniciação Científica em Eletroquímica Aplicada pela UFMS quando cursava Física pela UFMS (2020-2021) até conhecer Python na disciplina de Física Computacional;
+- ✅ Realizei Iniciação Científica em Eletroquímica Aplicada pela UFMS quando cursava Física (2020-2021) até conhecer Python na disciplina de Física Computacional;
 - ✅ Conclusão do Superior Técnico em Análise e Desenvolvimento de Sistemas pela UNIP (2023) onde me reconheci pertencente ao mundo de TI;
 - 📚 No momento estou cursando o 2º Semestre em Sistemas de Informação pela UFMS no período noturno (2023 - 2026);
 - 🧭 Tenho grande interesse em iniciar e desenvolver minha carreira científica na área da computação a partir de 2024 realizando Projetos de Pesquisa em Cidades Inteligentes pela UFMS;

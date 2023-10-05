@@ -1,48 +1,34 @@
 -- Retorne os 3 nomes mais utilizados em cada década, a partir de 1950, até hoje (2020).
 
-SELECT 
-    nome,
-    count(total) as total_nomes,
-    posicao
-FROM (
-    SELECT
+-- Extrair o ano da coluna 'ano' e calcular a década
+WITH Decades AS (
+    SELECT 
         nome,
-        total_nomes,
-        rank() over (order by total_nomes) as posicao
+        sexo,
+        total,
+        ano,
+        FLOOR(ano / 10) * 10 AS decada
     FROM nomes
-) dados
-WHERE (
-    CASE
-        WHEN ano BETWEEN 1950 AND 1959 THEN '1950'
-        WHEN ano BETWEEN 1960 AND 1969 THEN '1960'
-        WHEN ano BETWEEN 1970 AND 1979 THEN '1970'
-        WHEN ano BETWEEN 1980 AND 1989 THEN '1980'
-        WHEN ano BETWEEN 1990 AND 1999 THEN '1990'
-        WHEN ano BETWEEN 2000 AND 2010 THEN '2000'
-        WHEN ano BETWEEN 2010 AND 2019 THEN '2010'
-    END as decada
+    WHERE ano >= 1950
 )
 
-SELECT nome, , Country
-FROM Customers
-ORDER BY
-(CASE
-    WHEN City IS NULL THEN Country
-    ELSE City
-END);
+-- Classificar e atribuir uma posição para cada nome dentro de cada década
+, RankedNames AS (
+    SELECT 
+        decada,
+        nome,
+        SUM(total) AS total_decada,
+        ROW_NUMBER() OVER (PARTITION BY decada ORDER BY SUM(total) DESC) AS posicao
+    FROM Decades
+    GROUP BY decada, nome
+)
 
-
-
-
-
-
--- Anotações
-CASE
-    WHEN ano BETWEEN 1950 AND 1959 THEN '1950'
-    WHEN ano BETWEEN 1960 AND 1969 THEN '1960'
-    WHEN ano BETWEEN 1970 AND 1979 THEN '1970'
-    WHEN ano BETWEEN 1980 AND 1989 THEN '1980'
-    WHEN ano BETWEEN 1990 AND 1999 THEN '1990'
-    WHEN ano BETWEEN 2000 AND 2010 THEN '2000'
-    WHEN ano BETWEEN 2010 AND 2019 THEN '2010'
-END) as decada
+-- Selecionar os 3 maiores de cada década
+SELECT 
+    nome,
+    decada,
+    total_decada,
+    posicao
+FROM RankedNames
+WHERE posicao <= 3
+ORDER BY decada ASC, posicao ASC;
