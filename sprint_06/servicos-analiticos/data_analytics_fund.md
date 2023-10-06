@@ -65,9 +65,6 @@ Os componentes que envolvem um processo de avaliação de dados são:
 > - Tabelas
 >   - Linhas
 >   - Colunas
-> - Arquivos:
->   - .csv
->   - .xlsx
 
 
 #### Dados semiestruturados (10%)

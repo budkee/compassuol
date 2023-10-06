@@ -4,9 +4,9 @@
 
 - [Fundamentos de Data Analytics](data_analytics_fund.md)
       
-## Data Analytics | Etapas
+## Data Analytics | Etapas do processo
 
-### Etapas do tratamentos de dados
+### Etapas do tratamentos de dados e ferramentas
 
 1. Origem dos dados
     - [AWS S3](https://aws.amazon.com/pt/s3/)
@@ -40,6 +40,7 @@
     #### Análise Operacional
     - [AWS OpenSearch Service](https://aws.amazon.com/pt/opensearch-service/)
     - [AWS OpenSearch Service | Dev Guide](https://docs.aws.amazon.com/opensearch-service/latest/developerguide/dashboards.html)
+    - [Outros tipos de dados](data_analytics_fund.md#análise-de-dados) 
 
 ## Data Analytics | Cargos
 
@@ -86,7 +87,7 @@
     >   - Entender as técnicas de análise de dados e os serviços AWS: Amazon Kinesis, Amazon EMR e AWS Glue.
     >   - Entender a análise avançada: machine learning e IA.
 
-## Data Analytics na AWS | Resumo
+## Data Analytics na AWS 
 
 ## AWS S3
 
@@ -103,3 +104,6 @@
 - [Usar um acionador do Amazon S3 para invocar uma função do Lambda](https://docs.aws.amazon.com/pt_br/lambda/latest/dg/with-s3-example.html)
 - [Criando uma camada Lambda pelo Docker](https://levelup.gitconnected.com/creating-a-lambda-layer-via-docker-python-layers-docker-e4e318717822)
 
+## Certificados dos cursos
+
+![analitycs_games](../img/teoria/certificados/analytics_games.pdf)
