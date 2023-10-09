@@ -95,8 +95,8 @@
 | ~~2~~ | ~~31/07~~ | ~~14/08~~ | [Júlia Luisa Schmidt](https://www.linkedin.com/in/juliaschmidt0710/) | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago)| [Sprint 2](./sprint_02/README.md) |
 | ~~3~~ | ~~14/08~~ | ~~28/08~~ | [Lays Moreira Lima](https://www.linkedin.com/in/lays-moreira-lima/) | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) | [Sprint 3](./sprint_03/README.md) |
 | ~~4~~ | ~~28/08~~ | ~~11/09~~ | [Icaro Anthony Morais dos Santos](https://www.linkedin.com/in/icaroanthony/) | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) | [Sprint 4](./sprint_04/README.md)|
-| ~~5~~ | ~~11/09~~ | ~~25/09~~ | ~~[Flavio Laerton Seixas Castro](https://www.linkedin.com/in/flaviolaerton/)~~ | ~~[Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi)~~ | [Sprint 5](./sprint_05/README.md)|
-| 6 | 25/09 | 09/10 | [Anne Karoline Fortunato do Carmo](https://www.linkedin.com/in/devannekarolinefc/) | [Isadora Sandri da Silva](https://github.com/isandri) | [Sprint 6](./sprint_06/README.md)| 
+| ~~5~~ | ~~11/09~~ | ~~25/09~~ | [Flavio Laerton Seixas Castro](https://www.linkedin.com/in/flaviolaerton/) | [Lourdes Oshiro Igarashi](https://github.com/LourdesOshiroIgarashi) | [Sprint 5](./sprint_05/README.md)|
+| ~~6~~ | ~~25/09~~ | ~~09/10~~ | [Anne Karoline Fortunato do Carmo](https://www.linkedin.com/in/devannekarolinefc/) | [Isadora Sandri da Silva](https://github.com/isandri) | [Sprint 6](./sprint_06/README.md)| 
 | 7 | 09/10 | 23/10 | [Italo de Andrade Souza]() | [Valber Oliveira da Conceição](https://github.com/ValberOIiveira) | [Sprint 7](/sprint_07/README.md) |
 | 8 | 23/10 | 06/11 | [Marcus Vinicius dos Santos Monteiro]() | [Glauber Honorato Paniago](https://github.com/glauber-honorato-paniago) | [Sprint 8](/sprint_08/README.md) |
 | 9 | 06/11 | 20/11 | [Mateus Presotto Balen]() | [Camila de Oliveira Budke](https://github.com/budkee) |[Sprint 9](/sprint_09/README.md)|
