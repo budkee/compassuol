@@ -76,18 +76,20 @@
 
 1. [x] Realizar o pull da imagem jupyter/all-spark-notebook 
 
-> Atenção: O tamanho total da imagem é 5.8 GB. Se você não tiver esse espaço disponível, recomendamos utilizar o Google Colab para codificar o exercício.
+>       docker pull jupyter/all-spark-notebook
 
 2. [x] Criar um container a partir da imagem
 
 - A imagem, além do Spark, contém o Jupyter Lab. Caso queira utilizar o Jupyter para testar seu código em um notebook, você deverá iniciar o container no modo interativo (-it). Lembre-se também de realizar o mapeamento da porta de serviço exposta pelo container (8888) para uma porta local de sua máquina.
 
+>       docker run -d -p 8888:8888 jupyter/all-spark-notebook
 
 - A inicialização do container gera em tela várias linhas de log. Atente-se ao trecho que contém um conteúdo semelhante ao indicado a seguir. O que você deverá copiar é o link com o prefixo http://127.0.0.1:8888/lab?token=, o qual informado na barra de endereços do navegor dará acesso ao Jupyter Lab.
 
-> Exemplo do trecho de log com a URL de acesso ao Jupyter:
->
->
+>       docker start -i spark_jupyter
+
+Exemplo do trecho de log com a URL de acesso ao Jupyter:
+
 >    To access the server, open this file in a browser:
 >
 >        file:///home/jovyan/.local/share/jupyter/runtime/jpserver-7-open.html
@@ -99,16 +101,18 @@
 >        http://127.0.0.1:8888/lab?token=a39f87863cfab9c17441250786a9c7544bef8c2d929e6cfc
 
 
+3. Em outro terminal, execute o comando `pyspark` no seu container. Pesquise sobre o comando docker exec para realizar esta ação. Utilize as flags -i e -t no comando.
 
-3 - Em outro terminal, execute o comando `pyspark` no seu container. Pesquise sobre o comando docker exec para realizar esta ação. Utilize as flags -i e -t no comando.
+>       docker exec -it spark_jupyter sh
+
+- A execução do passo 3 irá deixar disponível o terminal interativo do Spark. Trata-se de uma interface que permite rodar instruções do Spark linha a linha, como ocorre com o terminal do Python, por exemplo. 
+
+> É neste terminal que você deve testar os comandos necessários para realizar a atividade a seguir.
 
 
-A execução do passo 3 irá deixar disponível o terminal interativo do Spark. Trata-se de uma interface que permite rodar instruções do Spark linha a linha, como ocorre com o terminal do Python, por exemplo. É neste terminal que você deve testar os comandos necessários para realizar a atividade a seguir.
+4. Usando o Spark Shell, apresente a sequência de comandos Spark necessários para contar a quantidade de ocorrências de cada palavra contida no arquivo README.md de seu repositório git.
 
-
-Dica: Você pode obter arquivos da Internet por meio do comando wget no seu container.
-
-Usando o Spark Shell, apresente a sequência de comandos Spark necessários para contar a quantidade de ocorrências de cada palavra contida no arquivo README.md de seu repositório git.
+> 
 
 
 

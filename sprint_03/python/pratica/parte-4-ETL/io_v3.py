@@ -8,10 +8,5 @@ arquivo = open('actors.csv')
 for registro in arquivo:
     
     print(*registro.strip().split(','))
-<<<<<<< HEAD
-    
-=======
-
->>>>>>> 5dea4d151a269ad0dc79b23efa28c759bdfee9f7
 ## Fechar o arquivo
 arquivo.close()

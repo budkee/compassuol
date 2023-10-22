@@ -21,3 +21,9 @@ node_modules/
 
 # Anexos do curso
 ./anexos-do-curso/
+
+# Arquivos grandes
+./sprint_07/desafio_01/movies.csv
+./sprint_07/desafio_01/series.csv
+./sprint_07/hadoop/
+./sprint_07/spark/Curso/

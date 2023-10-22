@@ -156,9 +156,10 @@
 >
 >     docker run -rm <container>
 >
-> Copiar arquivos de container/diretorio ou diretório/container
+> Copiar arquivos de container -> diretorio ou diretório -> container
 >
->     docker cp <nome-container>:<WORKDIR>/<arquivo> ./<diretório-destino>/
+>     docker cp meu_arquivo.txt meu_container:/app/
+>     docker cp meu_container:/app/ meu_arquivo.txt
 >
 > Iniciando a sua sessão
 > 

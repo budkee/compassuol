@@ -1,0 +1,76 @@
+The folder MyFirstMR has all the source code in for this course. Add Hadoop JARs before you build a JAR from this source code. 
+
+MyFirstMR.jar has been built with all this source code + all the Hadoop JARs needed to run them. 
+
+Running an MR job: 
+Step 1: Add the input data to HDFS. Every example will need some input data to run on. Sample data is provided in the MRdata folder. 
+$ hadoop fs -copyFromLocal <inputdata> <hdfs location> 
+
+Step2: Run the MR job 
+$ hadoop jar <JAR file path> <Main class name> <inputfile or input directory> <output directory>
+
+Step3: To view the output
+$ hadoop fs -cat <outputdir> 
+
+The Main classes, data and the example they correspond to are as follows 
+
+
+Hello World of MapReduce
+Main class : wordCount.WordCount
+Data : MRdata/wordcount/sample.txt 
+
+Combiner function 
+Main class : wordCount.WordCountCombiner
+Data : MRdata/wordcount/sample.txt 
+
+Inverted Index  
+Main class : invertedIndex.invertedIndex
+Data : MRdata/invertedindex/gutenberg
+(this is a corpus of some books from project Gutenberg)
+
+Bigrams 
+Main Class : bigram.bigram
+Data : MRdata/wordcount/sample.txt 
+Unit test class: bigram.TestBigramCount
+
+Making the job configurable
+Main Class : wordCount.WordCountWithTool
+Data : MRdata/wordcount/sample.txt 
+
+Custom Partitioning 
+Main Class : customPartition.countPartition
+Data : MRdata/wordcount/wordcount.txt 
+
+Total Order Partitioning 
+Main Class : customPartition.totalOrder
+Data : MRdata/wordcount/wordcount.txt 
+
+Secondary Sort 
+Main Class: secondarySort.Sort
+Data : MRdata/sort/secSortData.csv
+
+Recommendations
+Main Class: Recom.Recommendations
+Data : MRdata/recommendations/soc-LiveJournal1Adj.txt
+
+SQL Select, Where 
+Main Class: select.select
+Data : MRdata/sql/sample.csv
+
+SQL Grouping
+Main Class: groupBy.groupBy
+Data : MRdata/sql/sample.csv
+
+SQL Join
+Main Class: join.Join
+Data : MRdata/sql/joinNames.csv ,  MRdata/sql/joinTrades.csv
+
+You'll specify two input paths at the command line instead of the usual 1.
+
+
+K-Means Clustering 
+Main Class: KMeans.mapreduce.KMeansClusteringJob
+Data : No data required. It's written out by the code. Don't specify the input and output paths for this job. 
+
+
+
