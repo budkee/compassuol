@@ -22,4 +22,4 @@
 >
 ### Resumo da Sprint
 >
->   
+>   Nesta sprint foi possível iniciar as atividades de Engenharia de Dados, bem como aplicar os conceitos estudados nas últimas sprints. Apesar da parte conceitual ter sido bem sintetizado, possibilitando resumir o que é um job, a prática se apresentou com diversos gaps conceituais a serem preenchidos que certamente se diminuirão ao longo da prática. 
