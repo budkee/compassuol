@@ -18,6 +18,8 @@
 >
 > - [Dados referente aos Atores/Atrizes | Google Colab](./colab/pandas_ET.ipynb)
 > - [Programa que realiza a contagem da quantidade de palavras deste README | Spark Shell](./plataformas-big-data/spark/job_conta_palavras.ipynb)
+> - [Lab Glue | Script_Job](./plataformas-big-data/glue/glue_Job.py)
+> - [Lab Glue | Resultados]()
 > - [Desafio 01 | Job para coleta e armazenamento de dados](./desafio_01/README.md)
 >
 ### Resumo da Sprint

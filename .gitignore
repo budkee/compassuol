@@ -19,6 +19,9 @@ node_modules/
 # PATH
 .bashrc
 
+# Jupyter Notebook
+.ipynb_checkpoints
+
 # Anexos do curso
 ./anexos-do-curso/
 

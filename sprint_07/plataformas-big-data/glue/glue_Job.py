@@ -1,4 +1,5 @@
 import sys
+import boto3
 from awsglue.transforms import *
 from awsglue.utils import getResolvedOptions
 from pyspark.context import SparkContext
@@ -17,7 +18,7 @@ job = Job(glueContext)
 # Início do Job
 job.init(args['JOB_NAME'], args)
 
-# Código do Job
+
 source_file = args['S3_INPUT_PATH']
 target_path = args['S3_TARGET_PATH']
 
@@ -30,15 +31,22 @@ df = glueContext.create_dynamic_frame.from_options(
     },
     "csv",
     {
-        "withHeader": True, "separator": "|"
+        "withHeader": True, "separator": ","
     }
     
     )
 
-# Filtro de interesse
+# Filtros de interesse
+# 1. Colocar os valores da coluna 'nome' em Maiúsculo
 only_1934 = df.filter(lambda row: row['anoLancamento'] == '1934')
+# 2. Contagem das linhas do DataFrame
+# 3. Contagem de nomes agrupado por ano e sexo, e ordenado por ano de modo decrescente
+# 4. Nome feminino mais registrado e o respectivo ano de registro
+# 5. Nome masculino mais registrado e o respectivo ano de registro
+# 6. Total de registros para cada ano (Apresentar as 10 primeiras linhas ordenada por Ano de modo crescente)
 
-# Output
+# Outputs
+
 glueContext.write_dynamic_frame.from_options(
     
     frame = only_1934,
