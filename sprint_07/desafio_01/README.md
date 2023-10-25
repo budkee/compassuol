@@ -33,6 +33,8 @@ Após ter coletado os dados, seu armazenamento será feito em um bucket do [Amaz
 
 - [Configuração Docker](./sprint_04/python-e-docker/docker/docker.md)
 
+
+
 ## Desafio Final | Part. 01 | Apache Spark | Contador de palavras
 
 Objetivo: criar código Python que carrega arquivos CSV para a Nuvem utilizando as técnicas de ETL.
@@ -47,7 +49,9 @@ Objetivo: criar código Python que carrega arquivos CSV para a Nuvem utilizando 
 
 - acessar a AWS e grava no S3, no bucket definido com RAW Zone
 
-      - no momento da gravação dos dados deve-se considerar o padrão: <nome do bucket>\<camada de armazenamento>\<origem do dado>\<formato do dado>\<especificação do dado>\<data de processamento separada por ano\mes\dia>\<arquivo>
+      - no momento da gravação dos dados deve-se considerar o padrão: 
+      
+      <nome do bucket>\<camada de armazenamento>\<origem do dado>\<formato do dado>\<especificação do dado>\<data de processamento separada por ano\mes\dia>\<arquivo>
 
             Por exemplo:
 

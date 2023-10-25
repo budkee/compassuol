@@ -16,12 +16,11 @@
 >
 ### Entrega da Sprint
 >
-> - [Dados referente aos Atores/Atrizes | Google Colab](./colab/pandas_ET.ipynb)
-> - [Programa que realiza a contagem da quantidade de palavras deste README | Spark Shell](./plataformas-big-data/spark/job_conta_palavras.ipynb)
-> - [Lab Glue | Script_Job](./plataformas-big-data/glue/glue_Job.py)
-> - [Lab Glue | Resultados]()
+> - [Dados referente aos Atores/Atrizes | Pandas](./entregas/pandas_ET.ipynb)
+> - [Job Conta Palavras | PySpark Shell](./entregas/job_conta_palavras.ipynb)
+> - [Lab Glue | Script_Job](./entregas/glue_lab.ipynb)
 > - [Desafio 01 | Job para coleta e armazenamento de dados](./desafio_01/README.md)
 >
 ### Resumo da Sprint
 >
->   Nesta sprint foi possível iniciar as atividades de Engenharia de Dados, bem como aplicar os conceitos estudados nas últimas sprints. Apesar da parte conceitual ter sido bem sintetizado, possibilitando resumir o que é um job, a prática se apresentou com diversos gaps conceituais a serem preenchidos que certamente se diminuirão ao longo da prática. 
+>   Nesta sprint foi possível iniciar as atividades de Engenharia de Dados, bem como aplicar os conceitos estudados nas últimas sprints. Apesar da parte conceitual ter sido bem sintetizado pela chegada da prática,houveram dificuldades durante a execução que certamente se diminuirão ao longo da prática. 
