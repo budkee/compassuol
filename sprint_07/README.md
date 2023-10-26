@@ -23,4 +23,4 @@
 >
 ### Resumo da Sprint
 >
->   Nesta sprint foi possível iniciar as atividades de Engenharia de Dados, bem como aplicar os conceitos estudados nas últimas sprints. Apesar da parte conceitual ter sido bem sintetizado pela chegada da prática,houveram dificuldades durante a execução que certamente se diminuirão ao longo da prática. 
+>   Nesta sprint foi possível iniciar as atividades de Engenharia de Dados, bem como aplicar os conceitos estudados nas últimas sprints. Apesar da parte conceitual ter sido bem sintetizado pela chegada da prática, houveram dificuldades durante a execução que certamente se diminuirão ao longo da prática. 

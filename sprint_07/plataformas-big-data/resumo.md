@@ -6,12 +6,6 @@
 - [Download | Apache Spark Hadoop](https://spark.apache.org/downloads.html)
 
 
-## Tarefas e Atividades
-
-    - [](#tarefa-01--python-e-pandas--filmes)
-    - [](#tarefa-02--apache-spark--contador-de-palavras)
-    - [](#)
-
 ## Tarefa 01 | Python e Pandas | Filmes
 1. Identifique o ator/atriz com maior número de filmes e o respectivo número de filmes.
 
@@ -138,6 +132,7 @@ Exemplo do trecho de log com a URL de acesso ao Jupyter:
 
 ## Tarefa 03 | AWS Glue
 
+- ![]()
 ### Ato 1 | Job para ler arquivos do S3
 
 - [x] Imprimir o schema do DataFrame gerado
@@ -146,7 +141,7 @@ Exemplo do trecho de log com a URL de acesso ao Jupyter:
 
 Escrever o código para:
 
-- [] Alterar o nome para letras maiúsculas;
-- [] Imprimir a contagem de linhas presentes no DataFrame;
-- [] Imprimir a contagem de nomes, agrupando os dados por ano e sexo;
+- [x] Alterar o nome para letras maiúsculas;
+- [x] Imprimir a contagem de linhas presentes no DataFrame;
+- [x] Imprimir a contagem de nomes, agrupando os dados por ano e sexo;
 - [] ;

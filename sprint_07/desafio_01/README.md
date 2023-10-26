@@ -61,5 +61,7 @@ Objetivo: criar código Python que carrega arquivos CSV para a Nuvem utilizando 
 
 ### 2. Criar container Docker com um volume para armazenar os arquivos CSV e executar processo Python implementado
 
+      docker run -it -v /Users/camilabudke/Desenvolvimento/compass/compassuol/sprint_07/desafio_01:/home/glue_user/ -v ~/.aws:/home/glue_user/.aws -p 8888:8888 --name glue_jupyter_prod amazon/aws-glue-libs:glue_libs_4.0.0_image_01 /home/glue_user/jupyter/jupyter_start.sh
+
 ### 3. Executar localmente o container docker para realizar a carga dos dados ao S3
 

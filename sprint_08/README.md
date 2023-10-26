@@ -16,7 +16,11 @@
 >
 ### Entrega da Sprint
 >
-> - 
+> - [Extração de Dados Brutos | via API]
+> - [Persistência de Dados | S3 RAW Zone]
+> - [Geração de Massa de Dados | Nomes]
+> - [Apache Spark | DF e SQL]
+> - [Desafio 02 | Ingestão de Dados do TMBD]()
 >
 ### Resumo da Sprint
 >

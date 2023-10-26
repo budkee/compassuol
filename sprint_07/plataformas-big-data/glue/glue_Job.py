@@ -99,7 +99,8 @@ glueContext.write_dynamic_frame.from_options(
     frame = nome_maiusc_col,
     connection_type = "s3",
     connection_options = { "path":target_path },
-    format = "json"
+    format = "json",
+    
 
     )
 
