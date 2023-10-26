@@ -35,11 +35,11 @@ Após ter coletado os dados, seu armazenamento será feito em um bucket do [Amaz
 
 
 
-## Desafio Final | Part. 01 | Apache Spark | Contador de palavras
+## Desafio Final | Part. 01 | Coleta de Dados 
 
 Objetivo: criar código Python que carrega arquivos CSV para a Nuvem utilizando as técnicas de ETL.
 
-- **Ingestão Batch**: a ingestão dos arquivos CSV em Bucket Amazon S3 RAW Zone. Nesta etapa do desafio deve ser construído um código Python que será executado dentro de um container Docker para carregar os dados locais dos arquivos para a nuvem. Nesse caso utilizaremos, principalmente, as lib boto3 como parte do processo de ingestão via batch para geração de arquivo (CSV).
+- **Ingestão Batch**: a ingestão dos arquivos CSV em Bucket Amazon S3 RAW Zone. Nesta etapa do desafio deve ser construído um código Python que será executado dentro de um container Docker para carregar os dados locais dos arquivos para a nuvem. Nesse caso utilizaremos, principalmente, as lib [boto3]() como parte do processo de ingestão via batch para geração de arquivo (CSV).
 
 ### 1. Implementar código Python
 
@@ -59,9 +59,15 @@ Objetivo: criar código Python que carrega arquivos CSV para a Nuvem utilizando 
 
                    S3:\\data-lake-do-fulano\Raw\Local\CSV\Series\2022\05\02\series.csv
 
+## Script Final
+
+- [Juyter Notebook | Coleta em Batch -> RAW Zone]()
+
 ### 2. Criar container Docker com um volume para armazenar os arquivos CSV e executar processo Python implementado
 
       docker run -it -v /Users/camilabudke/Desenvolvimento/compass/compassuol/sprint_07/desafio_01:/home/glue_user/ -v ~/.aws:/home/glue_user/.aws -p 8888:8888 --name glue_jupyter_prod amazon/aws-glue-libs:glue_libs_4.0.0_image_01 /home/glue_user/jupyter/jupyter_start.sh
 
 ### 3. Executar localmente o container docker para realizar a carga dos dados ao S3
+
+
 
