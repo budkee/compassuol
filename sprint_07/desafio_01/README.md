@@ -11,7 +11,7 @@
 
 ![arq](arq-projeto.png)
 
-## Coleta de dados | Raw
+## Coleta de dados | Raw Zone
 
 A extração de dados será feita através de uma função periódica utilizando o [AWS Lambda](https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/functions) a partir de qualquer fonte disponível na internet como o Twitter ou o The Movie DataBase (TMDB).
 
@@ -23,17 +23,8 @@ A coleta poderá ser feita por:
 - Nome de Personagens
 - Etc..
 
-- [Arquivo fornecido](./Filmes+e+Series.zip)
-
-## Armazenamento dos dados | Raw S3
-
-Após ter coletado os dados, seu armazenamento será feito em um bucket do [Amazon S3](https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1), contendo os dados brutos dos filmes e séries selecionados. 
-
-### ETL | Python & Docker
-
-- [Configuração Docker](./sprint_04/python-e-docker/docker/docker.md)
-
-
+- [Arquivo a ser upado | 1 | Movies](./movies.csv)
+- [Arquivo a ser upado | 2 | Series](./series.csv)
 
 ## Desafio Final | Part. 01 | Coleta de Dados 
 
@@ -41,11 +32,18 @@ Objetivo: criar código Python que carrega arquivos CSV para a Nuvem utilizando 
 
 - **Ingestão Batch**: a ingestão dos arquivos CSV em Bucket Amazon S3 RAW Zone. Nesta etapa do desafio deve ser construído um código Python que será executado dentro de um container Docker para carregar os dados locais dos arquivos para a nuvem. Nesse caso utilizaremos, principalmente, as lib [boto3]() como parte do processo de ingestão via batch para geração de arquivo (CSV).
 
+
+## Script Final
+
+- [Juyter Notebook | Coleta em Batch -> RAW Zone]()
+
+- [] Ler os 2 arquivos (filmes e series) no formato CSV inteiros, ou seja, sem filtrar os dados
+
 ### 1. Implementar código Python
 
-- ler os 2 arquivos (filmes e series) no formato CSV inteiros, ou seja, sem filtrar os dados
+- [] Utilizar a lib boto3 para carregar os dados para a AWS
 
-- utilizar a lib boto3 para carregar os dados para a AWS
+- [lambda_function.py](./lambda-function.py)
 
 - acessar a AWS e grava no S3, no bucket definido com RAW Zone
 
@@ -59,9 +57,6 @@ Objetivo: criar código Python que carrega arquivos CSV para a Nuvem utilizando 
 
                    S3:\\data-lake-do-fulano\Raw\Local\CSV\Series\2022\05\02\series.csv
 
-## Script Final
-
-- [Juyter Notebook | Coleta em Batch -> RAW Zone]()
 
 ### 2. Criar container Docker com um volume para armazenar os arquivos CSV e executar processo Python implementado
 
@@ -69,5 +64,14 @@ Objetivo: criar código Python que carrega arquivos CSV para a Nuvem utilizando 
 
 ### 3. Executar localmente o container docker para realizar a carga dos dados ao S3
 
+
+
+## Armazenamento dos dados | Raw S3
+
+Após ter coletado os dados, seu armazenamento será feito em um bucket do [Amazon S3](https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1), contendo os dados brutos dos filmes e séries selecionados. 
+
+### ETL | Python & Docker
+
+- [Configuração Docker](./sprint_04/python-e-docker/docker/docker.md)
 
 
