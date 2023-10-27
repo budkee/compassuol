@@ -35,7 +35,7 @@ Objetivo: criar código Python que carrega arquivos CSV para a Nuvem utilizando 
 
 ## Script Final
 
-- [Juyter Notebook | Coleta em Batch -> RAW Zone](ingestao_batch.ipynb)
+- [Juyter Notebook | Coleta em Batch -> RAW Zone](/compass/compassuol/sprint_07/desafio_01/ingestao_batch.ipynb)
 
 - [x] Ler os 2 arquivos (filmes e series) no formato CSV inteiros, ou seja, sem filtrar os dados
 
@@ -69,4 +69,13 @@ Objetivo: criar código Python que carrega arquivos CSV para a Nuvem utilizando 
 #### Series
 
 ![series_s3](./img/series.png)
+
+## Armazenamento dos dados | Raw S3
+
+Após ter coletado os dados, seu armazenamento será feito em um bucket do [Amazon S3](https://s3.console.aws.amazon.com/s3/buckets?region=us-east-1), contendo os dados brutos dos filmes e séries selecionados. 
+
+### ETL | Python & Docker
+
+- [Configuração Docker](./sprint_04/python-e-docker/docker/docker.md)
+
 
