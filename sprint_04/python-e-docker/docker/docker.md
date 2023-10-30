@@ -282,6 +282,30 @@ O objetivo será **gerar imagens que permitam facilmente executar nosso código,
     > - [Dockerfile](./exercicio-docker-01/Dockerfile)
     > - Comando: `docker run -it --name compass_mascarar-dados 746660b064b3`
 
+## Ambiente de Desenvolvimento | Jupyter Notebook + Pyspark + AWS Glue
+
+    docker run -it -v <ArquivosConfigAwsCLI>:/home/glue_user/.aws -v <DiretorioOndeVaiSerArmazenadoOsNotebooks>:/home/glue_user/workspace/jupyter_workspace/ -e AWS_PROFILE=<NomePerfilAWS> -e DISABLE_SSL=true --rm -p 4040:4040 -p 18080:18080 -p 8998:8998 -p 8888:8888 --name glue_jupyter_lab amazon/aws-glue-libs:aws-glue-libs:glue_libs_4.0.0_image_01 /home/glue_user/jupyter/jupyter_start.sh
+
+### Comando para execução do ambiente
+
+    docker run -it 
+    
+    -v <ArquivosConfigAwsCLI>:/home/glue_user/.aws 
+    -v <DiretorioOndeVaiSerArmazenadoOsNotebooks>:/home/glue_user/workspace/jupyter_workspace/ 
+    -e AWS_PROFILE=<NomePerfilAWS> 
+    -e DISABLE_SSL=true 
+    
+    --rm 
+    
+    -p 4040:4040 
+    -p 18080:18080 
+    -p 8998:8998 
+    -p 8888:8888 
+    
+    --name glue_jupyter_lab 
+    
+    amazon/aws-glue-libs:aws-glue-libs:glue_libs_4.0.0_image_01 /home/glue_user/jupyter/jupyter_start.sh
+
 ## Links e Referências
 
 - [Docker Security | OWASP](https://cheatsheetseries.owasp.org/cheatsheets/Docker_Security_Cheat_Sheet.html)

@@ -43,7 +43,7 @@ Objetivo: criar código Python que carrega arquivos CSV para a Nuvem utilizando 
 
 - [x] Utilizar a lib boto3 para carregar os dados para a AWS
 
-- acessar a AWS e grava no S3, no bucket definido com RAW Zone
+- [x] acessar a AWS e grava no S3, no bucket definido com RAW Zone
 
       - no momento da gravação dos dados deve-se considerar o padrão: 
       
