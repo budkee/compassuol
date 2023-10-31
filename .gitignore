@@ -30,6 +30,7 @@ node_modules/
 ./sprint_07/desafio_01/series.csv
 ./sprint_07/hadoop/
 ./sprint_07/spark/Curso/
+sprint_08/apache-spark/nomes_aleatorios.txt
 
 # Spark Hive
 metastore_db/
