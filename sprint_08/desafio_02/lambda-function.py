@@ -1,5 +1,5 @@
 import json
-import pandas
+import requests
 import boto3
 
 def lambda_handler(event, context):

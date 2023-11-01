@@ -194,7 +194,7 @@ O objetivo desta etapa é complementar os dados dos Filmes e Series, carregados 
 - Não é necessário realizar tratamento dos dados externos, o máximo que pode ser feito é o **agrupamento de dados**.
 - Cuidado para os arquivos JSON gerados não serem maior do que **10 MB**.
 - Não agrupe JSON com estruturas diferentes.
-- Os IDs do IMDB presentes nos arquivos CSV podem ser utilizados em pesquisas  no TMDB.
+- Os IDs do IMDB presentes nos arquivos CSV podem ser utilizados em pesquisas no TMDB.
 - Se você escolher fazer **sobre um filme** ou uma **trilogia específica**, considere utilizar *pelo menos* 4 métodos de API diferentes para possibilitar uma análise de dados qualificada.
 - Considere desenvolver seu código localmente primeiro e com poucos dados para depois leva-lo para a AWS Lambda e aumentar a pesquisa de dados. APIs normalmente limitam requisições. Evite realizar muitas requisições em fase de desenvolvimento ou teste para evitarmos qualquer bloqueio na conta de vocês.
 
@@ -218,13 +218,9 @@ Em sua conta AWS, no serviço AWS Lambda, realize as seguintes atividades:
 
               São exemplos de caminhos de arquivos válidos:
 
-               - S3:\\data-lake-do-fulano\Raw\Twitter\JSON\2022\05\02\prt-uty-nfd.json
+               - S3:\\data-lake-do-fulano\Raw\TMDB\JSON\2022\05\02\prt-uty-nfd.json
 
-               - S3:\\data-lake-do-fulano\Raw\Twitter\JSON\2022\05\02\idf-uet-wqt.json
-
-
-
-3. Caso esteja utilizando o Twitter, execute a função Lambda periodicamente para alimentar seu conjunto de dados no S3.
+               - S3:\\data-lake-do-fulano\Raw\TMDB\JSON\2022\05\02\idf-uet-wqt.json
 
 
 
