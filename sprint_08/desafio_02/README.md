@@ -202,11 +202,13 @@ O objetivo desta etapa é complementar os dados dos Filmes e Series, carregados 
 
 Em sua conta AWS, no serviço AWS Lambda, realize as seguintes atividades:
 
-1. [x] [Criar nova camada](https://satellasoft.com/artigo/aws/como-instalar-modulos-do-python-na-aws-lambda-usando-camadas) (layer) no AWS Lambda para as libs necessárias à ingestão de dados.
+1. [x] [Criar nova camada]() (layer) no AWS Lambda para as libs necessárias à ingestão de dados.
 
 2. [] Implementar o código Python em AWS Lambda para consumo de dados do TMDB:
 
 - [Script.py](./lambda-function.py)
+
+      python lambda_local.py --JOB_NAME PegaDadosTMDB --S3_INPUT_PATH  --S3_TARGET_PATH s3://dados-num-lago/Raw/
 
    - Se está utilizando Twitter, buscar os tweets de interesse para a análise (neste ponto você já deve ter definido qual análise planeja realizar com os dados) e agrupar os tweets em arquivo JSON com, no máximo, 100 registros cada
 
@@ -229,3 +231,7 @@ Em sua conta AWS, no serviço AWS Lambda, realize as seguintes atividades:
 Podemos utilizar os serviços  CloudWatch Event ou Amazon EventBridge para agendar extrações periódicas de dados no Twitter de forma automática.
 
 
+## Referências
+
+- [Artigo como instalar os módulos do python na aws lambda usando camadas](https://satellasoft.com/artigo/aws/como-instalar-modulos-do-python-na-aws-lambda-usando-camadas)
+- [Creating Lambda Layers Made Easy with Docker: A Developer’s Guide](https://medium.com/simform-engineering/creating-lambda-layers-made-easy-with-docker-a-developers-guide-3bcfcf32d7c3)

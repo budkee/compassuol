@@ -12,15 +12,14 @@
 
 ### Objetivos da Sprint
 >
-> - 
+> - Enriquecer os dados do S3
 >
 ### Entrega da Sprint
 >
-> - [Extração de Dados Brutos vai API | Desafio Final Part. 2]()
-> - [Persistência de Dados | Desafio Final Part. 2]()
-> - [Geração de Massa de Dados | Apache Spark]()
-> - [Apache Spark | DF e SQL]()
+> - [Persistência de Dados | Desafio Final Part. 2](./desafio_02/README.md)
+> - [Exercícios de Apache Spark](./apache-spark/entregas.md)
+> - [Extração de Dados Brutos vai API | Desafio Final Part. 2](./desafio_02/task_01.ipynb)
 >
 ### Resumo da Sprint
 >
-> 
+>  
