@@ -1,0 +1,51 @@
+﻿EmployeeID,Employee Name,Age,Race,MaritalStatus,Gender,Length of Service,Dept,Salary,Job Grade
+1,Gustavo Achong,37,A,M,M,7,Sales,2295,Admin
+2,Catherine Abel,32,A,S,F,6,Sales,962,Management
+3,Kim Abercrombie,54,W,M,F,8,Finance,4006,Admin
+4,Humberto Acevedo,54,W,S,M,13,Logistics,4547,Admin
+5,Pilar Ackerman,69,C,M,F,5,Human Resource,1932,Admin
+6,Frances Adams,54,C,S,F,11,Sales,3223,Management
+7,Margaret Smith,73,A,S,F,8,Sales,1329,Operations
+8,Carla Adams,73,A,M,F,3,Finance,3989,Management
+9,Jay Adams,26,A,M,M,5,Finance,1636,Admin
+10,Ronald Adina,53,W,S,M,6,Logistics,3386,Admin
+11,Samuel Agcaoili,70,W,M,M,7,Logistics,3676,Operations
+12,James Aguilar,57,A,S,M,13,Human Resource,1128,Operations
+13,Robert Ahlering,31,A,M,M,2,Production,2301,Operations
+14,François Ferrier,28,W,M,M,12,Logistics,2887,Admin
+15,Kim Akers,30,A,S,F,1,Production,2154,Admin
+16,Lili Alameda,41,A,S,F,1,Production,2741,Operations
+17,Amy Alberts,40,A,M,F,10,Production,4096,Operations
+18,Anna Albright,33,W,M,F,4,Sales,1998,Operations
+19,Milton Albury,36,C,M,F,12,Sales,3408,Admin
+20,Paul Alcorn,32,C,M,M,8,Finance,3390,Admin
+21,Gregory Alderson,43,W,M,M,4,Production,2034,Management
+22,J. Phillip Alexander,53,W,S,M,7,Logistics,600,Operations
+23,Michelle Alexander,44,W,S,F,15,Human Resource,4406,Management
+24,Sean Jacobson,49,A,S,M,8,Finance,2042,Operations
+25,Phyllis Allen,45,W,S,F,8,Production,664,Operations
+26,Marvin Allen,47,A,M,M,7,Production,3723,Admin
+27,Michael Allen,48,W,S,M,1,Finance,1161,Admin
+28,Cecil Allison,52,A,S,M,5,Human Resource,1711,Operations
+29,Oscar Alpuerto,43,A,M,M,6,Finance,3199,Operations
+30,Sandra Altamirano,53,W,M,F,13,Production,1513,Operations
+31,Selena Alvarado,40,C,S,F,4,Production,3978,Admin
+32,Emilio Alvaro,44,C,S,M,9,Sales,3639,Admin
+33,Maxwell Amland,45,W,S,M,6,Sales,1134,Operations
+34,Mae Anderson,51,A,S,F,15,Finance,2298,Operations
+35,Ramona Antrim,52,C,M,F,2,Logistics,3843,Admin
+36,Sabria Appelbaum,51,A,M,F,2,Human Resource,3880,Admin
+37,Hannah Arakawa,39,A,S,F,9,Production,3967,Management
+38,Kyley Arbelaez,40,A,S,F,9,Production,561,Operations
+39,Tom Johnston,44,W,S,M,5,Production,1395,Operations
+40,Thomas Armstrong,40,C,M,M,5,Finance,548,Operations
+41,John Arthur,35,A,M,M,9,Sales,1355,Admin
+42,Chris Ashton,53,A,S,M,13,Logistics,2018,Admin
+43,Teresa Atkinson,29,C,M,F,8,Logistics,1224,Admin
+44,John Ault,32,C,S,M,1,Sales,948,Operations
+45,Robert Avalos,40,A,S,M,6,Production,1286,Admin
+46,Stephen Ayers,42,A,S,M,7,Production,1808,Operations
+47,Phillip Bacalzo,26,W,S,M,4,Human Resource,2533,Admin
+48,Daniel Blanco,31,W,S,M,3,Finance,3110,Management
+49,Cory Booth,32,W,M,M,12,Finance,4491,Management
+50,Mark Anderson,33,A,M,M,3,Sales,2679,Operations
