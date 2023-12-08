@@ -160,3 +160,17 @@ Sub-redes e listas de controle de acesso à rede
 - Tráfego de rede: são realizados por meio de pacotes de dados. Este pacote entra e sair por um gateway de internet, por exemplo, e, antes de poder entrar ou sair de uma sub-rede, ele verifica se existem permissões. Essas permissões indicam quem enviou o pacote e como ele quer se comunicar com os recursos daquela sub-rede. 
 - [Lista de controle de acesso (ACL) de rede](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html): responsável por verificar as permissões de pacotes das sub-redes. É, em outras palavras, um firewall virtual stateless. Por padrão ela permite todo acesso de entrada/saída.
 - Grupos de Segurança: responsáveis por verificar as permissões de pacote para uma instância EC2. Também é um firewall virtual stateful. Por padrão ele nega todo novo acesso a instância, é necessário configurar novas entradas/saídas.
+
+## Módulo 5: Armazenamento e BD
+
+- Resumir o conceito básico de armazenamento e bancos de dados.
+- Descrever os benefícios do Amazon Elastic Block Store (Amazon EBS).
+- Descrever os benefícios do Amazon Simple Storage Service (Amazon S3).
+- Descrever os benefícios do Amazon Elastic File System (Amazon EFS).
+- Resumir várias soluções de armazenamento.
+- Descrever os benefícios do Amazon Relational Database Service (Amazon RDS).
+- Descrever os benefícios do Amazon DynamoDB.
+- Resumir vários serviços de banco de dados.
+
+### Anotações
+
