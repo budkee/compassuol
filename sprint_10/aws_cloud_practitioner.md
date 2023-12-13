@@ -163,8 +163,9 @@ Conectividade com a AWS: Amazon Virtual Private Cloud ([Amazon VPC](https://aws.
 Sub-redes e listas de controle de acesso à rede
 - Sub-redes são locais isolados de uma VPC onde você pode agrupar os recursos com base nas necessidades operacionais ou de segurança. Elas podem ser públicas(site e-commerce) ou privadas(banco de dados, por exemplo).
 - Tráfego de rede: são realizados por meio de pacotes de dados. Este pacote entra e sair por um gateway de internet, por exemplo, e, antes de poder entrar ou sair de uma sub-rede, ele verifica se existem permissões. Essas permissões indicam quem enviou o pacote e como ele quer se comunicar com os recursos daquela sub-rede. 
-- [Lista de controle de acesso (ACL) de rede](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html): responsável por verificar as permissões de pacotes das sub-redes. É, em outras palavras, um firewall virtual stateless. Por padrão ela permite todo acesso de entrada/saída.
-- Grupos de Segurança: responsáveis por verificar as permissões de pacote para uma instância EC2. Também é um firewall virtual stateful. Por padrão ele nega todo novo acesso a instância, é necessário configurar novas entradas/saídas.
+- [Lista de controle de acesso (ACL) de rede](https://docs.aws.amazon.com/vpc/latest/userguide/vpc-network-acls.html): responsável por verificar as permissões de pacotes das sub-redes. É, em outras palavras, um firewall virtual *stateless*. Por padrão ela **permite todo acesso** de entrada/saída.
+
+- Grupos de Segurança: responsáveis por verificar as permissões de pacote para uma instância EC2. Também é um firewall virtual *stateful*. Por padrão ele **nega todo novo acesso** a instância, é necessário configurar novas entradas/saídas.
 
 ## Módulo 5: Armazenamento e BD
 
