@@ -265,7 +265,7 @@ Modelo de responsabilidade compartilhada
 
 Permissões de usuário e acesso
 - AWS Identity and Access Management (IAM)
-    - Único recurso da AWS disponível em todas as regiões.
+    - Um dos recursos globais da AWS (disponível em todas as regiões).
     - Com ele você realiza o gerenciamento das permissões da organização.
     - Você, a partir da conta raiz, cria e gerencia todos os outros usuários que irão utilizar o sistema.
     - Uma prática muito recomendada é não criar um usuário raiz para tarefas cotidianas. Crie o primeiro usuário e atribua a ele permissões para criar outros usuários.
@@ -363,11 +363,17 @@ Conceitos de [definição de preço da AWS](https://aws.amazon.com/pricing)
     - Quanto mais espaço de armazenamento você usar no S3, menos pagará por GB.
 
 [Calculadora de custos da AWS](https://calculator.aws/#/)
+
 [Definições de preços do EC2](https://aws.amazon.com/ec2/pricing/)
+
 [Definições de preços do S3](https://aws.amazon.com/s3/pricing/)
+
 [Definições de preços do AWS Lambda](https://aws.amazon.com/lambda/pricing/)
+
 [Introduction to AWS Economics](https://d1.awsstatic.com/whitepapers/introduction-to-aws-cloud-economics-final.pdf)
+
 [How AWS Pricing Works](https://docs.aws.amazon.com/whitepapers/latest/how-aws-pricing-works/abstract-and-introduction.html)
+
 [Gerenciamento financeiro na nuvem com a AWS](https://aws.amazon.com/pt/aws-cost-management/)
 
 Painel de cobrança
@@ -379,7 +385,7 @@ Painel de cobrança
 [AWS Budgets](https://aws.amazon.com/aws-cost-management/aws-budgets)
 - Criação de orçamentos para planejar o uso dos serviços, os custos de serviços e as reservas de instâncias.
 
-[AWS Cost Explorer]()
+[AWS Cost Explorer](https://aws.amazon.com/pt/aws-cost-management/aws-cost-explorer/)
 - Permite visualizar, interpretar e gerenciar seus custos e uso da AWS ao longo do tempo.
 
 Planos do [AWS Support](https://aws.amazon.com/premiumsupport)
