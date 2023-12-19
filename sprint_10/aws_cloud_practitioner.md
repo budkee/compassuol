@@ -610,4 +610,4 @@ Capacidade do sistema melhorar continuamente os impactos da sustentabilidade, re
 
 ## Certificado
 
-![cert](AWS%20Course%20Completion%20Certificate.pdf)
+![cert](./AWS%20Course%20Completion%20Certificate.pdf)
