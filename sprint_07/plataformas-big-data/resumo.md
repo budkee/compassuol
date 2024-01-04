@@ -132,16 +132,16 @@ Exemplo do trecho de log com a URL de acesso ao Jupyter:
 
 ## Tarefa 03 | AWS Glue
 
-- ![]()
+- ![]();
+
 ### Ato 1 | Job para ler arquivos do S3
 
 - [x] Imprimir o schema do DataFrame gerado
 
-## Ato 2 | Transformações
+### Ato 2 | Transformações
 
 Escrever o código para:
 
 - [x] Alterar o nome para letras maiúsculas;
 - [x] Imprimir a contagem de linhas presentes no DataFrame;
 - [x] Imprimir a contagem de nomes, agrupando os dados por ano e sexo;
-- [] ;

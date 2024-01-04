@@ -1,3 +1,6 @@
+# Materiais de cursos
+./anexos-do-curso/
+
 # Configurações do JetBrains
 .idea
 
@@ -22,8 +25,6 @@ node_modules/
 # Jupyter Notebook
 .ipynb_checkpoints
 
-# Anexos do curso
-./anexos-do-curso/
 
 # Arquivos grandes
 ./sprint_07/desafio_01/movies.csv
@@ -35,3 +36,4 @@ sprint_08/apache-spark/nomes_aleatorios.txt
 # Spark Hive
 metastore_db/
 spark-warehouse/
+__MACOSX/
