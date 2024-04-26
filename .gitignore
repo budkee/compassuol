@@ -1,6 +1,25 @@
 # Materiais de cursos
 ./anexos-do-curso/
 
+### Data ###
+*.csv
+*.crc
+*.json
+*.dat
+*.efx
+*.gbr
+*.key
+*.pps
+*.ppt
+*.pptx
+*.sdf
+*.tax2010
+*.vcf
+*.xml
+*.ofx
+*.zip
+*.xlsx
+
 # Configurações do JetBrains
 .idea
 
