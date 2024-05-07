@@ -1,13 +1,13 @@
 # Instâncias criadas na AWS
 ## Node 1 | Manager
-Acesso via SSH: ssh -i "sirius-b.pem" ec2-user@ec2-18-230-138-185.sa-east-1.compute.amazonaws.com
+Acesso via SSH: ssh -i "$YOUR_SSH_KEY.pem" <URI_Instancia>
 
 ## Node 2 | Worker
-Acesso via SSH: ssh -i "sirius-b.pem" ec2-user@ec2-15-228-3-231.sa-east-1.compute.amazonaws.com
+Acesso via SSH: ssh -i "$YOUR_SSH_KEY.pem" <URI_Instancia>
 
 ## Node 3 | Worker
-Acesso via SSH: ssh -i "sirius-b.pem" ec2-user@ec2-18-231-152-246.sa-east-1.compute.amazonaws.com
+Acesso via SSH: ssh -i "$YOUR_SSH_KEY.pem" <URI_Instancia>
 
 # Token para adicionar(join) um novo Node
 
-docker swarm join --token SWMTKN-1-4cqij66k9kv7qgvt3eiwt2qy09y6kezekx88v8kdwbc6x46m37-a15vracpjgqrbzced3ikh3np3 18.230.138.185:2377
+docker swarm join --token $TOKEN_NEW_NODE <IP>:<PORTA>

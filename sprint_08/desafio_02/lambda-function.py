@@ -6,11 +6,11 @@ import boto3
 if __name__ == "__main__":
 
 # Autorização API
-    api_key = "fd1338c96e30497e6527e87678734881"
+    api_key = "$YOUR_API_KEY"
 
     headers = {
         "accept": "application/json",
-        "Authorization": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmZDEzMzhjOTZlMzA0OTdlNjUyN2U4NzY3ODczNDg4MSIsInN1YiI6IjY1M2QxZWM5MTA5Y2QwMDEyY2ZmMDQ1MiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.6dK9LhzJYT2pWZIbr8Rrqf_vnQp7ewH3f3fY7MSYgIQ"
+        "Authorization": "$YOUR_BEARER_AUTH"
     }
     ## Parâmetros de interesse 
     parametros = "include_adult=false&include_video=false&language=pt-BR"
